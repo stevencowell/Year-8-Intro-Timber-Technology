@@ -48,7 +48,7 @@ assert(questions===300,`Expected 300 questions; found ${questions}`);
 const textFiles=fs.readdirSync(root,{recursive:true}).filter(file=>typeof file==='string'&&/\.(?:html|js|json|css|md)$/.test(file));
 for(const file of textFiles){const text=read(file);assert(!/â€|Â·|â†|ï¿½|�/.test(text),`${file}: mojibake detected`)}
 const htmlFiles=textFiles.filter(file=>file.endsWith('.html'));
-for(const file of htmlFiles){const text=read(file);assert(!/â€|Â·|â†|ï¿½/.test(text),`${file}: mojibake detected`);assert(/Main Menu/.test(text),`${file}: Main Menu return path missing`)}
+for(const file of htmlFiles){const text=read(file);assert(!/â€|Â·|â†|ï¿½/.test(text),`${file}: mojibake detected`);assert(/Main Menu/.test(text),`${file}: Main Menu return path missing`);assert(/rel="icon"/.test(text),`${file}: explicit favicon missing`)}
 
 const activityText=read('busy/activity-data.js');
 const mechanics=[...activityText.matchAll(/mechanic:\s*'([^']+)'/g)].map(match=>match[1]);
