@@ -30,6 +30,7 @@ Release decision: local gates passed; rendered live verification required after 
 
 - Structural validator: 10 modules, 30 sections, 300 checks, unique question text, 220–300 theory words per section, balanced answer positions, source-safe retry feedback, 10 distinct Busy Work mechanics, privacy-enhanced YouTube manifest and authoritative PDF hash.
 - Route crawl: 43 internal routes/assets returned successfully.
+- Static Pages delivery: `.nojekyll` preserves the verified static package without theme processing.
 - JavaScript syntax: all scripts passed.
 - Desktop browser QA: landing, every module, folio and resource routes rendered without console errors or horizontal overflow.
 - True 390 px QA: landing, every module, folio, Busy Work, YouTube, plan and Teacher Resources rendered at `innerWidth = scrollWidth = 390` with a usable compact menu.
