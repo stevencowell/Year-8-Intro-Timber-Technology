@@ -1,0 +1,165 @@
+{
+  "sectionId": "m10-s03",
+  "title": "Final evaluation and reflection",
+  "theory": [
+    {
+      "heading": "Evaluate function and aesthetics",
+      "body": "A balanced final evaluation considers both function and aesthetics. Function describes how well the product performs its intended purpose, while aesthetics considers appearance and visual response. Use approved observations, checks, photographs or teacher feedback to support each judgement. A functional strength might relate to stability, reliability or another approved criterion. An aesthetic strength might involve clear visual hierarchy, balanced layout, contrast, texture or pattern. Avoid broad claims such as everything worked perfectly or the design looks good. Explain the evidence that supports each strength."
+    },
+    {
+      "heading": "Identify a limitation and improvement",
+      "body": "A useful evaluation also identifies one specific limitation supported by evidence. The limitation may concern function, appearance or the quality evidence available. Describe what was observed and why it matters. Then propose one realistic improvement that responds directly to that limitation. Explain how the improvement may affect function or aesthetics, using cautious language because the result has not been proven. A reflection does not authorise changes to the Footstool plan. The unchanged original plan, current school SOPs and teacher directions remain controlling."
+    },
+    {
+      "heading": "Reflect on learning",
+      "body": "Finish by explaining what you learned through planning, observing, checking and evaluating. Focus on a skill, concept or decision that became clearer, such as reading related views, using specific evidence or separating observation from opinion. State how this learning could improve future work. The final evaluation is evidence of learning, not a formal mark or assessment result. Do not invent results, submission details or approval. A complete response includes supported functional and aesthetic strengths, one evidenced limitation, a realistic improvement and a clear learning reflection."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M10S03Q01",
+      "question": "What should a balanced final evaluation consider?",
+      "choices": [
+        "Function and aesthetics",
+        "Appearance only",
+        "Personal preference only",
+        "The time spent in class"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A balanced evaluation considers both how the product performs and how its appearance affects the viewer.",
+      "retryFeedback": "Review Evaluate function and aesthetics and focus on the two areas included in a balanced judgement.",
+      "theoryAnchor": "Evaluate function and aesthetics"
+    },
+    {
+      "id": "M10S03Q02",
+      "question": "What should support a claimed strength?",
+      "choices": [
+        "A general opinion",
+        "Approved evidence such as an observation, check, photograph or feedback",
+        "Another student's conclusion",
+        "A statement that everything was perfect"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Supported strengths are linked to specific and authorised evidence.",
+      "retryFeedback": "Return to Evaluate function and aesthetics and identify what should support each judgement.",
+      "theoryAnchor": "Evaluate function and aesthetics"
+    },
+    {
+      "id": "M10S03Q03",
+      "question": "Which statement is the strongest aesthetic evaluation?",
+      "choices": [
+        "The product looks good",
+        "I like the design",
+        "The balanced layout and strong contrast create a clear visual hierarchy",
+        "The appearance is perfect"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. This statement identifies specific visual features and explains their aesthetic effect.",
+      "retryFeedback": "Re-read Evaluate function and aesthetics and focus on how aesthetic strengths should be explained.",
+      "theoryAnchor": "Evaluate function and aesthetics"
+    },
+    {
+      "id": "M10S03Q04",
+      "question": "Which statement should be avoided in an evidence-based evaluation?",
+      "choices": [
+        "The approved check provided evidence about stability",
+        "The repeated pattern creates visual unity",
+        "One limitation remains visible",
+        "Everything worked perfectly"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A claim of perfection is too broad unless complete evidence supports it.",
+      "retryFeedback": "Review Evaluate function and aesthetics and identify the unsupported broad claims that should be avoided.",
+      "theoryAnchor": "Evaluate function and aesthetics"
+    },
+    {
+      "id": "M10S03Q05",
+      "question": "What should an identified limitation be based on?",
+      "choices": [
+        "A random preference",
+        "Specific evidence",
+        "An invented problem",
+        "Another student's project"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A useful limitation is specific and supported by an approved observation, check or other evidence.",
+      "retryFeedback": "Return to Identify a limitation and improvement and focus on what must support the limitation.",
+      "theoryAnchor": "Identify a limitation and improvement"
+    },
+    {
+      "id": "M10S03Q06",
+      "question": "In a final evaluation, what should a proposed improvement respond to?",
+      "choices": [
+        "An unrelated design trend",
+        "A copied construction idea",
+        "The evidenced limitation",
+        "A guessed dimension"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A realistic improvement should directly address the limitation identified through evidence.",
+      "retryFeedback": "Re-read Identify a limitation and improvement and identify what guides the proposed response.",
+      "theoryAnchor": "Identify a limitation and improvement"
+    },
+    {
+      "id": "M10S03Q07",
+      "question": "How should the predicted effect of an improvement be expressed?",
+      "choices": [
+        "As a guaranteed result",
+        "As permission to alter the plan",
+        "As a formal assessment result",
+        "Using cautious language because it is not yet proven"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The predicted effect remains a possibility until it is supported by an approved check.",
+      "retryFeedback": "Review Identify a limitation and improvement and focus on how an untested prediction should be worded.",
+      "theoryAnchor": "Identify a limitation and improvement"
+    },
+    {
+      "id": "M10S03Q08",
+      "question": "What does a final evaluation authorise?",
+      "choices": [
+        "No plan change without teacher confirmation",
+        "New construction procedures",
+        "A formal mark",
+        "Changes to the original plan"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. The evaluation records learning and ideas, but the original plan and teacher directions remain controlling.",
+      "retryFeedback": "Return to Identify a limitation and improvement and identify what the reflection does not authorise.",
+      "theoryAnchor": "Identify a limitation and improvement"
+    },
+    {
+      "id": "M10S03Q09",
+      "question": "Which learning reflection is most useful?",
+      "choices": [
+        "I finished the work",
+        "The project was fun",
+        "I learned to separate observations from opinions and can use clearer evidence next time",
+        "Everything was easy"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. This reflection identifies specific learning and explains how it can improve future work.",
+      "retryFeedback": "Review Reflect on learning and focus on the type of skill or concept that should be discussed.",
+      "theoryAnchor": "Reflect on learning"
+    },
+    {
+      "id": "M10S03Q10",
+      "question": "What is the purpose of the final evaluation in this section?",
+      "choices": [
+        "To create a formal grade",
+        "To replace teacher feedback",
+        "To invent submission details",
+        "To provide evidence of learning"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The evaluation records supported judgements and learning rather than a formal assessment result.",
+      "retryFeedback": "Re-read Reflect on learning and identify how the final evaluation is described.",
+      "theoryAnchor": "Reflect on learning"
+    }
+  ],
+  "written": {
+    "prompt": "Write a balanced final evaluation that includes one supported functional strength, one supported aesthetic strength, one evidenced limitation, one realistic improvement and one learning reflection.",
+    "sentenceStarter": "Functionally, the evidence shows ___. Aesthetically, ___. One limitation is ___. A realistic improvement may be ___. I learned ___.",
+    "example": "Functionally, the approved observation provided evidence of consistent performance for the criterion checked. Aesthetically, the balanced layout creates clear visual hierarchy. One limitation is that some repeated details reduce clarity. A realistic improvement may be simplifying those details with teacher confirmation. I learned to support judgements with specific evidence instead of general opinions."
+  }
+}

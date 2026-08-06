@@ -1,0 +1,165 @@
+{
+  "sectionId": "m10-s01",
+  "title": "Aesthetic vocabulary",
+  "theory": [
+    {
+      "heading": "Describe appearance clearly",
+      "body": "Aesthetics refers to a product's appearance and the visual response it creates. Useful aesthetic descriptions are based on observable features rather than comments such as nice, ugly or cool. Texture describes how a surface looks or feels, while pattern is a repeated arrangement of lines, shapes, colours or features. Symmetry occurs when parts appear balanced around a central line or point. Contrast is a noticeable difference between visual elements, such as light and dark areas, smooth and rough textures or large and small shapes."
+    },
+    {
+      "heading": "Explain form, layout and style",
+      "body": "Layout describes how visual elements are arranged and spaced. Style is the overall visual character created by the combined choices in a design. Geometric forms use regular shapes, straight edges or controlled curves. Organic forms are inspired by natural, irregular or flowing shapes. A design may use either form or combine both. These terms help explain what can be seen without claiming that one approach is always better. A clear description identifies the feature and explains how it contributes to the overall appearance."
+    },
+    {
+      "heading": "Identify hierarchy and emphasis",
+      "body": "Visual hierarchy is the order in which a viewer notices elements. Size, position, contrast, spacing and detail can make one feature more noticeable than another. Emphasis is the deliberate focus placed on an important feature. For example, a larger central emblem with strong contrast may become the main point of attention. Effective hierarchy helps the viewer understand what matters first, second and third. Aesthetic observations should remain specific and evidence-based. Current school SOPs and teacher directions control all actual workshop activity. When the intended visual effect is unclear, describe what is visible and ask before making assumptions."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M10S01Q01",
+      "question": "What does aesthetics describe?",
+      "choices": [
+        "A product's appearance and the visual response it creates",
+        "The construction sequence used to make a product",
+        "The exact strength of a material",
+        "The cost of every component"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Aesthetics concerns observable appearance and how visual choices affect the viewer.",
+      "retryFeedback": "Review Describe appearance clearly and focus on the opening definition.",
+      "theoryAnchor": "Describe appearance clearly"
+    },
+    {
+      "id": "M10S01Q02",
+      "question": "Which statement is the most useful aesthetic observation?",
+      "choices": [
+        "The design is cool",
+        "The surface has a repeated line pattern",
+        "The product is perfect",
+        "The shape is definitely the best"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. This statement identifies a specific observable feature rather than giving a vague opinion.",
+      "retryFeedback": "Return to Describe appearance clearly and identify how aesthetic features should be described.",
+      "theoryAnchor": "Describe appearance clearly"
+    },
+    {
+      "id": "M10S01Q03",
+      "question": "What does symmetry describe?",
+      "choices": [
+        "A strong difference between colours",
+        "A repeated surface texture",
+        "Parts appearing balanced around a central line or point",
+        "The order in which features are noticed"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Symmetry occurs when parts are visually balanced around a centre line or point.",
+      "retryFeedback": "Re-read Describe appearance clearly and locate the definition of symmetry.",
+      "theoryAnchor": "Describe appearance clearly"
+    },
+    {
+      "id": "M10S01Q04",
+      "question": "Which example best demonstrates contrast?",
+      "choices": [
+        "Several identical shapes placed evenly",
+        "A smooth surface with no visible change",
+        "A repeated pattern using one line weight",
+        "A dark shape placed against a light background"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The strong difference between dark and light creates visible contrast.",
+      "retryFeedback": "Review Describe appearance clearly and focus on the examples of noticeable visual difference.",
+      "theoryAnchor": "Describe appearance clearly"
+    },
+    {
+      "id": "M10S01Q05",
+      "question": "What does layout describe?",
+      "choices": [
+        "How long a material will last",
+        "How visual elements are arranged and spaced",
+        "How a product is tested",
+        "How timber fibres grow"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Layout concerns the positioning and spacing of visual elements.",
+      "retryFeedback": "Return to Explain form, layout and style and locate the definition of layout.",
+      "theoryAnchor": "Explain form, layout and style"
+    },
+    {
+      "id": "M10S01Q06",
+      "question": "Which description best matches geometric form?",
+      "choices": [
+        "Irregular shapes inspired by nature",
+        "A repeated surface pattern only",
+        "Regular shapes, straight edges or controlled curves",
+        "The main point of visual attention"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Geometric form uses regular, controlled shapes and edges.",
+      "retryFeedback": "Re-read Explain form, layout and style and compare geometric and organic forms.",
+      "theoryAnchor": "Explain form, layout and style"
+    },
+    {
+      "id": "M10S01Q07",
+      "question": "What is an organic form?",
+      "choices": [
+        "A shape that must be symmetrical",
+        "A layout with equal spacing",
+        "A feature with the strongest contrast",
+        "A natural, irregular or flowing shape"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Organic forms are inspired by natural, irregular or flowing shapes.",
+      "retryFeedback": "Review Explain form, layout and style and focus on the definition of organic form.",
+      "theoryAnchor": "Explain form, layout and style"
+    },
+    {
+      "id": "M10S01Q08",
+      "question": "What does visual hierarchy control?",
+      "choices": [
+        "The order in which a viewer notices elements",
+        "The exact size of every feature",
+        "The practical sequence used in the workshop",
+        "The material selected for the product"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Visual hierarchy guides what the viewer notices first, second and later.",
+      "retryFeedback": "Return to Identify hierarchy and emphasis and focus on the opening definition.",
+      "theoryAnchor": "Identify hierarchy and emphasis"
+    },
+    {
+      "id": "M10S01Q09",
+      "question": "Which design choice could create emphasis?",
+      "choices": [
+        "Removing all spacing between elements",
+        "Making every element identical in size and tone",
+        "Making one central feature larger and more contrasting",
+        "Giving every feature equal visual weight"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Greater size and contrast can make the central feature the main point of attention.",
+      "retryFeedback": "Re-read Identify hierarchy and emphasis and identify how an important feature may be highlighted.",
+      "theoryAnchor": "Identify hierarchy and emphasis"
+    },
+    {
+      "id": "M10S01Q10",
+      "question": "What should a student do when the intended visual effect is unclear?",
+      "choices": [
+        "Invent the designer's intention",
+        "Copy another student's conclusion",
+        "Choose the most positive interpretation",
+        "Describe what is visible and ask before assuming"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Observable evidence should be separated from assumptions about intention.",
+      "retryFeedback": "Review the final sentence of Identify hierarchy and emphasis and identify the response to uncertainty.",
+      "theoryAnchor": "Identify hierarchy and emphasis"
+    }
+  ],
+  "written": {
+    "prompt": "Describe the aesthetics of a general design using at least four terms from texture, pattern, symmetry, contrast, layout, style, geometric form, organic form, visual hierarchy and emphasis.",
+    "sentenceStarter": "The design uses ___ and ___. Its layout ___. Visual hierarchy is created by ___, which emphasises ___.",
+    "example": "The design uses a smooth texture and a repeated geometric pattern. Its balanced layout places the main shape in the centre. Visual hierarchy is created by size and contrast, which emphasises the central emblem."
+  }
+}

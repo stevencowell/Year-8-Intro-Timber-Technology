@@ -1,0 +1,165 @@
+{
+  "sectionId": "m01-s01",
+  "title": "Shared workshop conduct",
+  "theory": [
+    {
+      "heading": "Follow instructions and boundaries",
+      "body": "A shared workshop works best when everyone follows the same directions. Listen carefully before beginning an activity and follow each instruction in the order given. Remain in authorised areas and do not enter another work zone unless directed. Use tools, equipment and materials only when the teacher has given permission. These expectations reduce unexpected movement, crowding and unsafe choices. Current school SOPs and teacher directions control all actual workshop activity. When an instruction, boundary or permission is unclear, stop and ask rather than guessing or copying another student."
+    },
+    {
+      "heading": "Move calmly and keep areas clear",
+      "body": "Workshops contain people, materials, tools and fixed equipment, so calm movement matters. Walk rather than run, look where you are going and give other people enough space to work. Keep benches, floors and walkways clear of bags, loose materials and off-cuts. A clear area makes hazards easier to notice and allows people to move without unnecessary obstruction. Avoid rushing, distracting others or fooling around. Before moving or placing materials, briefly check the surrounding area and consider whether your actions could interfere with another person."
+    },
+    {
+      "heading": "Report problems and pack away",
+      "body": "Responsible conduct includes responding when something is unsafe or damaged. Report hazards, damaged equipment, loose parts or unsafe behaviour to the teacher promptly. Do not ignore the problem, continue using damaged equipment or attempt an unauthorised repair. Follow the teacher direction that comes next. When an activity ends, stop as directed, return equipment to its correct place and store materials carefully. Clear the bench and nearby floor so the area is ready for the next user. A useful final check is whether everything has been returned, the space is clear and any problem has been reported."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M01S01Q01",
+      "question": "What should a student do before using workshop equipment?",
+      "choices": [
+        "Wait until the teacher gives permission",
+        "Use it when no one else is nearby",
+        "Ask another student how it works",
+        "Test it briefly before the lesson starts"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Equipment should only be used after teacher permission so the activity remains authorised and controlled.",
+      "retryFeedback": "Review Follow instructions and boundaries and focus on what is required before tools or equipment are used.",
+      "theoryAnchor": "Follow instructions and boundaries"
+    },
+    {
+      "id": "M01S01Q02",
+      "question": "Why should students remain in authorised areas?",
+      "choices": [
+        "To avoid returning equipment",
+        "To reduce unexpected movement and crowding",
+        "To choose their own activity more easily",
+        "To keep all students at the same bench"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Staying in authorised areas helps control movement, crowding and unsafe choices.",
+      "retryFeedback": "Return to Follow instructions and boundaries and consider why workshop boundaries are used.",
+      "theoryAnchor": "Follow instructions and boundaries"
+    },
+    {
+      "id": "M01S01Q03",
+      "question": "What is the best action when an instruction is unclear?",
+      "choices": [
+        "Copy the nearest student",
+        "Continue carefully and guess",
+        "Stop and ask the teacher",
+        "Change to another activity"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Stopping and asking prevents guessing and keeps the activity consistent with teacher directions.",
+      "retryFeedback": "Re-read Follow instructions and boundaries and find the response to an unclear instruction.",
+      "theoryAnchor": "Follow instructions and boundaries"
+    },
+    {
+      "id": "M01S01Q04",
+      "question": "Which behaviour best supports safe movement in a workshop?",
+      "choices": [
+        "Stepping around others without warning",
+        "Rushing through a clear gap",
+        "Calling across the room while moving",
+        "Walking calmly and looking ahead"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Calm movement and looking ahead help students notice people, objects and changing conditions.",
+      "retryFeedback": "Review Move calmly and keep areas clear and focus on how students should move through the workshop.",
+      "theoryAnchor": "Move calmly and keep areas clear"
+    },
+    {
+      "id": "M01S01Q05",
+      "question": "Why should bags and off-cuts be kept out of walkways?",
+      "choices": [
+        "They make equipment harder to count",
+        "They may obstruct people moving through the area",
+        "They take up authorised bench space",
+        "They prevent students from hearing instructions"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Items in walkways can obstruct movement and make the area less safe for everyone.",
+      "retryFeedback": "Return to Move calmly and keep areas clear and look for the reason floors and walkways must remain clear.",
+      "theoryAnchor": "Move calmly and keep areas clear"
+    },
+    {
+      "id": "M01S01Q06",
+      "question": "Before placing materials beside a work area, what should a student consider?",
+      "choices": [
+        "Whether the materials match another project",
+        "Whether another class will use them later",
+        "Whether the placement could interfere with someone else",
+        "Whether the materials look neatly arranged"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Students should check that their materials will not obstruct or interfere with another person.",
+      "retryFeedback": "Re-read Move calmly and keep areas clear and focus on the observation check before moving or placing materials.",
+      "theoryAnchor": "Move calmly and keep areas clear"
+    },
+    {
+      "id": "M01S01Q07",
+      "question": "What should a student do after noticing damaged equipment?",
+      "choices": [
+        "Continue using it slowly",
+        "Move it to another bench",
+        "Attempt a simple repair",
+        "Report it to the teacher"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Damaged equipment should be reported promptly so the teacher can direct the next action.",
+      "retryFeedback": "Review Report problems and pack away and identify the correct response to damaged equipment.",
+      "theoryAnchor": "Report problems and pack away"
+    },
+    {
+      "id": "M01S01Q08",
+      "question": "Why should a student avoid repairing damaged equipment without permission?",
+      "choices": [
+        "The student should follow teacher direction instead",
+        "The damage may disappear after pack-away",
+        "Only new equipment can be repaired",
+        "Repairs always require the whole class"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Students should report the problem and follow teacher direction rather than attempting an unauthorised repair.",
+      "retryFeedback": "Return to Report problems and pack away and focus on what students should not do after finding damage.",
+      "theoryAnchor": "Report problems and pack away"
+    },
+    {
+      "id": "M01S01Q09",
+      "question": "Which action is part of responsible pack-away?",
+      "choices": [
+        "Leaving equipment on the nearest clear bench",
+        "Stacking all materials on the floor",
+        "Returning equipment to its correct place",
+        "Leaving once personal work is complete"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Returning equipment properly helps leave the workshop organised and ready for the next user.",
+      "retryFeedback": "Re-read Report problems and pack away and find what should happen to equipment when an activity ends.",
+      "theoryAnchor": "Report problems and pack away"
+    },
+    {
+      "id": "M01S01Q10",
+      "question": "Which final check best shows responsible shared workshop conduct?",
+      "choices": [
+        "The student has finished before everyone else",
+        "The main bench looks clear from a distance",
+        "Unused materials remain beside the work area",
+        "Everything is returned, the area is clear and problems are reported"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A complete final check includes returned equipment, a clear space and reported problems.",
+      "retryFeedback": "Review the final sentence of Report problems and pack away and identify all parts of the final check.",
+      "theoryAnchor": "Report problems and pack away"
+    }
+  ],
+  "written": {
+    "prompt": "Describe how a student should respond to one general shared-workshop situation involving movement, equipment, a hazard or pack-away. Explain how the response helps other people use the workshop safely.",
+    "sentenceStarter": "In this situation, the student should ___ because this helps others by ___.",
+    "example": "The student should move their bag out of the walkway and place it where directed because this keeps the path clear for everyone using the workshop."
+  }
+}

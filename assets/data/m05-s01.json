@@ -1,0 +1,165 @@
+{
+  "sectionId": "m05-s01",
+  "title": "Views and drawing information",
+  "theory": [
+    {
+      "heading": "Use the original drawing",
+      "body": "The unchanged original two-page Wagga High School Foot Stool drawing is the authoritative reference for the product. It communicates information through related views, written notes, symbols and dimensions. Students should use the original PDF rather than a copied image, edited version or screen thumbnail. A preview may be useful for locating information, but it should not replace the original drawing. If a detail appears unclear, identify the exact view or note involved and ask before making an assumption."
+    },
+    {
+      "heading": "Understand plan and elevations",
+      "body": "A plan, also called a top view, shows the product as if it is viewed from directly above. An elevation shows the product from one side, such as the front or another identified direction. Each view presents different visible edges and features. A line shown in one view may relate to a feature seen differently in another view. Students should not treat the views as separate pictures. They work together to describe the same product from different directions."
+    },
+    {
+      "heading": "Connect views with written information",
+      "body": "Written information gives precise details that may not be clear from appearance alone. Dimensions, labels, notes and symbols should be connected with the correct view and feature. Do not estimate size from the drawing or transcribe information from memory. Check which view shows the feature most clearly, then locate the written information linked to it. Comparing related views can help confirm position and shape without inventing missing details. Current school SOPs and teacher directions control all actual workshop activity. When information remains uncertain, pause and seek clarification before continuing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M05S01Q01",
+      "question": "Which drawing should students use as the authoritative product reference?",
+      "choices": [
+        "The unchanged original two-page drawing",
+        "A cropped screen thumbnail",
+        "An edited student copy",
+        "A sketch made from memory"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. The unchanged original two-page drawing is the authoritative reference for the product.",
+      "retryFeedback": "Review Use the original drawing and focus on which version students should rely on.",
+      "theoryAnchor": "Use the original drawing"
+    },
+    {
+      "id": "M05S01Q02",
+      "question": "Why should a screen thumbnail not replace the original drawing?",
+      "choices": [
+        "It always shows a different product",
+        "It may not show all information clearly or accurately",
+        "It contains no visible lines",
+        "It can only be viewed by teachers"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A thumbnail may help locate information but may not show every detail clearly or accurately.",
+      "retryFeedback": "Return to Use the original drawing and identify the limitation of previews.",
+      "theoryAnchor": "Use the original drawing"
+    },
+    {
+      "id": "M05S01Q03",
+      "question": "What should a student do when a drawing detail appears unclear?",
+      "choices": [
+        "Estimate the missing information",
+        "Copy another student",
+        "Identify the exact view or note and ask",
+        "Ignore the detail"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Identifying the exact uncertainty makes it easier to seek accurate clarification.",
+      "retryFeedback": "Re-read Use the original drawing and focus on the response to unclear information.",
+      "theoryAnchor": "Use the original drawing"
+    },
+    {
+      "id": "M05S01Q04",
+      "question": "What does a plan view show?",
+      "choices": [
+        "A three-dimensional photograph",
+        "The product viewed from underneath",
+        "A close-up of one material",
+        "The product viewed from directly above"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A plan view shows the product as if viewed from directly above.",
+      "retryFeedback": "Review Understand plan and elevations and locate the explanation of a plan view.",
+      "theoryAnchor": "Understand plan and elevations"
+    },
+    {
+      "id": "M05S01Q05",
+      "question": "What does an elevation show?",
+      "choices": [
+        "Only the top surface",
+        "The product from an identified side",
+        "A list of materials",
+        "A construction sequence"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. An elevation presents the product from a particular identified side.",
+      "retryFeedback": "Return to Understand plan and elevations and focus on how an elevation is viewed.",
+      "theoryAnchor": "Understand plan and elevations"
+    },
+    {
+      "id": "M05S01Q06",
+      "question": "Why should related views not be treated as separate pictures?",
+      "choices": [
+        "Only one view is useful",
+        "They always contain identical lines",
+        "They show the same product from different directions",
+        "They each show a different product"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. The views work together to communicate one product from several directions.",
+      "retryFeedback": "Re-read Understand plan and elevations and identify how the views are connected.",
+      "theoryAnchor": "Understand plan and elevations"
+    },
+    {
+      "id": "M05S01Q07",
+      "question": "What can happen to the same feature across different views?",
+      "choices": [
+        "It becomes a written note",
+        "It disappears from every elevation",
+        "It changes its real size",
+        "It may appear differently from each direction"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The appearance of a feature can change when viewed from another direction.",
+      "retryFeedback": "Review Understand plan and elevations and focus on how one feature may be represented across views.",
+      "theoryAnchor": "Understand plan and elevations"
+    },
+    {
+      "id": "M05S01Q08",
+      "question": "Why is written information important on a technical drawing?",
+      "choices": [
+        "It gives precise details that appearance alone may not show",
+        "It replaces every drawing view",
+        "It allows students to estimate dimensions",
+        "It provides a decoration for the page"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Written information communicates precise details that may not be clear from the drawing alone.",
+      "retryFeedback": "Return to Connect views with written information and identify why notes, labels and dimensions matter.",
+      "theoryAnchor": "Connect views with written information"
+    },
+    {
+      "id": "M05S01Q09",
+      "question": "What should a student do before using written information from the drawing?",
+      "choices": [
+        "Apply it to every visible line",
+        "Rewrite it from memory",
+        "Connect it to the correct view and feature",
+        "Estimate which feature it might describe"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Written information must be linked to the correct view and feature before it is used.",
+      "retryFeedback": "Re-read Connect views with written information and focus on how written details should be interpreted.",
+      "theoryAnchor": "Connect views with written information"
+    },
+    {
+      "id": "M05S01Q10",
+      "question": "How can comparing related views help a student?",
+      "choices": [
+        "It turns the drawing into a photograph",
+        "It provides permission to invent missing information",
+        "It removes the need to read notes",
+        "It can confirm the position and shape of a feature"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Comparing views can help confirm how a feature is positioned and shaped.",
+      "retryFeedback": "Review Connect views with written information and identify what comparing views can confirm.",
+      "theoryAnchor": "Connect views with written information"
+    }
+  ],
+  "written": {
+    "prompt": "Explain how a student should use a plan view, an elevation and written information together to understand one feature on the original drawing.",
+    "sentenceStarter": "The plan view shows ___, while the elevation shows ___. The written information helps by ___.",
+    "example": "The plan view shows where the feature sits when viewed from above, while the elevation shows how it appears from the side. The written information helps identify the feature precisely without estimating from appearance."
+  }
+}

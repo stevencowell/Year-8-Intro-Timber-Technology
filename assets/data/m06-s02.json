@@ -1,0 +1,165 @@
+{
+  "sectionId": "m06-s02",
+  "title": "Line and view relationships",
+  "theory": [
+    {
+      "heading": "Recognise line conventions",
+      "body": "Technical drawings use different line types to communicate different kinds of information. Visible outlines show edges that can be seen from the viewing direction and are usually drawn clearly. Hidden detail lines show edges or features that are behind a visible surface and are commonly represented by short, even dashes. Centre lines identify the centre or axis of a circular or symmetrical feature. Reading each line by its convention helps prevent one type of information from being mistaken for another."
+    },
+    {
+      "heading": "Separate dimensions and construction lines",
+      "body": "Dimension lines communicate the extent of a written measurement and connect it to the relevant feature. The written dimension controls intended size, not the apparent length of the drawn line. Light projection or construction lines are temporary drawing guides used to transfer positions and maintain relationships between views. They should remain lighter than visible outlines so they do not appear to be part of the object. Each line type has a distinct purpose, so its meaning must be read in context."
+    },
+    {
+      "heading": "Align features across views",
+      "body": "Related views represent the same object from different directions, so shared features should align. A feature shown in the front view should connect logically with its position in the plan and side views. Light projection lines can help compare these positions. Alignment does not mean that a feature looks identical in every view. It may appear as an outline, hidden detail or centre position depending on the viewing direction. When a line or alignment is unclear, compare the related views and written information, then ask rather than guessing. Current school SOPs and teacher directions control all actual workshop activity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M06S02Q01",
+      "question": "Which line type shows an edge that can be seen from the viewing direction?",
+      "choices": [
+        "Visible outline",
+        "Hidden detail line",
+        "Centre line",
+        "Projection line"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A visible outline represents an edge that can be seen in that view.",
+      "retryFeedback": "Review Recognise line conventions and focus on the line used for seen edges.",
+      "theoryAnchor": "Recognise line conventions"
+    },
+    {
+      "id": "M06S02Q02",
+      "question": "Which convention commonly represents a feature behind a visible surface?",
+      "choices": [
+        "A continuous visible outline",
+        "Short, even dashes",
+        "A written dimension",
+        "A light projection line"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Hidden detail lines commonly use short, even dashes to represent unseen features.",
+      "retryFeedback": "Return to Recognise line conventions and identify how hidden detail is represented.",
+      "theoryAnchor": "Recognise line conventions"
+    },
+    {
+      "id": "M06S02Q03",
+      "question": "What does a centre line identify?",
+      "choices": [
+        "The outside edge of every object",
+        "The size of a feature",
+        "The centre or axis of a circular or symmetrical feature",
+        "A hidden surface only"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Centre lines identify centres or axes in circular and symmetrical features.",
+      "retryFeedback": "Re-read Recognise line conventions and focus on the purpose of a centre line.",
+      "theoryAnchor": "Recognise line conventions"
+    },
+    {
+      "id": "M06S02Q04",
+      "question": "What is the purpose of a dimension line?",
+      "choices": [
+        "To show hidden detail",
+        "To align drawing views",
+        "To mark the centre of a feature",
+        "To connect a written measurement to a feature"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Dimension lines show the extent and location of written measurement information.",
+      "retryFeedback": "Review Separate dimensions and construction lines and identify how written measurements are linked to features.",
+      "theoryAnchor": "Separate dimensions and construction lines"
+    },
+    {
+      "id": "M06S02Q05",
+      "question": "What controls the intended size shown on a technical drawing?",
+      "choices": [
+        "The apparent length of the dimension line",
+        "The written dimension",
+        "The width of the screen",
+        "A visual estimate"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The written dimension controls intended size rather than the line appearance.",
+      "retryFeedback": "Return to Separate dimensions and construction lines and focus on what controls size.",
+      "theoryAnchor": "Separate dimensions and construction lines"
+    },
+    {
+      "id": "M06S02Q06",
+      "question": "Why are projection or construction lines drawn lightly?",
+      "choices": [
+        "They represent hidden edges",
+        "They show written dimensions",
+        "They are guides and should not look like object outlines",
+        "They identify every centre point"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Light lines guide drawing and alignment without being confused with visible object edges.",
+      "retryFeedback": "Re-read Separate dimensions and construction lines and compare guide lines with visible outlines.",
+      "theoryAnchor": "Separate dimensions and construction lines"
+    },
+    {
+      "id": "M06S02Q07",
+      "question": "What do light projection lines help transfer between related views?",
+      "choices": [
+        "Material properties",
+        "Written notes only",
+        "Workshop instructions",
+        "Feature positions"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Projection lines help maintain matching feature positions across views.",
+      "retryFeedback": "Review Separate dimensions and construction lines and identify what the guide lines transfer.",
+      "theoryAnchor": "Separate dimensions and construction lines"
+    },
+    {
+      "id": "M06S02Q08",
+      "question": "Why should shared features align across related views?",
+      "choices": [
+        "The views represent the same object from different directions",
+        "Each view shows a different product",
+        "Alignment replaces written information",
+        "Every view must look identical"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Alignment connects the same feature across different viewing directions.",
+      "retryFeedback": "Return to Align features across views and focus on why views are related.",
+      "theoryAnchor": "Align features across views"
+    },
+    {
+      "id": "M06S02Q09",
+      "question": "Why might one feature use different line conventions across views?",
+      "choices": [
+        "Each view uses unrelated rules",
+        "Its actual form changes between views",
+        "Its visibility changes with the viewing direction",
+        "The feature moves on the drawing"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A feature may be visible, hidden or centred depending on the direction of view.",
+      "retryFeedback": "Re-read Align features across views and identify why the same feature can appear differently.",
+      "theoryAnchor": "Align features across views"
+    },
+    {
+      "id": "M06S02Q10",
+      "question": "What should a student do when a line or alignment remains unclear?",
+      "choices": [
+        "Invent the missing feature",
+        "Copy another student's interpretation",
+        "Ignore the unclear line",
+        "Compare related views and written information, then ask"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Cross-checking and asking prevents unsupported drawing interpretations.",
+      "retryFeedback": "Review the final sentences of Align features across views and identify the response to uncertainty.",
+      "theoryAnchor": "Align features across views"
+    }
+  ],
+  "written": {
+    "prompt": "Explain how three different line conventions and alignment across related views help communicate an object clearly.",
+    "sentenceStarter": "A visible outline shows ___, a hidden detail line shows ___, and a centre or projection line helps ___. Related views align because ___.",
+    "example": "A visible outline shows an edge that can be seen, a hidden detail line shows a feature behind a surface, and a projection line helps transfer positions. Related views align because they represent the same object from different directions."
+  }
+}

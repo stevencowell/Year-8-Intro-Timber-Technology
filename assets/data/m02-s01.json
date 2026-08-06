@@ -1,0 +1,165 @@
+{
+  "sectionId": "m02-s01",
+  "title": "Tool recognition and broad purpose",
+  "theory": [
+    {
+      "heading": "Name the tool accurately",
+      "body": "Tool recognition begins with using the approved name rather than guessing from shape, colour or size. A tool may look similar to another item but have a different purpose, so visual appearance alone is not enough. In this course, examples include the disc sander and pedestal drill. Practical identification must match approved workshop images, labels and teacher guidance. Learning the correct name helps students understand instructions, discuss equipment clearly and avoid choosing an unsuitable tool. When uncertain, pause and ask for the approved name before making a decision."
+    },
+    {
+      "heading": "Connect name and broad purpose",
+      "body": "Recognising a tool also means knowing its broad purpose without assuming how it should be operated. A disc sander is broadly associated with controlled abrasive material removal. A pedestal drill is broadly associated with producing holes using approved drilling equipment. These descriptions explain the general role of each tool, not a procedure for using it. The task information provided by the teacher determines whether a tool is suitable for a particular activity. A familiar tool name does not automatically give permission or enough information to begin practical work."
+    },
+    {
+      "heading": "Use task information and approval",
+      "body": "Correct selection links three things: the approved tool name, its broad purpose and the specific task information provided by the teacher. Students should compare these before identifying a suitable tool. Approved images and current school SOP details control practical identification, while current SOPs and teacher directions control all actual workshop activity. If an image, label or instruction seems unclear, do not rely on memory, another student or a similar-looking machine. State what you recognise, identify what remains uncertain and wait for teacher confirmation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M02S01Q01",
+      "question": "What is the best basis for naming a workshop tool?",
+      "choices": [
+        "Its approved name shown through labels, images and teacher guidance",
+        "Its colour and overall size",
+        "A nickname used by another student",
+        "The first similar tool found online"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Accurate recognition uses the approved name supported by workshop labels, images and teacher guidance.",
+      "retryFeedback": "Review Name the tool accurately and focus on what should be used instead of guessing from appearance.",
+      "theoryAnchor": "Name the tool accurately"
+    },
+    {
+      "id": "M02S01Q02",
+      "question": "Why is visual appearance alone not enough to identify a tool?",
+      "choices": [
+        "Every tool has the same shape",
+        "Similar-looking items may have different purposes",
+        "Workshop tools never have labels",
+        "Only tool size matters"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Tools can appear similar while having different approved names and purposes.",
+      "retryFeedback": "Return to Name the tool accurately and consider why shape, colour or size can be misleading.",
+      "theoryAnchor": "Name the tool accurately"
+    },
+    {
+      "id": "M02S01Q03",
+      "question": "What should a student do when unsure of a tool name?",
+      "choices": [
+        "Choose the closest-looking name",
+        "Use a nickname",
+        "Pause and ask for the approved name",
+        "Begin the task and identify it later"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Pausing and asking prevents inaccurate identification and unsuitable choices.",
+      "retryFeedback": "Re-read Name the tool accurately and find the recommended response to uncertainty.",
+      "theoryAnchor": "Name the tool accurately"
+    },
+    {
+      "id": "M02S01Q04",
+      "question": "Which broad purpose is associated with a disc sander?",
+      "choices": [
+        "Producing holes",
+        "Holding materials in storage",
+        "Measuring angles",
+        "Controlled abrasive material removal"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A disc sander is broadly associated with controlled abrasive material removal.",
+      "retryFeedback": "Review Connect name and broad purpose and locate the general role linked to the disc sander.",
+      "theoryAnchor": "Connect name and broad purpose"
+    },
+    {
+      "id": "M02S01Q05",
+      "question": "Which broad purpose is associated with a pedestal drill?",
+      "choices": [
+        "Applying a finish",
+        "Producing holes using approved drilling equipment",
+        "Removing dust from the room",
+        "Joining materials with adhesive"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A pedestal drill is broadly associated with producing holes using approved drilling equipment.",
+      "retryFeedback": "Return to Connect name and broad purpose and find the general role linked to the pedestal drill.",
+      "theoryAnchor": "Connect name and broad purpose"
+    },
+    {
+      "id": "M02S01Q06",
+      "question": "Why do the broad purpose descriptions not give enough information to begin work?",
+      "choices": [
+        "They replace the need for task information",
+        "They apply only outside school",
+        "They describe general roles rather than operating procedures or permission",
+        "They show that all tools can perform the same task"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Broad purpose explains a general role but does not provide operating instructions or permission.",
+      "retryFeedback": "Re-read Connect name and broad purpose and focus on the limit of a broad purpose description.",
+      "theoryAnchor": "Connect name and broad purpose"
+    },
+    {
+      "id": "M02S01Q07",
+      "question": "What determines whether a recognised tool is suitable for a particular activity?",
+      "choices": [
+        "The preference of the nearest student",
+        "How familiar the tool looks",
+        "The age of the equipment",
+        "The task information provided by the teacher"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Teacher-provided task information connects the tool and its broad purpose to the activity.",
+      "retryFeedback": "Review Connect name and broad purpose and identify what determines suitability for a task.",
+      "theoryAnchor": "Connect name and broad purpose"
+    },
+    {
+      "id": "M02S01Q08",
+      "question": "Which three elements should be linked when selecting a suitable tool?",
+      "choices": [
+        "Tool name, broad purpose and teacher-provided task information",
+        "Colour, size and storage place",
+        "Brand, age and appearance",
+        "Speed, settings and construction sequence"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Suitable recognition connects the approved name, broad purpose and task information.",
+      "retryFeedback": "Return to Use task information and approval and focus on the three linked elements.",
+      "theoryAnchor": "Use task information and approval"
+    },
+    {
+      "id": "M02S01Q09",
+      "question": "What controls practical identification of the disc sander and pedestal drill?",
+      "choices": [
+        "Student memory only",
+        "The appearance of machines in other workshops",
+        "Approved images and current school SOP details",
+        "A guess based on their position"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Approved images and current school SOP details control practical identification.",
+      "retryFeedback": "Re-read Use task information and approval and locate what controls practical identification.",
+      "theoryAnchor": "Use task information and approval"
+    },
+    {
+      "id": "M02S01Q10",
+      "question": "What should a student do when an image, label or instruction is unclear?",
+      "choices": [
+        "Rely on a similar-looking machine",
+        "Ask another student to decide",
+        "Select the tool that seems most useful",
+        "State the uncertainty and wait for teacher confirmation"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Identifying the uncertainty and waiting for confirmation prevents unsupported assumptions.",
+      "retryFeedback": "Review the final sentences of Use task information and approval and find the response to unclear information.",
+      "theoryAnchor": "Use task information and approval"
+    }
+  ],
+  "written": {
+    "prompt": "Explain how a student should identify whether a named workshop tool may suit a teacher-provided task without describing how to operate it.",
+    "sentenceStarter": "The tool is called ___, and its broad purpose is ___. It may suit the task because ___, but the student must ___.",
+    "example": "The tool is called a pedestal drill, and its broad purpose is producing holes using approved drilling equipment. It may suit a task involving a hole, but the student must check the approved identification and wait for teacher permission."
+  }
+}

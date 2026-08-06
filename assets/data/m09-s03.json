@@ -1,0 +1,165 @@
+{
+  "sectionId": "m09-s03",
+  "title": "Planning a functional improvement",
+  "theory": [
+    {
+      "heading": "Identify an evidenced limitation",
+      "body": "A functional improvement should begin with one limitation supported by evidence. The evidence may come from an approved observation, check result, photograph or teacher feedback. A limitation describes a specific part of function that may need improvement, such as stability, reliability, comfort, efficiency or another approved criterion. Avoid vague statements such as it is bad or I do not like it. Also avoid claiming that a problem exists when the available evidence does not support that conclusion. State what was observed and explain which functional quality it may affect."
+    },
+    {
+      "heading": "Propose a realistic improvement",
+      "body": "A proposed improvement should respond directly to the evidenced limitation. It should be clear, realistic and suitable for discussion with the teacher. The proposal may describe a general design or quality change, but it must not invent a construction method or assume that the original Footstool plan can be altered. Consider whether the idea addresses the limitation without creating a different problem. If the proposal depends on missing information, state the uncertainty rather than presenting the idea as approved."
+    },
+    {
+      "heading": "Predict and seek confirmation",
+      "body": "Predict how the proposed improvement may affect function by linking it to the selected criterion. Use cautious language because a prediction is not a proven result. For example, an improvement may increase stability or make performance more reliable, but this would still require an approved check. A reflection does not authorise any change to the Footstool plan. The unchanged original plan, current school SOPs and teacher directions remain controlling. Record the proposal, predicted effect and limitation of the prediction, then seek teacher confirmation before any action is taken."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M09S03Q01",
+      "question": "What should begin a functional improvement plan?",
+      "choices": [
+        "One limitation supported by evidence",
+        "A change copied from another project",
+        "A construction method",
+        "A guess about what looks better"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A responsible improvement begins with a specific limitation supported by approved evidence.",
+      "retryFeedback": "Review Identify an evidenced limitation and focus on the starting point for an improvement plan.",
+      "theoryAnchor": "Identify an evidenced limitation"
+    },
+    {
+      "id": "M09S03Q02",
+      "question": "Which statement is the strongest description of a limitation?",
+      "choices": [
+        "The product is bad",
+        "An approved observation suggests unwanted movement may affect stability",
+        "I dislike the appearance",
+        "It should be changed somehow"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. This statement identifies evidence and links it to a specific functional quality.",
+      "retryFeedback": "Return to Identify an evidenced limitation and identify how evidence should be linked to function.",
+      "theoryAnchor": "Identify an evidenced limitation"
+    },
+    {
+      "id": "M09S03Q03",
+      "question": "Why should unsupported problems not be claimed?",
+      "choices": [
+        "Every product is automatically perfect",
+        "Only appearance may be discussed",
+        "The available evidence may not justify the conclusion",
+        "Limitations cannot be improved"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A functional judgement should not go beyond what the available evidence supports.",
+      "retryFeedback": "Re-read Identify an evidenced limitation and focus on the limit placed on conclusions.",
+      "theoryAnchor": "Identify an evidenced limitation"
+    },
+    {
+      "id": "M09S03Q04",
+      "question": "What should a proposed improvement respond to?",
+      "choices": [
+        "The most popular design trend",
+        "An unrelated personal preference",
+        "Another student's proposal",
+        "The evidenced limitation"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The improvement should directly address the limitation identified through evidence.",
+      "retryFeedback": "Review Propose a realistic improvement and identify what the proposal must address.",
+      "theoryAnchor": "Propose a realistic improvement"
+    },
+    {
+      "id": "M09S03Q05",
+      "question": "Which proposal is most responsible?",
+      "choices": [
+        "An invented construction sequence",
+        "A clear general improvement for teacher discussion that addresses the limitation",
+        "An immediate change to the original plan",
+        "A complicated idea with no evidence"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A realistic proposal is clear, evidence-linked and presented for teacher confirmation.",
+      "retryFeedback": "Return to Propose a realistic improvement and focus on the qualities of a suitable proposal.",
+      "theoryAnchor": "Propose a realistic improvement"
+    },
+    {
+      "id": "M09S03Q06",
+      "question": "Why should a student consider whether an improvement creates another problem?",
+      "choices": [
+        "Every improvement must change several criteria",
+        "The original limitation should be ignored",
+        "A change may have trade-offs that affect function",
+        "Only appearance matters"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A proposed benefit may also create a new limitation, so possible trade-offs should be considered.",
+      "retryFeedback": "Re-read Propose a realistic improvement and focus on what else should be considered before presenting the idea.",
+      "theoryAnchor": "Propose a realistic improvement"
+    },
+    {
+      "id": "M09S03Q07",
+      "question": "What should a student do when a proposal depends on missing information?",
+      "choices": [
+        "Assume the information is favourable",
+        "Copy another student's details",
+        "Treat the proposal as approved",
+        "State the uncertainty"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Stating uncertainty prevents an unsupported proposal from being presented as confirmed.",
+      "retryFeedback": "Review the final sentence of Propose a realistic improvement and identify how missing information should be handled.",
+      "theoryAnchor": "Propose a realistic improvement"
+    },
+    {
+      "id": "M09S03Q08",
+      "question": "How should the predicted effect of an improvement be written?",
+      "choices": [
+        "Using cautious language linked to a functional criterion",
+        "As proof that the product has passed",
+        "As an authorised plan change",
+        "As a guaranteed result"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A prediction should be cautious and explain which functional quality may be affected.",
+      "retryFeedback": "Return to Predict and seek confirmation and focus on how a prediction differs from proven evidence.",
+      "theoryAnchor": "Predict and seek confirmation"
+    },
+    {
+      "id": "M09S03Q09",
+      "question": "What would be needed to confirm a predicted functional improvement?",
+      "choices": [
+        "A more detailed guess",
+        "A confident opinion",
+        "An approved check",
+        "A change made without permission"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. An approved check is needed before a predicted improvement can be supported by evidence.",
+      "retryFeedback": "Re-read Predict and seek confirmation and identify what must follow a prediction.",
+      "theoryAnchor": "Predict and seek confirmation"
+    },
+    {
+      "id": "M09S03Q10",
+      "question": "What authority does an improvement reflection give a student?",
+      "choices": [
+        "Permission to alter the plan",
+        "Authority to choose any construction method",
+        "Permission to invent dimensions",
+        "No authority to change the plan without teacher confirmation"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The reflection records an idea, but the original plan and teacher direction remain controlling.",
+      "retryFeedback": "Review Predict and seek confirmation and focus on what the reflection does not authorise.",
+      "theoryAnchor": "Predict and seek confirmation"
+    }
+  ],
+  "written": {
+    "prompt": "Identify one evidenced functional limitation, propose one realistic improvement, predict its possible effect and state what confirmation is required before action.",
+    "sentenceStarter": "The evidence shows ___. This may limit ___. I propose ___. This may improve ___, but ___.",
+    "example": "The evidence shows unwanted movement during an approved observation. This may limit stability. I propose discussing a suitable general improvement with the teacher. This may improve stability, but the idea requires teacher confirmation and an approved check before any conclusion or action."
+  }
+}

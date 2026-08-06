@@ -1,0 +1,165 @@
+{
+  "sectionId": "m05-s03",
+  "title": "Cross-checking the original plan",
+  "theory": [
+    {
+      "heading": "Open the correct reference",
+      "body": "Begin by opening the unchanged original two-page Footstool PDF at a size that makes the lines and written information clear. Do not rely on a thumbnail, cropped image, edited copy or memory. Locate the drawing title and check which page you are viewing before searching for a detail. This confirms that you are using the correct reference and helps prevent information from one page being confused with information from the other. The original PDF is the sole dimensional and construction authority."
+    },
+    {
+      "heading": "Locate the view and dimension",
+      "body": "Identify the view that shows the required feature most clearly. It may be a plan view or an elevation, depending on the information being investigated. Follow the feature carefully and read the written dimension connected to it. Do not estimate from the apparent length of a line or measure the screen image. Check that the dimension lines, extension lines or nearby cues actually relate to the feature you are studying. A written value should only be used after its connection to the correct view is understood."
+    },
+    {
+      "heading": "Cross-check and clarify",
+      "body": "Cross-checking means comparing the feature across related views to confirm its position and form. One view may show where a feature sits, while another helps explain how it appears from a different direction. The views should support the same interpretation. If they seem inconsistent, return to the title, page, feature and written information rather than inventing an explanation. State the exact uncertainty and ask the teacher before continuing. Current school SOPs and teacher directions control all actual workshop activity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M05S03Q01",
+      "question": "What should a student open before investigating a plan detail?",
+      "choices": [
+        "The unchanged original two-page PDF",
+        "A cropped screenshot",
+        "An edited classroom copy",
+        "A sketch made from memory"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. The unchanged original PDF is the authoritative reference for plan information.",
+      "retryFeedback": "Review Open the correct reference and identify which version of the drawing must be used.",
+      "theoryAnchor": "Open the correct reference"
+    },
+    {
+      "id": "M05S03Q02",
+      "question": "Why should the drawing be opened at a larger readable size?",
+      "choices": [
+        "To change the intended dimensions",
+        "To make lines and written information clear",
+        "To create a new drawing scale",
+        "To make screen measurement reliable"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A readable view helps students identify lines, notes and dimensions accurately without measuring the screen.",
+      "retryFeedback": "Return to Open the correct reference and focus on why the PDF should be displayed clearly.",
+      "theoryAnchor": "Open the correct reference"
+    },
+    {
+      "id": "M05S03Q03",
+      "question": "What should be checked before searching for a particular detail?",
+      "choices": [
+        "Another student's notes",
+        "The screen width",
+        "The drawing title and page",
+        "The apparent size of the product"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Checking the title and page confirms that the correct part of the original reference is being used.",
+      "retryFeedback": "Re-read Open the correct reference and identify the information used to confirm the correct reference.",
+      "theoryAnchor": "Open the correct reference"
+    },
+    {
+      "id": "M05S03Q04",
+      "question": "How should a student choose the relevant drawing view?",
+      "choices": [
+        "Use only the plan view for every feature",
+        "Choose the largest view on the page",
+        "Use the first view another student selects",
+        "Select the view that shows the feature most clearly"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The relevant view is the one that communicates the required feature most clearly.",
+      "retryFeedback": "Review Locate the view and dimension and focus on how the appropriate view is identified.",
+      "theoryAnchor": "Locate the view and dimension"
+    },
+    {
+      "id": "M05S03Q05",
+      "question": "What should control the intended size of a feature?",
+      "choices": [
+        "The apparent length of its line",
+        "The written dimension connected to it",
+        "A measurement from the screen",
+        "An estimate based on appearance"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The written dimension linked to the feature controls its intended size.",
+      "retryFeedback": "Return to Locate the view and dimension and identify which information should be read rather than estimated.",
+      "theoryAnchor": "Locate the view and dimension"
+    },
+    {
+      "id": "M05S03Q06",
+      "question": "What must be confirmed before using a written dimension?",
+      "choices": [
+        "That the line appears long enough",
+        "That it looks similar to another value",
+        "That it is connected to the correct feature and view",
+        "That another student has used it"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A dimension should only be used after its connection to the intended feature and view is clear.",
+      "retryFeedback": "Re-read Locate the view and dimension and focus on the relationship between a dimension and its feature.",
+      "theoryAnchor": "Locate the view and dimension"
+    },
+    {
+      "id": "M05S03Q07",
+      "question": "What does cross-checking related views help confirm?",
+      "choices": [
+        "The size of the screen image",
+        "A construction sequence",
+        "A missing dimension invented by the reader",
+        "The position and form of a feature"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Related views help confirm how the same feature is positioned and represented.",
+      "retryFeedback": "Review Cross-check and clarify and identify what comparing views can confirm.",
+      "theoryAnchor": "Cross-check and clarify"
+    },
+    {
+      "id": "M05S03Q08",
+      "question": "Why might the same feature appear different in another view?",
+      "choices": [
+        "It is shown from a different direction",
+        "Its actual form changes between pages",
+        "One view must be inaccurate",
+        "The written dimension changes its shape"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Viewing direction changes how a feature is represented without changing the feature itself.",
+      "retryFeedback": "Return to Cross-check and clarify and focus on how related views represent one feature.",
+      "theoryAnchor": "Cross-check and clarify"
+    },
+    {
+      "id": "M05S03Q09",
+      "question": "What should a student do if related views seem inconsistent?",
+      "choices": [
+        "Measure the screen preview",
+        "Choose the interpretation that looks easiest",
+        "Return to the page and written information, then identify the uncertainty",
+        "Invent a missing explanation"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Rechecking the authoritative information helps locate the exact point of uncertainty.",
+      "retryFeedback": "Re-read Cross-check and clarify and identify the response to an apparent inconsistency.",
+      "theoryAnchor": "Cross-check and clarify"
+    },
+    {
+      "id": "M05S03Q10",
+      "question": "What is the best final response when plan information remains unclear?",
+      "choices": [
+        "Continue using the most likely option",
+        "Copy another student's interpretation",
+        "Estimate the missing information",
+        "State the exact uncertainty and ask the teacher"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A precise question allows uncertainty to be resolved without guessing or inventing information.",
+      "retryFeedback": "Review the final sentences of Cross-check and clarify and identify what should happen before continuing.",
+      "theoryAnchor": "Cross-check and clarify"
+    }
+  ],
+  "written": {
+    "prompt": "Describe the routine a student should use to locate and cross-check one written dimension on the original plan without stating the dimension itself.",
+    "sentenceStarter": "First, the student should ___. Next, they should locate ___ and read ___. They should then cross-check ___ and ___.",
+    "example": "First, the student should open the original PDF clearly and check the title and page. Next, they should locate the relevant view and read the written dimension linked to the feature. They should then cross-check the related views and ask the teacher if anything remains unclear."
+  }
+}

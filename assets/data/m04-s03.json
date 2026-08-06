@@ -1,0 +1,165 @@
+{
+  "sectionId": "m04-s03",
+  "title": "Responsible material comparison",
+  "theory": [
+    {
+      "heading": "Start with the intended use",
+      "body": "A responsible material comparison begins with the intended use and the teacher-provided project requirements. A material is not suitable simply because it is familiar, inexpensive or easy to recognise. Compare the properties that matter for the task, such as condition, density, grain structure, surface quality and other approved information. Different materials may suit different purposes, so avoid deciding that one product is always best. Current school SOPs and teacher directions control all actual workshop activity."
+    },
+    {
+      "heading": "Compare workability and surface",
+      "body": "Workability describes how a material responds to approved shaping, joining and finishing processes. It can depend on the material properties, sample condition, approved tools and process. Surface features may also matter. One product may have a smooth, even face, while another may show layers, particles, fibres or natural grain. These differences should be described as evidence rather than turned into unsupported claims. A balanced comparison explains which feature may be useful for the intended purpose and identifies any limitation or uncertainty."
+    },
+    {
+      "heading": "Use cautious environmental evidence",
+      "body": "Resource use is another part of responsible comparison. Manufactured products may use smaller wood elements, while solid timber comes from larger sections of a tree. However, this fact alone does not prove that one option is always more sustainable. Environmental impacts can also depend on sourcing, manufacturing, adhesives, transport, durability, maintenance and waste. Use reliable information and cautious language such as may, can or depends on the context. Match the available evidence to the project requirements, and state when information is missing. If suitability or an environmental claim is unclear, pause and ask rather than guessing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M04S03Q01",
+      "question": "What should guide the beginning of a responsible material comparison?",
+      "choices": [
+        "The intended use and project requirements",
+        "The material nearest to the bench",
+        "The most familiar product name",
+        "Another student's preference"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Intended use and project requirements provide the purpose for comparing materials.",
+      "retryFeedback": "Review Start with the intended use and focus on what should guide the comparison from the beginning.",
+      "theoryAnchor": "Start with the intended use"
+    },
+    {
+      "id": "M04S03Q02",
+      "question": "Which factor is relevant when comparing material suitability?",
+      "choices": [
+        "The classroom wall colour",
+        "Condition and surface quality",
+        "The order materials were stored",
+        "The number of students nearby"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Condition and surface quality are relevant material features that can affect suitability.",
+      "retryFeedback": "Return to Start with the intended use and identify the properties that may matter for the task.",
+      "theoryAnchor": "Start with the intended use"
+    },
+    {
+      "id": "M04S03Q03",
+      "question": "Why should a student avoid saying one material is always best?",
+      "choices": [
+        "Project requirements are never important",
+        "All materials have identical properties",
+        "Different materials may suit different purposes",
+        "Material comparisons should use appearance only"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Suitability depends on the intended use, relevant properties and project requirements.",
+      "retryFeedback": "Re-read Start with the intended use and focus on why suitability can change between purposes.",
+      "theoryAnchor": "Start with the intended use"
+    },
+    {
+      "id": "M04S03Q04",
+      "question": "In a suitability comparison, what does workability describe?",
+      "choices": [
+        "The name of a product",
+        "The colour of a material",
+        "The age of a tree",
+        "How a material responds to approved processes"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Workability describes how a material responds during approved shaping, joining and finishing processes.",
+      "retryFeedback": "Review Compare workability and surface and locate the definition of workability.",
+      "theoryAnchor": "Compare workability and surface"
+    },
+    {
+      "id": "M04S03Q05",
+      "question": "Which factors can influence workability?",
+      "choices": [
+        "Product name alone",
+        "Material properties, condition, approved tools and process",
+        "Surface colour only",
+        "Storage location and classroom size"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Workability can change with the material, its condition, the approved tools and the process.",
+      "retryFeedback": "Return to Compare workability and surface and identify the factors that affect material response.",
+      "theoryAnchor": "Compare workability and surface"
+    },
+    {
+      "id": "M04S03Q06",
+      "question": "Which statement is the most balanced surface comparison?",
+      "choices": [
+        "Visible layers prove poor quality",
+        "The smooth sample is always better",
+        "One sample has a smooth face, while the other shows visible layers",
+        "The rougher sample is unsuitable for every task"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. This statement describes observable evidence without making an unsupported judgement.",
+      "retryFeedback": "Re-read Compare workability and surface and focus on how surface differences should be described.",
+      "theoryAnchor": "Compare workability and surface"
+    },
+    {
+      "id": "M04S03Q07",
+      "question": "What should a balanced comparison include besides a useful feature?",
+      "choices": [
+        "An invented project requirement",
+        "A claim that the product is perfect",
+        "A guarantee of equal performance",
+        "A limitation or uncertainty"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A balanced comparison recognises useful features as well as limitations or uncertainty.",
+      "retryFeedback": "Review the final sentence of Compare workability and surface and identify what should accompany a useful feature.",
+      "theoryAnchor": "Compare workability and surface"
+    },
+    {
+      "id": "M04S03Q08",
+      "question": "Why does using smaller wood elements not prove that a product is always sustainable?",
+      "choices": [
+        "Environmental impact depends on several parts of the product life cycle",
+        "Smaller elements contain no wood",
+        "All manufactured products have equal impacts",
+        "Sustainability depends only on surface quality"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Sourcing, manufacturing, transport, durability, maintenance and waste may all affect environmental impact.",
+      "retryFeedback": "Return to Use cautious environmental evidence and focus on why one fact cannot prove the whole claim.",
+      "theoryAnchor": "Use cautious environmental evidence"
+    },
+    {
+      "id": "M04S03Q09",
+      "question": "Which wording is most appropriate when environmental evidence is limited?",
+      "choices": [
+        "This material has no environmental impact",
+        "This product is always sustainable",
+        "The impact may depend on sourcing and manufacturing",
+        "One product is best in every situation"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Cautious wording recognises that environmental conclusions depend on evidence and context.",
+      "retryFeedback": "Re-read Use cautious environmental evidence and identify the language recommended for uncertain claims.",
+      "theoryAnchor": "Use cautious environmental evidence"
+    },
+    {
+      "id": "M04S03Q10",
+      "question": "What should a student do when material suitability or environmental information is unclear?",
+      "choices": [
+        "Copy another student's conclusion",
+        "Choose the cheapest-looking product",
+        "Assume the smoothest surface is best",
+        "Pause and ask rather than guessing"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Asking for clarification prevents unsupported material and environmental claims.",
+      "retryFeedback": "Review the final sentence of Use cautious environmental evidence and identify the response to unclear information.",
+      "theoryAnchor": "Use cautious environmental evidence"
+    }
+  ],
+  "written": {
+    "prompt": "Compare two general wood materials for an intended use by discussing one relevant property, workability, surface, resource use and one uncertainty.",
+    "sentenceStarter": "For the intended use, material A may suit because ___. Material B may suit because ___. The available environmental evidence shows ___, but it is uncertain because ___.",
+    "example": "For the intended use, material A may suit because it has a smooth surface. Material B may suit because its visible grain may be useful for appearance. The available evidence shows that they use wood resources differently, but their overall environmental impacts depend on sourcing, manufacturing and durability."
+  }
+}

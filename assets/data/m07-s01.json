@@ -1,0 +1,165 @@
+{
+  "sectionId": "m07-s01",
+  "title": "Researching a personal emblem",
+  "theory": [
+    {
+      "heading": "Begin with three personal themes",
+      "body": "A personal emblem communicates something about you through a small, recognisable design. Begin by listing three different themes that matter to you. These might come from your initials, a place, a hobby, an animal or a significant number. Choose themes with a clear personal connection rather than selecting an image only because it looks impressive. Briefly explain what each theme means to you. Starting with three themes creates choice and helps prevent the first idea from becoming the final design without comparison."
+    },
+    {
+      "heading": "Gather and study references",
+      "body": "Collect several visual references for each theme. References can help you notice common outlines, shapes, patterns and symbols. Study them to understand how an idea can be communicated simply. Look for features that make the subject recognisable, such as the curve of an animal, the outline of a landscape or the arrangement of initials. Record where each idea came from and describe what you learned. Research should support your thinking, not provide a finished emblem to copy."
+    },
+    {
+      "heading": "Turn meaning into simple shapes",
+      "body": "Select useful features from your research and translate them into your own simple shapes. Remove details that do not help communicate the main idea. Consider whether a viewer could recognise the theme and whether the design meaning matches your intention. Combining or changing reference features can help create an original response. Avoid tracing or slightly altering a completed emblem because that does not show your own design thinking. Current school SOPs and teacher directions control all actual workshop activity. If a reference or design choice is uncertain, ask before continuing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M07S01Q01",
+      "question": "How many personal themes should a student begin with?",
+      "choices": [
+        "Three",
+        "Two",
+        "One",
+        "Five"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Beginning with three themes creates useful choice before developing a design.",
+      "retryFeedback": "Review Begin with three personal themes and focus on the recommended starting number.",
+      "theoryAnchor": "Begin with three personal themes"
+    },
+    {
+      "id": "M07S01Q02",
+      "question": "Which option is a suitable source for a personal theme?",
+      "choices": [
+        "The first finished logo found online",
+        "A meaningful hobby",
+        "A random image with no connection",
+        "Another student's final emblem"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A meaningful hobby can provide a clear personal connection for an emblem.",
+      "retryFeedback": "Return to Begin with three personal themes and identify the types of personal ideas suggested.",
+      "theoryAnchor": "Begin with three personal themes"
+    },
+    {
+      "id": "M07S01Q03",
+      "question": "Why should a student briefly explain each theme?",
+      "choices": [
+        "To make every theme look identical",
+        "To avoid gathering references",
+        "To show its personal meaning",
+        "To select a finished emblem immediately"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Explaining each theme clarifies why it matters and what it could communicate.",
+      "retryFeedback": "Re-read Begin with three personal themes and focus on what should be recorded about each theme.",
+      "theoryAnchor": "Begin with three personal themes"
+    },
+    {
+      "id": "M07S01Q04",
+      "question": "What is the main purpose of gathering visual references?",
+      "choices": [
+        "To copy a finished emblem exactly",
+        "To avoid making design decisions",
+        "To prove one theme is always best",
+        "To notice useful shapes, outlines and symbols"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. References help students identify visual features that communicate an idea.",
+      "retryFeedback": "Review Gather and study references and focus on what students should notice in the examples.",
+      "theoryAnchor": "Gather and study references"
+    },
+    {
+      "id": "M07S01Q05",
+      "question": "Which observation would be useful when studying an animal reference?",
+      "choices": [
+        "The price of the image",
+        "The outline that makes the animal recognisable",
+        "The number of colours on the webpage",
+        "The name of another student's design"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A recognisable outline can help communicate the animal using simple shapes.",
+      "retryFeedback": "Return to Gather and study references and identify the kinds of visual features worth studying.",
+      "theoryAnchor": "Gather and study references"
+    },
+    {
+      "id": "M07S01Q06",
+      "question": "How should research support emblem design?",
+      "choices": [
+        "By providing a finished design to trace",
+        "By replacing personal meaning",
+        "By helping the student understand and develop ideas",
+        "By forcing all students to use the same symbol"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Research should inform original thinking rather than replace it.",
+      "retryFeedback": "Re-read Gather and study references and focus on the final sentence about the role of research.",
+      "theoryAnchor": "Gather and study references"
+    },
+    {
+      "id": "M07S01Q07",
+      "question": "What should a student do with details that do not support the main idea?",
+      "choices": [
+        "Add more of them",
+        "Make them the largest feature",
+        "Copy them from another emblem",
+        "Remove or simplify them"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Removing unnecessary detail helps the emblem communicate its main idea clearly.",
+      "retryFeedback": "Review Turn meaning into simple shapes and focus on how unnecessary details should be handled.",
+      "theoryAnchor": "Turn meaning into simple shapes"
+    },
+    {
+      "id": "M07S01Q08",
+      "question": "Which approach best supports an original emblem?",
+      "choices": [
+        "Combining and adapting useful reference features",
+        "Changing only one tiny detail",
+        "Tracing a completed emblem",
+        "Copying another student's layout"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Combining and adapting reference features shows independent design thinking.",
+      "retryFeedback": "Return to Turn meaning into simple shapes and identify how references can be transformed into an original response.",
+      "theoryAnchor": "Turn meaning into simple shapes"
+    },
+    {
+      "id": "M07S01Q09",
+      "question": "What should a student check when reviewing a developing emblem?",
+      "choices": [
+        "Whether it uses the most details possible",
+        "Whether it matches a commercial logo",
+        "Whether the theme is recognisable and the meaning is clear",
+        "Whether another student prefers it"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A useful review checks recognisability and whether the design communicates the intended meaning.",
+      "retryFeedback": "Re-read Turn meaning into simple shapes and focus on the questions used to judge the design.",
+      "theoryAnchor": "Turn meaning into simple shapes"
+    },
+    {
+      "id": "M07S01Q10",
+      "question": "Why should a student avoid copying a finished emblem?",
+      "choices": [
+        "It prevents the use of simple shapes",
+        "It guarantees the theme will be unclear",
+        "It makes research unnecessary",
+        "It does not demonstrate original design thinking"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Copying a finished emblem does not show the student's own research and design decisions.",
+      "retryFeedback": "Review Turn meaning into simple shapes and identify why tracing or slightly altering a completed design should be avoided.",
+      "theoryAnchor": "Turn meaning into simple shapes"
+    }
+  ],
+  "written": {
+    "prompt": "Identify three possible personal themes for an emblem, explain the meaning of each and describe one simple visual feature that could represent each theme without copying a finished design.",
+    "sentenceStarter": "My three themes are ___, ___ and ___. They matter to me because ___. A simple feature I could explore for each is ___.",
+    "example": "My three themes are my initials, fishing and the local river. They connect to my identity, interests and place. I could explore joined letter shapes, a simple fish outline and a curved line representing the river."
+  }
+}

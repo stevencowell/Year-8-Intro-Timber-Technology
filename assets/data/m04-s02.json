@@ -1,0 +1,165 @@
+{
+  "sectionId": "m04-s02",
+  "title": "Layers, particles and fibres",
+  "theory": [
+    {
+      "heading": "Plywood uses veneer layers",
+      "body": "Plywood is made from thin sheets of wood called veneers. These layers are bonded together, and the grain direction usually changes between neighbouring layers. One layer may have fibres running mainly one way, while the next runs across it. This layered structure is visible along many plywood edges. When identifying plywood, look for repeated thin layers rather than judging only by the surface colour or pattern. The changing grain direction is a structural feature, not a construction instruction or a guarantee that the product suits every purpose."
+    },
+    {
+      "heading": "Particleboard uses wood particles",
+      "body": "Particleboard is made from wood particles combined with adhesive and formed into a board. The particles are smaller and less continuous than veneer layers, so the edge does not show the repeated sheet pattern seen in plywood. Instead, it commonly shows many separate wood pieces held together. Describe the visible structure using evidence such as particle size, distribution and surface appearance. Do not assume that every particleboard product behaves identically or that its structure automatically makes it suitable or unsuitable for a particular task."
+    },
+    {
+      "heading": "MDF uses fine wood fibres",
+      "body": "Medium-density fibreboard, commonly called MDF, is made from fine wood fibres combined with adhesive. Its structure is usually more even and uniform than the visible particles in particleboard. An MDF edge may appear fine-textured without the distinct veneer layers of plywood. These observations help distinguish layers, particles and fibres as broad structures. Current school SOPs and teacher directions control all actual workshop activity. When a sample cannot be identified confidently, compare its visible surface and edge with approved examples, then ask for clarification rather than guessing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M04S02Q01",
+      "question": "What are the thin wood sheets used in plywood called?",
+      "choices": [
+        "Veneers",
+        "Particles",
+        "Fibres",
+        "Boards"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Plywood is made from thin wood sheets called veneers.",
+      "retryFeedback": "Review Plywood uses veneer layers and focus on the name given to the thin wood sheets.",
+      "theoryAnchor": "Plywood uses veneer layers"
+    },
+    {
+      "id": "M04S02Q02",
+      "question": "How is the grain commonly arranged in neighbouring plywood layers?",
+      "choices": [
+        "It always runs in one direction",
+        "It changes direction between layers",
+        "It has no visible direction",
+        "It forms separate particles"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The grain direction usually changes between neighbouring veneer layers.",
+      "retryFeedback": "Return to Plywood uses veneer layers and identify how adjacent grain directions are arranged.",
+      "theoryAnchor": "Plywood uses veneer layers"
+    },
+    {
+      "id": "M04S02Q03",
+      "question": "Which visible feature most strongly suggests a sample is plywood?",
+      "choices": [
+        "A uniform fine-textured edge",
+        "Separate large wood particles",
+        "Repeated thin layers along the edge",
+        "A single natural growth ring"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Repeated veneer layers along the edge are a key structural clue for plywood.",
+      "retryFeedback": "Re-read Plywood uses veneer layers and focus on the edge evidence used for identification.",
+      "theoryAnchor": "Plywood uses veneer layers"
+    },
+    {
+      "id": "M04S02Q04",
+      "question": "What broad wood form is used in particleboard?",
+      "choices": [
+        "Thin veneers",
+        "One solid timber piece",
+        "Fine continuous fibres only",
+        "Wood particles"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Particleboard is made from wood particles combined with adhesive.",
+      "retryFeedback": "Review Particleboard uses wood particles and identify the wood form named in its structure.",
+      "theoryAnchor": "Particleboard uses wood particles"
+    },
+    {
+      "id": "M04S02Q05",
+      "question": "How may a particleboard edge differ from a plywood edge?",
+      "choices": [
+        "It always shows alternating veneers",
+        "It may show separate wood pieces rather than repeated layers",
+        "It has no visible wood content",
+        "It displays natural tree rings"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Particleboard commonly shows many separate particles instead of thin repeated layers.",
+      "retryFeedback": "Return to Particleboard uses wood particles and compare its edge with the plywood edge.",
+      "theoryAnchor": "Particleboard uses wood particles"
+    },
+    {
+      "id": "M04S02Q06",
+      "question": "Which description is evidence-based for particleboard?",
+      "choices": [
+        "It is always weaker than plywood",
+        "It is suitable for every project",
+        "The edge shows many separate wood particles",
+        "Its structure guarantees poor quality"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. This statement describes a visible structural feature without adding an unsupported claim.",
+      "retryFeedback": "Re-read Particleboard uses wood particles and focus on the observations students can describe directly.",
+      "theoryAnchor": "Particleboard uses wood particles"
+    },
+    {
+      "id": "M04S02Q07",
+      "question": "What broad wood form is used in MDF?",
+      "choices": [
+        "Bonded veneer layers",
+        "Large timber pieces",
+        "Whole branches",
+        "Fine wood fibres"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. MDF is made from fine wood fibres combined with adhesive.",
+      "retryFeedback": "Review MDF uses fine wood fibres and identify the main wood form in its structure.",
+      "theoryAnchor": "MDF uses fine wood fibres"
+    },
+    {
+      "id": "M04S02Q08",
+      "question": "Which edge appearance most strongly suggests MDF?",
+      "choices": [
+        "A fine and relatively uniform texture",
+        "Large separate particles",
+        "Repeated thin layers",
+        "Natural bark and growth rings"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. MDF commonly has a fine, relatively even edge without distinct veneers or large particles.",
+      "retryFeedback": "Return to MDF uses fine wood fibres and focus on the edge description.",
+      "theoryAnchor": "MDF uses fine wood fibres"
+    },
+    {
+      "id": "M04S02Q09",
+      "question": "What is the main structural distinction among plywood, particleboard and MDF?",
+      "choices": [
+        "Only plywood contains wood",
+        "They use three different timber colours",
+        "They use layers, particles and fibres",
+        "Only MDF uses adhesive"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. The three products are broadly distinguished by veneers, particles and fine fibres.",
+      "retryFeedback": "Re-read MDF uses fine wood fibres and identify the three broad structures compared in the final paragraph.",
+      "theoryAnchor": "MDF uses fine wood fibres"
+    },
+    {
+      "id": "M04S02Q10",
+      "question": "What should a student do when a sample cannot be identified confidently?",
+      "choices": [
+        "Guess from its colour",
+        "Assume it is MDF",
+        "Choose the product with the smoothest surface",
+        "Compare it with approved examples and ask for clarification"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Approved examples and teacher clarification should be used when visible evidence is uncertain.",
+      "retryFeedback": "Review the final sentences of MDF uses fine wood fibres and identify the response to uncertain identification.",
+      "theoryAnchor": "MDF uses fine wood fibres"
+    }
+  ],
+  "written": {
+    "prompt": "Compare plywood, particleboard and MDF by describing the visible structural evidence that could help identify each sample.",
+    "sentenceStarter": "Plywood can be identified by ___, particleboard by ___, and MDF by ___.",
+    "example": "Plywood can be identified by repeated veneer layers, particleboard by separate wood particles, and MDF by a fine, relatively uniform fibre structure."
+  }
+}

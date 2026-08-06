@@ -1,0 +1,165 @@
+{
+  "sectionId": "m07-s02",
+  "title": "Developing three emblem concepts",
+  "theory": [
+    {
+      "heading": "Combine selected theme ideas",
+      "body": "Begin by choosing useful ideas from your personal-theme research. A concept may combine initials with a hobby symbol, a place outline with an animal shape, or another meaningful pairing. The aim is not to fit every theme into one design. Select features that work together and communicate a clear personal meaning. Each combination should have a recognisable main idea rather than becoming a collection of unrelated details. When choosing features, consider what should attract attention first and which shapes can support the message without making the emblem confusing."
+    },
+    {
+      "heading": "Create three distinct thumbnails",
+      "body": "Develop three quick thumbnail drawings that explore genuinely different concepts. Thumbnails are small, fast sketches used to test arrangements before spending time on detail. Change the main symbol, shape combination, visual balance or placement between concepts. Three slight redraws of the same arrangement do not provide strong design evidence. For example, changing only the size of one symbol would not create a clearly different concept. Each thumbnail should show another possible direction and remain simple enough for the overall idea to be understood quickly."
+    },
+    {
+      "heading": "Annotate arrangement and meaning",
+      "body": "Add brief annotations beside each thumbnail to explain the selected theme, the arrangement of shapes and the intended meaning. An annotation might identify the main symbol, explain why two features were combined or describe what should be noticed first. Clear notes help another person understand decisions that may not be obvious from the sketch alone. Review the three concepts side by side and check that each offers a distinct response. If a concept or annotation is unclear, revise it or ask before continuing. Current school SOPs and teacher directions control all actual workshop activity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M07S02Q01",
+      "question": "What should guide the selection of ideas for an emblem concept?",
+      "choices": [
+        "A clear personal meaning",
+        "The largest number of symbols",
+        "Another student's finished design",
+        "The most detailed reference image"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Selected features should work together to communicate a clear personal meaning.",
+      "retryFeedback": "Review Combine selected theme ideas and focus on what the chosen features should communicate.",
+      "theoryAnchor": "Combine selected theme ideas"
+    },
+    {
+      "id": "M07S02Q02",
+      "question": "Why should a concept avoid too many unrelated details?",
+      "choices": [
+        "They make every symbol identical",
+        "They can make the emblem confusing",
+        "They prevent the use of annotations",
+        "They always create an empty layout"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Unrelated details can weaken the main idea and make the emblem difficult to understand.",
+      "retryFeedback": "Return to Combine selected theme ideas and identify why features must work together.",
+      "theoryAnchor": "Combine selected theme ideas"
+    },
+    {
+      "id": "M07S02Q03",
+      "question": "What should a student consider when arranging selected features?",
+      "choices": [
+        "Which online design is most popular",
+        "How to copy every research image",
+        "What should attract attention first",
+        "How to include every possible theme"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Considering visual priority helps create a clear arrangement with a recognisable main idea.",
+      "retryFeedback": "Re-read Combine selected theme ideas and focus on the question about visual attention.",
+      "theoryAnchor": "Combine selected theme ideas"
+    },
+    {
+      "id": "M07S02Q04",
+      "question": "What is a thumbnail drawing?",
+      "choices": [
+        "A finished detailed emblem",
+        "A copied reference image",
+        "A written explanation only",
+        "A small quick sketch used to test an idea"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A thumbnail is a quick, small sketch used to explore arrangements before adding detail.",
+      "retryFeedback": "Review Create three distinct thumbnails and locate the definition of a thumbnail.",
+      "theoryAnchor": "Create three distinct thumbnails"
+    },
+    {
+      "id": "M07S02Q05",
+      "question": "What makes three emblem concepts genuinely distinct?",
+      "choices": [
+        "They use the same design with tiny size changes",
+        "They explore different main ideas or arrangements",
+        "They contain identical shapes in identical positions",
+        "They are traced from three finished emblems"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Distinct concepts explore meaningfully different symbols, combinations or arrangements.",
+      "retryFeedback": "Return to Create three distinct thumbnails and identify what should change between concepts.",
+      "theoryAnchor": "Create three distinct thumbnails"
+    },
+    {
+      "id": "M07S02Q06",
+      "question": "Which set provides weak evidence of three concepts?",
+      "choices": [
+        "Three different theme combinations",
+        "Three different main symbols",
+        "Three minor redraws of one arrangement",
+        "Three clearly different layouts"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Minor redraws do not demonstrate the exploration of separate design directions.",
+      "retryFeedback": "Re-read Create three distinct thumbnails and focus on what does not count as distinct concepts.",
+      "theoryAnchor": "Create three distinct thumbnails"
+    },
+    {
+      "id": "M07S02Q07",
+      "question": "Why should thumbnails remain simple?",
+      "choices": [
+        "So annotations are unnecessary",
+        "So every concept looks the same",
+        "So personal meaning can be removed",
+        "So the overall idea can be understood quickly"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Simple thumbnails allow the main concept and arrangement to be judged quickly.",
+      "retryFeedback": "Review the final sentence of Create three distinct thumbnails and identify the benefit of simplicity.",
+      "theoryAnchor": "Create three distinct thumbnails"
+    },
+    {
+      "id": "M07S02Q08",
+      "question": "What is the main purpose of an annotation beside a thumbnail?",
+      "choices": [
+        "To explain the arrangement and intended meaning",
+        "To add unrelated decoration",
+        "To provide a construction sequence",
+        "To replace the drawing"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Annotations explain design decisions that may not be obvious from the sketch alone.",
+      "retryFeedback": "Return to Annotate arrangement and meaning and focus on what the notes should communicate.",
+      "theoryAnchor": "Annotate arrangement and meaning"
+    },
+    {
+      "id": "M07S02Q09",
+      "question": "Which annotation gives useful design evidence?",
+      "choices": [
+        "I drew this quickly",
+        "This design is good",
+        "The larger initial is the main feature, and the wave shape represents my local river",
+        "The emblem uses some shapes"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. This annotation identifies the arrangement, visual priority and personal meaning.",
+      "retryFeedback": "Re-read Annotate arrangement and meaning and identify the types of decisions a useful note explains.",
+      "theoryAnchor": "Annotate arrangement and meaning"
+    },
+    {
+      "id": "M07S02Q10",
+      "question": "What should a student check when comparing the three concepts?",
+      "choices": [
+        "Whether all three are nearly identical",
+        "Whether every concept contains all three themes",
+        "Whether each copies a finished emblem",
+        "Whether each provides a distinct design response"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Each concept should offer a clearly different possible direction for the emblem.",
+      "retryFeedback": "Review Annotate arrangement and meaning and focus on the side-by-side comparison check.",
+      "theoryAnchor": "Annotate arrangement and meaning"
+    }
+  ],
+  "written": {
+    "prompt": "Describe three distinct emblem concepts developed from selected personal themes. Explain the main symbol, arrangement and intended meaning of each concept.",
+    "sentenceStarter": "Concept one combines ___ and ___ by ___. Concept two is different because ___. Concept three explores ___.",
+    "example": "Concept one combines my initials with a fish profile, with the initials as the main feature. Concept two places a river line inside a simple circle. Concept three combines a mountain outline with a significant number, creating a clearly different arrangement and meaning."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "sectionId": "m04-s01",
+  "title": "The engineered-wood idea",
+  "theory": [
+    {
+      "heading": "Combine wood in new forms",
+      "body": "Manufactured or engineered wood products are made by combining wood layers, particles or fibres through controlled manufacturing processes. Instead of using one solid piece of timber, smaller wood elements are arranged and bonded to create a board or structural product. The way those elements are organised affects the product's appearance and behaviour. Engineered wood is not imitation wood. It still contains wood, but the natural material has been changed into a more controlled form. Product names describe broad structures, not automatic claims about quality or suitability."
+    },
+    {
+      "heading": "Compare three examples",
+      "body": "Plywood is made from thin wood layers bonded together, usually with the grain direction changing between neighbouring layers. Particleboard is made from wood particles pressed and bonded into sheets. Medium-density fibreboard, usually called MDF, is made from fine wood fibres formed into a smooth, even board. These examples show three different ways wood can be reorganised: layers, particles and fibres. Their structures can be observed and described without assuming that one product is always better than another."
+    },
+    {
+      "heading": "Match evidence to purpose",
+      "body": "A material decision should consider the product structure, visible condition, surface, edges and teacher-provided project requirements. A smooth surface may be useful in one context, while a layered edge or another property may matter in a different context. The product name alone does not prove that it suits a particular task. No specific engineered board should be assumed for the Footstool. Current school SOPs and teacher directions control all actual workshop activity. When a material or requirement is unclear, pause and ask instead of guessing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M04S01Q01",
+      "question": "What makes a wood product manufactured or engineered?",
+      "choices": [
+        "Wood elements are combined through controlled manufacturing processes",
+        "It contains no wood",
+        "It is always made from one solid board",
+        "It must look like natural timber"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Engineered wood products combine wood layers, particles or fibres through controlled processes.",
+      "retryFeedback": "Review Combine wood in new forms and focus on how engineered products are created.",
+      "theoryAnchor": "Combine wood in new forms"
+    },
+    {
+      "id": "M04S01Q02",
+      "question": "Why is engineered wood not simply imitation wood?",
+      "choices": [
+        "It is always painted to look natural",
+        "It contains real wood reorganised into a manufactured form",
+        "It contains only plastic",
+        "It is cut directly from one tree trunk"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Engineered products still contain wood, but the material has been reorganised and bonded.",
+      "retryFeedback": "Return to Combine wood in new forms and identify what engineered wood still contains.",
+      "theoryAnchor": "Combine wood in new forms"
+    },
+    {
+      "id": "M04S01Q03",
+      "question": "What can affect the appearance and behaviour of an engineered wood product?",
+      "choices": [
+        "The time of day it is viewed",
+        "The name of the classroom",
+        "How its wood elements are organised",
+        "The number of students nearby"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. The arrangement of layers, particles or fibres influences the product.",
+      "retryFeedback": "Re-read Combine wood in new forms and focus on why organisation matters.",
+      "theoryAnchor": "Combine wood in new forms"
+    },
+    {
+      "id": "M04S01Q04",
+      "question": "Which description best matches plywood?",
+      "choices": [
+        "One unmodified solid timber piece",
+        "Large wood chips left loose",
+        "Fine fibres woven like cloth",
+        "Thin wood layers bonded together"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Plywood is formed from thin wood layers bonded together.",
+      "retryFeedback": "Review Compare three examples and locate the structure used in plywood.",
+      "theoryAnchor": "Compare three examples"
+    },
+    {
+      "id": "M04S01Q05",
+      "question": "Which wood element is used to make particleboard?",
+      "choices": [
+        "Thin metal sheets",
+        "Wood particles",
+        "Long plastic strips",
+        "Whole tree branches"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Particleboard is made from wood particles that are pressed and bonded.",
+      "retryFeedback": "Return to Compare three examples and identify the material structure of particleboard.",
+      "theoryAnchor": "Compare three examples"
+    },
+    {
+      "id": "M04S01Q06",
+      "question": "Which description best matches MDF?",
+      "choices": [
+        "Loose sawdust with no bonding",
+        "Alternating solid timber beams",
+        "Fine wood fibres formed into an even board",
+        "One naturally grown timber slab"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. MDF uses fine wood fibres formed into a smooth and even board.",
+      "retryFeedback": "Re-read Compare three examples and focus on the product made from fibres.",
+      "theoryAnchor": "Compare three examples"
+    },
+    {
+      "id": "M04S01Q07",
+      "question": "What main difference separates plywood, particleboard and MDF in this section?",
+      "choices": [
+        "They always have identical surfaces",
+        "They are made from three different metals",
+        "Only one of them contains wood",
+        "They reorganise wood as layers, particles or fibres"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The three examples use different forms of wood elements.",
+      "retryFeedback": "Review the final sentences of Compare three examples and identify the three structures.",
+      "theoryAnchor": "Compare three examples"
+    },
+    {
+      "id": "M04S01Q08",
+      "question": "Which evidence is useful when considering an engineered wood product?",
+      "choices": [
+        "Its structure, condition, surface and edges",
+        "Its name alone",
+        "Another student's favourite material",
+        "Its position in the storage area"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Material decisions should use observable features and project requirements.",
+      "retryFeedback": "Return to Match evidence to purpose and identify the evidence that should be considered.",
+      "theoryAnchor": "Match evidence to purpose"
+    },
+    {
+      "id": "M04S01Q09",
+      "question": "Why is a product name alone not enough to prove suitability?",
+      "choices": [
+        "Product names never describe structure",
+        "All engineered products are identical",
+        "Suitability depends on properties and project requirements",
+        "Only colour determines suitability"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A material must be matched to the relevant properties and requirements.",
+      "retryFeedback": "Re-read Match evidence to purpose and focus on why the name alone is insufficient.",
+      "theoryAnchor": "Match evidence to purpose"
+    },
+    {
+      "id": "M04S01Q10",
+      "question": "What should a student do when an engineered wood requirement is unclear?",
+      "choices": [
+        "Copy another student's material choice",
+        "Choose the smoothest board",
+        "Assume MDF is required",
+        "Pause and ask for clarification"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Asking prevents unsupported assumptions about the material or task.",
+      "retryFeedback": "Review the final sentence of Match evidence to purpose and identify the response to uncertainty.",
+      "theoryAnchor": "Match evidence to purpose"
+    }
+  ],
+  "written": {
+    "prompt": "Compare plywood, particleboard and MDF by describing the wood elements used in each, then explain why product structure must be matched to project requirements.",
+    "sentenceStarter": "Plywood uses ___, particleboard uses ___, and MDF uses ___. This matters because ___.",
+    "example": "Plywood uses thin wood layers, particleboard uses wood particles, and MDF uses fine wood fibres. This matters because each structure has different features that must be compared with the project requirements."
+  }
+}

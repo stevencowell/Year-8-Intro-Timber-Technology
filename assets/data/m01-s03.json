@@ -1,0 +1,165 @@
+{
+  "sectionId": "m01-s03",
+  "title": "Readiness and asking for help",
+  "theory": [
+    {
+      "heading": "Understand before starting",
+      "body": "Being ready means more than having materials nearby. First, listen to the full instruction and make sure you understand what you are expected to do. Think about the purpose of the activity, the limits that apply and the point where you must stop. Readiness also includes having teacher permission before beginning. Do not assume that watching another student gives you permission or enough information. Current school SOPs and teacher directions control all actual workshop activity. If you cannot clearly explain the instruction to yourself, you are not ready to start."
+    },
+    {
+      "heading": "Check the area and uncertainty",
+      "body": "Before beginning, pause and observe the work area. Check that the space is clear, that your activity will not interfere with another person and that nothing appears damaged or unsafe. Then identify any uncertainty. You might be unsure about the instruction, the correct area, the approved equipment or what should happen next. Uncertainty is not a problem when it is recognised early. Guessing, rushing or copying someone else can create mistakes and risk. A ready student notices what is unclear and pauses before taking action."
+    },
+    {
+      "heading": "Ask precisely and wait",
+      "body": "A useful question explains the exact point of uncertainty. Instead of saying that you do not understand anything, identify what you have understood and what still needs clarification. For example, ask whether you have permission to begin or whether you have identified the correct work area. After asking, wait for confirmation before continuing. Do not treat a nod from another student or your own assumption as approval. A final readiness check is simple: Do I understand the instruction, is the area suitable, do I have permission and has my question been answered?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "M01S03Q01",
+      "question": "Which statement best describes readiness before starting workshop activity?",
+      "choices": [
+        "Understanding the instruction, checking the area and having permission",
+        "Having materials nearby and beginning quickly",
+        "Watching another student complete the activity",
+        "Knowing where the equipment is stored"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Readiness includes understanding the instruction, checking the area and having teacher permission before starting.",
+      "retryFeedback": "Review Understand before starting and identify all parts of readiness described there.",
+      "theoryAnchor": "Understand before starting"
+    },
+    {
+      "id": "M01S03Q02",
+      "question": "Why is watching another student not enough preparation to begin?",
+      "choices": [
+        "The other student may finish too slowly",
+        "Observation does not provide teacher permission or complete understanding",
+        "Students must always work alone",
+        "The activity may use different materials"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Watching someone else does not replace clear instructions or teacher permission.",
+      "retryFeedback": "Return to Understand before starting and focus on what observation cannot provide.",
+      "theoryAnchor": "Understand before starting"
+    },
+    {
+      "id": "M01S03Q03",
+      "question": "What should a student do if they cannot clearly explain the instruction to themselves?",
+      "choices": [
+        "Begin and learn through trial and error",
+        "Copy the nearest student",
+        "Pause because they are not ready to start",
+        "Choose a simpler activity"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. If the instruction is not understood clearly, the student should pause rather than begin.",
+      "retryFeedback": "Re-read the final sentence of Understand before starting and consider how understanding affects readiness.",
+      "theoryAnchor": "Understand before starting"
+    },
+    {
+      "id": "M01S03Q04",
+      "question": "What should a student check about the work area before beginning?",
+      "choices": [
+        "Whether the area has the most equipment",
+        "Whether another class has used it recently",
+        "Whether all nearby students are friends",
+        "Whether the area is clear and will not interfere with others"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The area should be clear, suitable and unlikely to interfere with another person.",
+      "retryFeedback": "Review Check the area and uncertainty and focus on the first observations made before starting.",
+      "theoryAnchor": "Check the area and uncertainty"
+    },
+    {
+      "id": "M01S03Q05",
+      "question": "Which situation shows that a student should pause?",
+      "choices": [
+        "The instruction and permission are both clear",
+        "The student is unsure which area is authorised",
+        "The area is clear and ready",
+        "The teacher has confirmed the activity"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Uncertainty about the authorised area should be recognised and clarified before action.",
+      "retryFeedback": "Return to Check the area and uncertainty and identify the examples of uncertainty.",
+      "theoryAnchor": "Check the area and uncertainty"
+    },
+    {
+      "id": "M01S03Q06",
+      "question": "Why is identifying uncertainty early useful?",
+      "choices": [
+        "It allows a student to avoid all workshop activity",
+        "It removes the need for teacher permission",
+        "It helps prevent guessing, rushing and mistakes",
+        "It lets another student make the decision"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Recognising uncertainty early helps prevent unsafe guesses and avoidable mistakes.",
+      "retryFeedback": "Re-read Check the area and uncertainty and focus on what can happen when uncertainty is ignored.",
+      "theoryAnchor": "Check the area and uncertainty"
+    },
+    {
+      "id": "M01S03Q07",
+      "question": "Which question is the most precise?",
+      "choices": [
+        "What do I do",
+        "I do not understand anything",
+        "Can someone else decide for me",
+        "Do I have permission to begin in this work area"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. This question identifies the exact information that needs confirmation.",
+      "retryFeedback": "Review Ask precisely and wait and focus on how a useful question identifies a specific uncertainty.",
+      "theoryAnchor": "Ask precisely and wait"
+    },
+    {
+      "id": "M01S03Q08",
+      "question": "What should a student do after asking a question?",
+      "choices": [
+        "Wait for teacher confirmation before continuing",
+        "Follow another student's opinion",
+        "Begin while waiting for an answer",
+        "Assume silence means permission"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. The student should wait for teacher confirmation before taking further action.",
+      "retryFeedback": "Return to Ask precisely and wait and identify what must happen after the question is asked.",
+      "theoryAnchor": "Ask precisely and wait"
+    },
+    {
+      "id": "M01S03Q09",
+      "question": "Which response does not count as teacher confirmation?",
+      "choices": [
+        "A clear direction from the teacher",
+        "The teacher approving the activity",
+        "A nod from another student",
+        "The teacher answering the precise question"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Another student's response does not replace teacher confirmation.",
+      "retryFeedback": "Re-read Ask precisely and wait and focus on what should not be treated as approval.",
+      "theoryAnchor": "Ask precisely and wait"
+    },
+    {
+      "id": "M01S03Q10",
+      "question": "Which final check best shows that a student is ready?",
+      "choices": [
+        "I have started, so I must be ready",
+        "I have materials and another student nearby",
+        "I can probably work out anything unclear later",
+        "I understand the instruction, the area is suitable, I have permission and my question is answered"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. This check covers understanding, the work area, permission and resolved uncertainty.",
+      "retryFeedback": "Review the final sentence of Ask precisely and wait and identify each part of the readiness check.",
+      "theoryAnchor": "Ask precisely and wait"
+    }
+  ],
+  "written": {
+    "prompt": "Describe a general workshop situation in which a student is not yet ready to begin. Identify the uncertainty, give one precise question and explain what the student should do next.",
+    "sentenceStarter": "The student is not ready because ___. A precise question would be ___. After asking, the student should ___.",
+    "example": "The student is not ready because they are unsure whether they may begin in that area. A precise question would be whether they have permission to start there. After asking, they should wait for teacher confirmation."
+  }
+}

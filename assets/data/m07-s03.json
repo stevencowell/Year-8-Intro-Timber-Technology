@@ -1,0 +1,165 @@
+{
+  "sectionId": "m07-s03",
+  "title": "Criteria, selection and refinement",
+  "theory": [
+    {
+      "heading": "Compare concepts with criteria",
+      "body": "Design criteria are clear points used to compare ideas fairly. For a personal emblem, useful criteria include clarity, recognition, balance, contrast, suitability for the approved decorative process and personal meaning. Clarity asks whether the design is easy to understand. Recognition considers whether the main theme can be identified. Balance looks at how visual weight is arranged, while contrast helps important shapes stand apart. Suitability considers whether the concept can work with the teacher-approved process without assuming that laser cutting or engraving will be used."
+    },
+    {
+      "heading": "Record strengths and limitations",
+      "body": "Compare the three concepts side by side and record useful pros and cons for each one. A pro should describe a genuine strength, such as a clear main symbol or strong personal connection. A con should identify a limitation, such as crowded detail, weak contrast or an unclear arrangement. Avoid vague comments such as good or bad. Use the criteria to explain why one concept performs better in some areas and where it still needs improvement. This creates evidence for the final selection."
+    },
+    {
+      "heading": "Justify and refine one concept",
+      "body": "Select one concept and justify the choice using more than personal preference. Explain which criteria it meets and acknowledge any limitation that remains. Refinement means making purposeful changes that improve the selected design while keeping its main meaning. Changes might simplify an outline, strengthen contrast, adjust balance or remove distracting details. Any laser cutting or engraving remains optional and requires teacher approval. Current school SOPs and teacher directions control all actual workshop activity. If process suitability is uncertain, pause and ask before refining further."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M07S03Q01",
+      "question": "What is the purpose of design criteria?",
+      "choices": [
+        "To compare concepts using clear points",
+        "To make every concept identical",
+        "To replace personal meaning",
+        "To select the most detailed drawing"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Criteria provide clear points for comparing concepts fairly and consistently.",
+      "retryFeedback": "Review Compare concepts with criteria and focus on why criteria are used.",
+      "theoryAnchor": "Compare concepts with criteria"
+    },
+    {
+      "id": "M07S03Q02",
+      "question": "Which criterion considers whether the main theme can be identified?",
+      "choices": [
+        "Balance",
+        "Recognition",
+        "Contrast",
+        "Process suitability"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Recognition considers whether a viewer can identify the intended theme.",
+      "retryFeedback": "Return to Compare concepts with criteria and locate the explanation of recognition.",
+      "theoryAnchor": "Compare concepts with criteria"
+    },
+    {
+      "id": "M07S03Q03",
+      "question": "What does balance consider in an emblem?",
+      "choices": [
+        "The number of references collected",
+        "The exact drawing size",
+        "How visual weight is arranged",
+        "Whether every shape is symmetrical"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Balance considers how visual weight is distributed across the design.",
+      "retryFeedback": "Re-read Compare concepts with criteria and focus on the meaning of balance.",
+      "theoryAnchor": "Compare concepts with criteria"
+    },
+    {
+      "id": "M07S03Q04",
+      "question": "What does suitability for the approved decorative process require?",
+      "choices": [
+        "Assuming laser engraving will be used",
+        "Selecting the most complex concept",
+        "Ignoring teacher direction",
+        "Considering whether the design can work with the approved process"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Suitability means considering whether the concept can work with the process that has actually been approved.",
+      "retryFeedback": "Review Compare concepts with criteria and identify what process suitability asks the designer to consider.",
+      "theoryAnchor": "Compare concepts with criteria"
+    },
+    {
+      "id": "M07S03Q05",
+      "question": "Which comment is a useful pro for an emblem concept?",
+      "choices": [
+        "It is good",
+        "The main symbol is clear and personally meaningful",
+        "It was drawn first",
+        "It contains many details"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. This comment identifies specific strengths linked to clarity and personal meaning.",
+      "retryFeedback": "Return to Record strengths and limitations and focus on what makes a useful pro.",
+      "theoryAnchor": "Record strengths and limitations"
+    },
+    {
+      "id": "M07S03Q06",
+      "question": "Which comment is a useful con?",
+      "choices": [
+        "The concept is bad",
+        "The student dislikes comparing ideas",
+        "The crowded details make the main symbol difficult to recognise",
+        "The drawing took several minutes"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. This identifies a specific limitation connected to clarity and recognition.",
+      "retryFeedback": "Re-read Record strengths and limitations and identify how a useful limitation should be described.",
+      "theoryAnchor": "Record strengths and limitations"
+    },
+    {
+      "id": "M07S03Q07",
+      "question": "Why should vague comments such as good or bad be avoided?",
+      "choices": [
+        "They make concepts too balanced",
+        "They remove all personal meaning",
+        "They automatically select the final concept",
+        "They do not explain performance against the criteria"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Vague comments do not show why a concept succeeds or needs improvement.",
+      "retryFeedback": "Review Record strengths and limitations and focus on why specific evidence is required.",
+      "theoryAnchor": "Record strengths and limitations"
+    },
+    {
+      "id": "M07S03Q08",
+      "question": "What makes a concept selection well justified?",
+      "choices": [
+        "Explaining how it meets criteria and noting a limitation",
+        "Using personal preference only",
+        "Selecting the most detailed option",
+        "Choosing the first idea"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A strong justification uses criteria and honestly recognises any remaining weakness.",
+      "retryFeedback": "Return to Justify and refine one concept and identify what the selection explanation should include.",
+      "theoryAnchor": "Justify and refine one concept"
+    },
+    {
+      "id": "M07S03Q09",
+      "question": "Which change is an example of refinement?",
+      "choices": [
+        "Replacing the idea without explanation",
+        "Copying a completed emblem",
+        "Simplifying a distracting outline to improve clarity",
+        "Adding detail only to fill empty space"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Simplifying a distracting outline is a purposeful improvement linked to clarity.",
+      "retryFeedback": "Re-read Justify and refine one concept and focus on the examples of purposeful changes.",
+      "theoryAnchor": "Justify and refine one concept"
+    },
+    {
+      "id": "M07S03Q10",
+      "question": "What should a student do if decorative-process suitability is uncertain?",
+      "choices": [
+        "Assume laser engraving is required",
+        "Copy another student's process choice",
+        "Choose the most complicated design",
+        "Pause and ask before continuing"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Asking prevents unsupported assumptions about an optional, teacher-approved process.",
+      "retryFeedback": "Review the final sentences of Justify and refine one concept and identify the response to uncertainty.",
+      "theoryAnchor": "Justify and refine one concept"
+    }
+  ],
+  "written": {
+    "prompt": "Compare three emblem concepts using the stated criteria, select one concept and explain one purposeful refinement.",
+    "sentenceStarter": "I selected concept ___ because it has strong ___ and ___. One limitation is ___. I will refine it by ___.",
+    "example": "I selected concept two because it has strong recognition and personal meaning. One limitation is that the smaller shapes reduce clarity. I will refine it by removing unnecessary detail and strengthening the contrast around the main symbol."
+  }
+}

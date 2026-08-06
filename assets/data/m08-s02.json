@@ -1,0 +1,165 @@
+{
+  "sectionId": "m08-s02",
+  "title": "Recording quality evidence",
+  "theory": [
+    {
+      "heading": "Use specific evidence",
+      "body": "Quality evidence shows what can be observed or checked rather than giving a vague opinion. Comments such as it is good or it looks right do not explain why the work meets a requirement. Stronger evidence identifies a visible condition, an approved check result, teacher feedback or an approved photograph. For example, a student might record that two visible edges aligned during a check or that a surface showed an area needing further attention. The description should stay factual and avoid claims that cannot be supported."
+    },
+    {
+      "heading": "Connect evidence to requirements",
+      "body": "Evidence becomes more useful when it is linked to the relevant plan information or teacher direction. An approved measurement or check result should identify what was compared without inventing a dimension or tolerance. Teacher feedback can also be recorded accurately by stating the point that was discussed and what required further checking. Do not turn feedback into a mark, grade or guarantee of quality. The unchanged original plan and teacher directions provide the criteria for deciding what should be checked."
+    },
+    {
+      "heading": "Choose and explain photos",
+      "body": "An approved photograph can provide quality evidence when it clearly shows the feature being discussed. A useful photo should be connected to a short explanation of what is visible and why it matters. A photograph alone may not prove accuracy, strength or completion, so combine it with an approved check or teacher feedback where appropriate. Current school SOPs and teacher directions control all actual workshop activity and photography. If the evidence is unclear, incomplete or unsupported, state the limitation and ask what further check is needed rather than claiming that the work is correct."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M08S02Q01",
+      "question": "Which statement best describes quality evidence?",
+      "choices": [
+        "Specific information that can be observed or checked",
+        "A general opinion that the work looks good",
+        "A guess about how strong the work may be",
+        "A claim that the activity is finished"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Quality evidence is specific and can be supported through observation, checking, feedback or an approved photograph.",
+      "retryFeedback": "Review Use specific evidence and focus on what separates evidence from a vague opinion.",
+      "theoryAnchor": "Use specific evidence"
+    },
+    {
+      "id": "M08S02Q02",
+      "question": "Why is the comment it is good weak evidence?",
+      "choices": [
+        "It contains too much detail",
+        "It does not explain what was observed or checked",
+        "It identifies the wrong plan",
+        "It includes teacher feedback"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The comment is too vague because it gives no observable or checkable reason for the judgement.",
+      "retryFeedback": "Return to Use specific evidence and identify why general comments are not useful evidence.",
+      "theoryAnchor": "Use specific evidence"
+    },
+    {
+      "id": "M08S02Q03",
+      "question": "Which option is an objective quality observation?",
+      "choices": [
+        "The work is perfect",
+        "The result must be strong",
+        "Two visible edges aligned during the approved check",
+        "The project is better than every other one"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. This statement records a specific visible result from an approved check without adding an unsupported claim.",
+      "retryFeedback": "Re-read Use specific evidence and focus on the examples of factual observations.",
+      "theoryAnchor": "Use specific evidence"
+    },
+    {
+      "id": "M08S02Q04",
+      "question": "What should an approved check result be linked to?",
+      "choices": [
+        "Another student's opinion",
+        "An invented tolerance",
+        "A personal rating",
+        "Relevant plan information or teacher direction"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Linking the result to authorised requirements shows what the evidence was used to check.",
+      "retryFeedback": "Review Connect evidence to requirements and identify what provides the basis for a quality check.",
+      "theoryAnchor": "Connect evidence to requirements"
+    },
+    {
+      "id": "M08S02Q05",
+      "question": "How should teacher feedback be recorded?",
+      "choices": [
+        "By converting it into a mark",
+        "By accurately stating the point discussed and what needed checking",
+        "By claiming the work is guaranteed to be correct",
+        "By changing it to sound more positive"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Accurate recording preserves the meaning of the feedback without adding unsupported conclusions.",
+      "retryFeedback": "Return to Connect evidence to requirements and focus on how feedback should be documented.",
+      "theoryAnchor": "Connect evidence to requirements"
+    },
+    {
+      "id": "M08S02Q06",
+      "question": "Why should teacher feedback not be turned into a grade or guarantee?",
+      "choices": [
+        "Feedback is never useful",
+        "Every student must receive identical feedback",
+        "That would add information not supported by the evidence",
+        "Only photographs can show quality"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Feedback should be recorded as given rather than changed into an unsupported judgement or result.",
+      "retryFeedback": "Re-read Connect evidence to requirements and identify what must not be added to feedback.",
+      "theoryAnchor": "Connect evidence to requirements"
+    },
+    {
+      "id": "M08S02Q07",
+      "question": "What makes an approved photograph useful as evidence?",
+      "choices": [
+        "It is taken from the greatest distance",
+        "It contains as many objects as possible",
+        "It replaces every other quality check",
+        "It clearly shows the relevant feature and is explained"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The photograph should clearly show the feature and be linked to an explanation of its relevance.",
+      "retryFeedback": "Review Choose and explain photos and focus on what a useful photograph must communicate.",
+      "theoryAnchor": "Choose and explain photos"
+    },
+    {
+      "id": "M08S02Q08",
+      "question": "What can a photograph usually not prove by itself?",
+      "choices": [
+        "Accuracy, strength or completion",
+        "That the image was approved",
+        "That a surface has a visible mark",
+        "That a feature is visible"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A photograph may show appearance, but stronger claims usually require an approved check or feedback.",
+      "retryFeedback": "Return to Choose and explain photos and identify the limits of photographic evidence.",
+      "theoryAnchor": "Choose and explain photos"
+    },
+    {
+      "id": "M08S02Q09",
+      "question": "What should a student do when quality evidence is incomplete?",
+      "choices": [
+        "Invent a result that fits the plan",
+        "Claim the work is correct anyway",
+        "State the limitation and seek a further approved check",
+        "Copy evidence from another student"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Identifying the limitation keeps the record honest and shows that further evidence is required.",
+      "retryFeedback": "Re-read Choose and explain photos and focus on the response to unclear or incomplete evidence.",
+      "theoryAnchor": "Choose and explain photos"
+    },
+    {
+      "id": "M08S02Q10",
+      "question": "Which record provides the strongest quality evidence?",
+      "choices": [
+        "The work looks fine",
+        "Another student says the work is complete",
+        "The student feels confident",
+        "An approved photo with a specific observation and linked check result"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Combining a clear image, objective observation and authorised check creates specific, supported evidence.",
+      "retryFeedback": "Review all of Choose and explain photos and identify how different evidence types can support one another.",
+      "theoryAnchor": "Choose and explain photos"
+    }
+  ],
+  "written": {
+    "prompt": "Record one piece of quality evidence using a specific observation, an approved check or teacher feedback, and explain how it relates to the plan information or teacher direction.",
+    "sentenceStarter": "I observed ___. I checked this using ___. This provides quality evidence because ___.",
+    "example": "I observed that two visible edges aligned during the approved check. I compared them using the relevant plan information and teacher direction. This provides quality evidence because it records a specific result rather than a general opinion."
+  }
+}

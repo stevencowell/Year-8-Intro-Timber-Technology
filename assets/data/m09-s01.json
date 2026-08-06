@@ -1,0 +1,165 @@
+{
+  "sectionId": "m09-s01",
+  "title": "Function vocabulary",
+  "theory": [
+    {
+      "heading": "Understand product function",
+      "body": "Function describes how well a product performs its intended purpose. A product should be judged using evidence from approved observations and checks rather than appearance or opinion alone. Saying that something looks good does not show whether it performs its purpose effectively. Functional vocabulary helps students describe different parts of performance clearly. These words do not prove that a particular Footstool has passed a test. They provide general criteria that can be used when evidence is available."
+    },
+    {
+      "heading": "Describe performance qualities",
+      "body": "Stable means resisting unwanted movement during intended use. Ergonomic means designed to support suitable and comfortable human use. Safe means risks have been controlled for the intended situation. Durable means able to withstand expected use over time. Reliable means performing consistently when used as intended. Each word focuses on a different quality, so they should not be treated as interchangeable. A product may show evidence of one quality while another quality still requires checking."
+    },
+    {
+      "heading": "Consider resources and evidence",
+      "body": "Efficient means achieving the intended result without unnecessary use of time, effort or resources. Economical means providing reasonable value while considering costs and resource use. Economical does not simply mean cheapest, and efficient does not simply mean fastest. Functional claims should be linked to specific evidence, approved checks or teacher feedback. Avoid declaring a product stable, safe, durable or otherwise successful without support. The unchanged original plan, current school SOPs and teacher directions control all actual workshop activity. When evidence is incomplete, state what still needs to be checked."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M09S01Q01",
+      "question": "What does product function describe?",
+      "choices": [
+        "How well a product performs its intended purpose",
+        "How attractive its colour appears",
+        "How quickly it was made",
+        "How many materials were available"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Function concerns how effectively a product performs the purpose for which it was intended.",
+      "retryFeedback": "Review Understand product function and focus on the opening definition.",
+      "theoryAnchor": "Understand product function"
+    },
+    {
+      "id": "M09S01Q02",
+      "question": "Why is appearance alone weak evidence of function?",
+      "choices": [
+        "Appearance is never relevant",
+        "It does not show whether the product performs its intended purpose",
+        "Every attractive product is unreliable",
+        "It automatically proves durability"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A product may look appealing without evidence that it performs its intended purpose effectively.",
+      "retryFeedback": "Return to Understand product function and identify why observation must go beyond appearance.",
+      "theoryAnchor": "Understand product function"
+    },
+    {
+      "id": "M09S01Q03",
+      "question": "What does stable mean in a functional comparison?",
+      "choices": [
+        "Providing the lowest possible cost",
+        "Feeling comfortable for every person",
+        "Resisting unwanted movement during intended use",
+        "Using the least material in every situation"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Stability concerns resistance to unwanted movement during intended use.",
+      "retryFeedback": "Review Describe performance qualities and locate the definition of stable.",
+      "theoryAnchor": "Describe performance qualities"
+    },
+    {
+      "id": "M09S01Q04",
+      "question": "Which description best matches ergonomic?",
+      "choices": [
+        "Able to last forever",
+        "Guaranteed to be safe",
+        "Always inexpensive",
+        "Designed to support suitable and comfortable human use"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Ergonomic design considers how a product supports suitable and comfortable human use.",
+      "retryFeedback": "Return to Describe performance qualities and focus on the quality related to human use.",
+      "theoryAnchor": "Describe performance qualities"
+    },
+    {
+      "id": "M09S01Q05",
+      "question": "What does durable mean?",
+      "choices": [
+        "Performing quickly in one lesson",
+        "Able to withstand expected use over time",
+        "Having no visible marks",
+        "Being the cheapest option"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Durability concerns how well a product withstands expected use over time.",
+      "retryFeedback": "Re-read Describe performance qualities and identify the definition connected to extended use.",
+      "theoryAnchor": "Describe performance qualities"
+    },
+    {
+      "id": "M09S01Q06",
+      "question": "What does reliable mean?",
+      "choices": [
+        "Looking identical from every angle",
+        "Using no resources",
+        "Performing consistently when used as intended",
+        "Being comfortable for all possible users"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Reliability means producing consistent performance during intended use.",
+      "retryFeedback": "Review Describe performance qualities and focus on the quality involving consistent performance.",
+      "theoryAnchor": "Describe performance qualities"
+    },
+    {
+      "id": "M09S01Q07",
+      "question": "Why should functional terms not be treated as interchangeable?",
+      "choices": [
+        "Only one term may be used in a reflection",
+        "The terms apply only to appearance",
+        "Every term means the product has passed",
+        "Each term describes a different performance quality"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Stability, safety, durability and the other terms describe different aspects of function.",
+      "retryFeedback": "Return to Describe performance qualities and identify why several qualities may need separate checks.",
+      "theoryAnchor": "Describe performance qualities"
+    },
+    {
+      "id": "M09S01Q08",
+      "question": "Which statement best explains efficient?",
+      "choices": [
+        "Achieving the intended result without unnecessary time, effort or resources",
+        "Completing an activity as quickly as possible",
+        "Avoiding every use of resources",
+        "Choosing the least expensive option"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Efficiency considers the result together with the time, effort and resources used.",
+      "retryFeedback": "Review Consider resources and evidence and focus on the full definition of efficient.",
+      "theoryAnchor": "Consider resources and evidence"
+    },
+    {
+      "id": "M09S01Q09",
+      "question": "Why does economical not simply mean cheapest?",
+      "choices": [
+        "It measures only the time used",
+        "It means the product must be expensive",
+        "It considers value, costs and resource use together",
+        "It guarantees high durability"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. An economical judgement considers reasonable value rather than price alone.",
+      "retryFeedback": "Return to Consider resources and evidence and identify what economical includes beyond price.",
+      "theoryAnchor": "Consider resources and evidence"
+    },
+    {
+      "id": "M09S01Q10",
+      "question": "What should a student do when evidence for a functional claim is incomplete?",
+      "choices": [
+        "Declare that the product has passed",
+        "Copy another student's conclusion",
+        "Choose the most positive term",
+        "State what still needs to be checked"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Stating the missing check keeps the evaluation accurate and evidence-based.",
+      "retryFeedback": "Review the final sentences of Consider resources and evidence and identify the response to incomplete evidence.",
+      "theoryAnchor": "Consider resources and evidence"
+    }
+  ],
+  "written": {
+    "prompt": "Use at least three function terms to explain what evidence would be needed before making claims about a product's performance.",
+    "sentenceStarter": "To describe the product as ___, I would need evidence that ___. To describe it as ___, I would check ___. I cannot yet claim ___ because ___.",
+    "example": "To describe the product as stable, I would need evidence that it resists unwanted movement during an approved check. To describe it as reliable, I would check whether it performs consistently. I cannot yet claim it is durable because evidence from expected use over time is not available."
+  }
+}

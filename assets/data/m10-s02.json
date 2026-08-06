@@ -1,0 +1,165 @@
+{
+  "sectionId": "m10-s02",
+  "title": "Analysing appearance with evidence",
+  "theory": [
+    {
+      "heading": "Identify the visual feature",
+      "body": "An evidence-based aesthetic judgement begins by identifying a feature that can be seen. This might include texture, pattern, symmetry, contrast, layout, geometric form, organic form, visual hierarchy or emphasis. Describe the feature precisely rather than making a general comment. For example, a student might notice repeated shapes, balanced spacing or one feature that appears more prominent than the others. Do not invent the colour, finish, emblem or other details of a particular Footstool. Base the description only on the visual evidence available."
+    },
+    {
+      "heading": "Name the aesthetic criterion",
+      "body": "Next, connect the feature to an appropriate aesthetic criterion. A repeated arrangement relates to pattern, noticeable difference relates to contrast, and the order in which elements attract attention relates to visual hierarchy. The criterion gives the observation a clear focus and helps explain why the feature matters. Avoid using several terms without showing how they apply. A strong judgement links one visible feature to a criterion that accurately describes it."
+    },
+    {
+      "heading": "Explain the effect on the viewer",
+      "body": "Finish by explaining how the feature may affect the viewer. A central feature with strong contrast may attract attention first, while repeated elements may create unity or rhythm. Balanced spacing may make a layout appear organised. Use cautious language because viewers can respond differently. Evidence-based analysis explains the visual reason for a response, while a comment such as I like it gives only personal preference. Current school SOPs and teacher directions control all actual workshop activity. When the intended effect is uncertain, describe the observed effect without claiming to know the designer's intention."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M10S02Q01",
+      "question": "What should begin an evidence-based aesthetic judgement?",
+      "choices": [
+        "A specific visible feature",
+        "A personal preference",
+        "An invented colour choice",
+        "A claim about the designer's intention"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A strong judgement begins with a feature that can be directly observed.",
+      "retryFeedback": "Review Identify the visual feature and focus on the first step in the analysis.",
+      "theoryAnchor": "Identify the visual feature"
+    },
+    {
+      "id": "M10S02Q02",
+      "question": "Which statement is a precise visual observation?",
+      "choices": [
+        "The design is nice",
+        "Repeated shapes appear across the layout",
+        "The finish must be high quality",
+        "The emblem is definitely meaningful"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. This statement identifies an observable feature without adding unsupported details.",
+      "retryFeedback": "Return to Identify the visual feature and focus on the difference between observation and general opinion.",
+      "theoryAnchor": "Identify the visual feature"
+    },
+    {
+      "id": "M10S02Q03",
+      "question": "What should a student avoid when visual details are not available?",
+      "choices": [
+        "Naming an observable pattern",
+        "Describing balanced spacing",
+        "Inventing the actual colour or finish",
+        "Identifying a visible contrast"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Analysis must use available evidence rather than invented product details.",
+      "retryFeedback": "Re-read Identify the visual feature and identify the details that must not be assumed.",
+      "theoryAnchor": "Identify the visual feature"
+    },
+    {
+      "id": "M10S02Q04",
+      "question": "Which criterion best matches a noticeable difference between visual elements?",
+      "choices": [
+        "Texture",
+        "Pattern",
+        "Layout",
+        "Contrast"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Contrast describes a noticeable difference between visual elements.",
+      "retryFeedback": "Review Name the aesthetic criterion and focus on the criterion linked to visual difference.",
+      "theoryAnchor": "Name the aesthetic criterion"
+    },
+    {
+      "id": "M10S02Q05",
+      "question": "Which criterion describes the order in which elements attract attention?",
+      "choices": [
+        "Symmetry",
+        "Visual hierarchy",
+        "Texture",
+        "Organic form"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Visual hierarchy describes what a viewer notices first, second and later.",
+      "retryFeedback": "Return to Name the aesthetic criterion and identify the term linked to viewing order.",
+      "theoryAnchor": "Name the aesthetic criterion"
+    },
+    {
+      "id": "M10S02Q06",
+      "question": "Why should an aesthetic term be linked to a visible feature?",
+      "choices": [
+        "To make the analysis longer",
+        "To replace all observations",
+        "To show accurately how the criterion applies",
+        "To prove the design is successful"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Linking the term to evidence shows why the criterion is relevant.",
+      "retryFeedback": "Re-read Name the aesthetic criterion and focus on what makes a judgement well supported.",
+      "theoryAnchor": "Name the aesthetic criterion"
+    },
+    {
+      "id": "M10S02Q07",
+      "question": "Which statement best explains an effect on the viewer?",
+      "choices": [
+        "The design is good",
+        "I like the layout",
+        "The designer wanted everyone to feel impressed",
+        "The larger central feature may attract attention first"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. This connects an observable feature to a cautious explanation of its visual effect.",
+      "retryFeedback": "Review Explain the effect on the viewer and focus on how visual impact should be described.",
+      "theoryAnchor": "Explain the effect on the viewer"
+    },
+    {
+      "id": "M10S02Q08",
+      "question": "Why is the comment I like it not enough for aesthetic analysis?",
+      "choices": [
+        "It does not explain the visual evidence behind the response",
+        "It identifies too many criteria",
+        "It proves the design has failed",
+        "Personal preferences are never allowed"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Analysis must explain which feature and criterion created the response.",
+      "retryFeedback": "Return to Explain the effect on the viewer and compare personal preference with evidence-based analysis.",
+      "theoryAnchor": "Explain the effect on the viewer"
+    },
+    {
+      "id": "M10S02Q09",
+      "question": "How should a student describe an uncertain visual effect?",
+      "choices": [
+        "Choose the strongest possible claim",
+        "State the designer's intention as fact",
+        "Use cautious language based on what is visible",
+        "Copy another viewer's opinion"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Cautious wording recognises that visual responses may differ between viewers.",
+      "retryFeedback": "Re-read Explain the effect on the viewer and focus on how uncertainty should be handled.",
+      "theoryAnchor": "Explain the effect on the viewer"
+    },
+    {
+      "id": "M10S02Q10",
+      "question": "Which sequence forms a complete aesthetic judgement?",
+      "choices": [
+        "Opinion, colour, mark and result",
+        "Preference, designer intention and rating",
+        "Construction step, dimension and finish",
+        "Visible feature, aesthetic criterion and effect on the viewer"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A complete judgement identifies evidence, names the relevant criterion and explains its visual effect.",
+      "retryFeedback": "Review all of Explain the effect on the viewer and identify the three connected parts of the analysis.",
+      "theoryAnchor": "Explain the effect on the viewer"
+    }
+  ],
+  "written": {
+    "prompt": "Write one evidence-based aesthetic judgement that identifies a visible feature, names an aesthetic criterion and explains its possible effect on the viewer.",
+    "sentenceStarter": "The visible feature is ___. This relates to ___ because ___. It may affect the viewer by ___.",
+    "example": "The visible feature is a larger central shape surrounded by smaller repeated forms. This relates to visual hierarchy because the size difference creates a clear viewing order. It may cause the viewer to notice the central shape first."
+  }
+}

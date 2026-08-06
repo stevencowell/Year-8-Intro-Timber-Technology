@@ -1,0 +1,165 @@
+{
+  "sectionId": "m08-s01",
+  "title": "Observing practical progress",
+  "theory": [
+    {
+      "heading": "Record the lesson clearly",
+      "body": "A process log is a clear record of practical progress. Begin each entry with the date or lesson reference when directed. Then identify the broad task attempted without writing a hidden construction sequence. A broad task might describe the area of work or the purpose of the activity in general terms. This helps the reader understand what the entry covers while keeping the record connected to the authorised lesson. The original plan, current school SOPs and teacher directions control all actual making activity."
+    },
+    {
+      "heading": "Write objective observations",
+      "body": "An objective observation describes what could be seen, heard or compared without adding an unsupported opinion. For example, a student might record that two marked references aligned, a surface appeared uneven or a visible gap remained during a check. Avoid vague comments such as it went well or it looks bad. Also avoid claiming that work is perfect, strong or complete unless the available evidence supports that conclusion. Precise observations make the log useful because they show what actually happened during the lesson."
+    },
+    {
+      "heading": "State what was checked",
+      "body": "Each entry should identify what was checked and the information used for that check. This may include comparison with the original plan, an approved reference, teacher direction or another authorised requirement. Recording the check helps separate observation from assumption. If something did not match, describe the difference clearly and note that clarification was sought or further checking was required. Do not invent the next action. A useful entry answers four questions: When was the lesson, what broad task was attempted, what was observed and what was checked?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "M08S01Q01",
+      "question": "What is the main purpose of a process log?",
+      "choices": [
+        "To record practical progress clearly",
+        "To replace the original plan",
+        "To prescribe construction steps",
+        "To list machine settings"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A process log records what occurred and what was observed during practical progress.",
+      "retryFeedback": "Review Record the lesson clearly and focus on the opening explanation of a process log.",
+      "theoryAnchor": "Record the lesson clearly"
+    },
+    {
+      "id": "M08S01Q02",
+      "question": "What should begin a process-log entry when directed?",
+      "choices": [
+        "A judgement about quality",
+        "The date or lesson reference",
+        "A list of future activities",
+        "A copied construction sequence"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A date or lesson reference helps identify when the recorded activity occurred.",
+      "retryFeedback": "Return to Record the lesson clearly and identify the first information added to an entry.",
+      "theoryAnchor": "Record the lesson clearly"
+    },
+    {
+      "id": "M08S01Q03",
+      "question": "How should the attempted task be described?",
+      "choices": [
+        "As every detailed making step",
+        "As an invented sequence",
+        "As the broad task attempted",
+        "As a list of equipment settings"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. The log should identify the broad task without revealing or inventing a construction sequence.",
+      "retryFeedback": "Re-read Record the lesson clearly and focus on the level of task detail required.",
+      "theoryAnchor": "Record the lesson clearly"
+    },
+    {
+      "id": "M08S01Q04",
+      "question": "Which statement is an objective observation?",
+      "choices": [
+        "The work was excellent",
+        "The activity felt easy",
+        "The result is definitely strong",
+        "A visible gap remained during the check"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. This statement reports a visible condition without adding an unsupported judgement.",
+      "retryFeedback": "Review Write objective observations and identify the type of evidence an objective statement describes.",
+      "theoryAnchor": "Write objective observations"
+    },
+    {
+      "id": "M08S01Q05",
+      "question": "Why is the statement it went well too vague for a process log?",
+      "choices": [
+        "It contains too much technical information",
+        "It does not describe what was actually observed",
+        "It identifies the lesson too clearly",
+        "It gives an approved reference"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A useful entry records specific evidence rather than a general opinion.",
+      "retryFeedback": "Return to Write objective observations and focus on the comments students should avoid.",
+      "theoryAnchor": "Write objective observations"
+    },
+    {
+      "id": "M08S01Q06",
+      "question": "When is it appropriate to claim that work is complete or perfect?",
+      "choices": [
+        "Whenever the student feels confident",
+        "When another student agrees",
+        "Only when available evidence supports the claim",
+        "At the end of every lesson"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Conclusions should only be recorded when they are supported by suitable evidence.",
+      "retryFeedback": "Re-read Write objective observations and identify the limit placed on strong conclusions.",
+      "theoryAnchor": "Write objective observations"
+    },
+    {
+      "id": "M08S01Q07",
+      "question": "What should accompany an observation in a useful log entry?",
+      "choices": [
+        "An invented next step",
+        "A personal rating",
+        "A copied comment from another student",
+        "A statement of what was checked"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Recording what was checked shows how the observation was compared with authorised information.",
+      "retryFeedback": "Review State what was checked and focus on the extra information each entry should identify.",
+      "theoryAnchor": "State what was checked"
+    },
+    {
+      "id": "M08S01Q08",
+      "question": "Which reference may be used for an authorised check?",
+      "choices": [
+        "The unchanged original plan",
+        "An unrelated project image",
+        "A remembered value",
+        "A screen estimate"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. The original plan is an authorised reference for checking relevant project information.",
+      "retryFeedback": "Return to State what was checked and identify the approved sources used for comparison.",
+      "theoryAnchor": "State what was checked"
+    },
+    {
+      "id": "M08S01Q09",
+      "question": "What should a student record when something does not match?",
+      "choices": [
+        "A hidden construction step",
+        "A guessed correction",
+        "The difference and the need for clarification or further checking",
+        "A claim that the reference is wrong"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. The entry should describe the difference clearly and record the need for clarification or further checking.",
+      "retryFeedback": "Re-read State what was checked and focus on the response to a mismatch.",
+      "theoryAnchor": "State what was checked"
+    },
+    {
+      "id": "M08S01Q10",
+      "question": "Which set of questions forms a useful process-log check?",
+      "choices": [
+        "Who finished first, who helped and who watched",
+        "What grade, what mark and what deadline",
+        "What settings, what dimensions and what sequence",
+        "When, what broad task, what was observed and what was checked"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. These four questions create a clear, evidence-based record of practical progress.",
+      "retryFeedback": "Review the final sentence of State what was checked and identify the four parts of a useful entry.",
+      "theoryAnchor": "State what was checked"
+    }
+  ],
+  "written": {
+    "prompt": "Write one process-log entry that includes a lesson reference, the broad task attempted, one objective observation and what was checked. Do not include construction steps.",
+    "sentenceStarter": "During lesson ___, I attempted ___. I observed ___. I checked this against ___.",
+    "example": "During lesson five, I attempted a general marking activity. I observed that one marked reference did not align with the comparison point. I checked this against the original plan and sought clarification before continuing."
+  }
+}

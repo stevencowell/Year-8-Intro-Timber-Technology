@@ -1,0 +1,165 @@
+{
+  "sectionId": "m06-s03",
+  "title": "Isometric communication",
+  "theory": [
+    {
+      "heading": "Show form in one view",
+      "body": "An isometric drawing is a three-dimensional-looking communication view. It shows several faces of an object in one image, helping the reader understand its overall form. Unlike front, plan and side views, it does not separate the object into different viewing directions. Isometric drawings are useful for showing how visible surfaces, edges and features relate to one another. They communicate appearance clearly, but they do not replace the related views and written information on the original plan."
+    },
+    {
+      "heading": "Use three principal directions",
+      "body": "Isometric drawings use three principal directions. Vertical edges remain vertical, while two receding directions are commonly drawn at about 30 degrees to the horizontal. Edges that run in the same direction on the object should remain parallel in the drawing. Keeping these directions consistent helps the object appear solid and organised. Lines should not be changed simply to make a feature look more realistic. The purpose is clear technical communication rather than artistic perspective."
+    },
+    {
+      "heading": "Read form without estimating size",
+      "body": "An isometric view can help a student recognise the general shape, position and relationship of features. However, its apparent line lengths must not be used to estimate or control size. Written dimensions on the unchanged original two-page Footstool plan remain the sole dimensional authority. Compare the isometric form with the related plan and elevation views, then read the written information connected to the feature. If the views appear inconsistent or a feature is unclear, pause and ask rather than inventing information. Current school SOPs and teacher directions control all actual workshop activity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M06S03Q01",
+      "question": "What is an isometric drawing mainly used to communicate?",
+      "choices": [
+        "A three-dimensional-looking view of an object",
+        "A list of materials",
+        "A practical work sequence",
+        "A single flat face only"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. An isometric drawing shows several faces together to communicate the overall form of an object.",
+      "retryFeedback": "Review Show form in one view and focus on the opening explanation of an isometric drawing.",
+      "theoryAnchor": "Show form in one view"
+    },
+    {
+      "id": "M06S03Q02",
+      "question": "How does an isometric drawing differ from front, plan and side views?",
+      "choices": [
+        "It shows only hidden features",
+        "It combines several visible faces in one view",
+        "It replaces all written information",
+        "It shows each direction on a separate page"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. An isometric drawing combines several visible faces instead of separating them into individual views.",
+      "retryFeedback": "Return to Show form in one view and compare isometric communication with related two-dimensional views.",
+      "theoryAnchor": "Show form in one view"
+    },
+    {
+      "id": "M06S03Q03",
+      "question": "What can an isometric drawing help a reader understand?",
+      "choices": [
+        "The exact size from line length",
+        "The order of practical work",
+        "How surfaces and features relate",
+        "Which tool should be used"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Isometric drawings help show the relationship between visible surfaces, edges and features.",
+      "retryFeedback": "Re-read Show form in one view and identify what the combined view helps communicate.",
+      "theoryAnchor": "Show form in one view"
+    },
+    {
+      "id": "M06S03Q04",
+      "question": "How are vertical edges usually shown in an isometric drawing?",
+      "choices": [
+        "At about 30 degrees",
+        "As curved lines",
+        "As horizontal lines",
+        "As vertical lines"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Vertical edges remain vertical in an isometric drawing.",
+      "retryFeedback": "Review Use three principal directions and identify how the vertical direction is represented.",
+      "theoryAnchor": "Use three principal directions"
+    },
+    {
+      "id": "M06S03Q05",
+      "question": "At about what angle are the receding directions commonly drawn to the horizontal?",
+      "choices": [
+        "About 10 degrees",
+        "About 30 degrees",
+        "About 60 degrees",
+        "About 90 degrees"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The two receding directions are commonly drawn at about 30 degrees to the horizontal.",
+      "retryFeedback": "Return to Use three principal directions and focus on the common angle of the receding lines.",
+      "theoryAnchor": "Use three principal directions"
+    },
+    {
+      "id": "M06S03Q06",
+      "question": "What should happen to edges that run in the same direction on the object?",
+      "choices": [
+        "They should meet at random points",
+        "They should become curved",
+        "They should remain parallel in the drawing",
+        "They should change angle between features"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Parallel directions help the drawing remain clear, consistent and technically organised.",
+      "retryFeedback": "Re-read Use three principal directions and focus on how matching edge directions are represented.",
+      "theoryAnchor": "Use three principal directions"
+    },
+    {
+      "id": "M06S03Q07",
+      "question": "Why should isometric lines remain consistent rather than imitate realistic perspective?",
+      "choices": [
+        "To remove visible surfaces",
+        "To make every line the same length",
+        "To replace the original plan",
+        "To support clear technical communication"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Isometric drawing uses consistent directions for technical clarity rather than artistic realism.",
+      "retryFeedback": "Review the final sentences of Use three principal directions and identify the main communication purpose.",
+      "theoryAnchor": "Use three principal directions"
+    },
+    {
+      "id": "M06S03Q08",
+      "question": "What controls the intended size of a feature?",
+      "choices": [
+        "The written dimension on the original plan",
+        "A visual estimate",
+        "The size of the screen",
+        "The apparent isometric line length"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Written dimensions on the unchanged original plan control intended size.",
+      "retryFeedback": "Return to Read form without estimating size and focus on the sole dimensional authority.",
+      "theoryAnchor": "Read form without estimating size"
+    },
+    {
+      "id": "M06S03Q09",
+      "question": "How should an isometric view be used with plan and elevation views?",
+      "choices": [
+        "Measure all three views from the screen",
+        "Use the isometric view instead of every other view",
+        "Compare them to understand the feature and then read the linked written information",
+        "Choose whichever view appears largest"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Comparing the views helps explain form, while the linked written information controls the detail.",
+      "retryFeedback": "Re-read Read form without estimating size and identify the recommended comparison process.",
+      "theoryAnchor": "Read form without estimating size"
+    },
+    {
+      "id": "M06S03Q10",
+      "question": "What should a student do when an isometric feature remains unclear?",
+      "choices": [
+        "Invent the most likely shape",
+        "Copy another student's interpretation",
+        "Measure the displayed line",
+        "Pause and ask rather than guessing"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Asking for clarification prevents unsupported information from being added to the drawing.",
+      "retryFeedback": "Review the final sentences of Read form without estimating size and identify the response to uncertainty.",
+      "theoryAnchor": "Read form without estimating size"
+    }
+  ],
+  "written": {
+    "prompt": "Explain how an isometric drawing communicates form and how it should be used with the original plan when interpreting size.",
+    "sentenceStarter": "An isometric drawing shows ___ by using ___. It helps communicate ___, but intended size must come from ___.",
+    "example": "An isometric drawing shows several faces in one three-dimensional-looking view by using vertical and receding directions. It helps communicate overall form, but intended size must come from the written dimensions on the original plan."
+  }
+}

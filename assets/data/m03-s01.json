@@ -1,0 +1,165 @@
+{
+  "sectionId": "m03-s01",
+  "title": "Hardwood and softwood language",
+  "theory": [
+    {
+      "heading": "Botanical groups, not hardness ratings",
+      "body": "Hardwood and softwood are botanical categories based on the type of tree the timber comes from. Hardwood usually comes from flowering trees, while softwood usually comes from cone-bearing trees. The names do not guarantee how hard, heavy or strong a piece of timber will be. Some hardwoods are relatively soft, and some softwoods are firm and durable. This means students should not judge a timber only from its category name. Use hardwood and softwood as classification words, then consider the actual properties of the material."
+    },
+    {
+      "heading": "Pine in the Footstool project",
+      "body": "Pine is identified as the timber used for the Footstool project. Pine belongs to the softwood botanical group, but this label does not describe every property that matters during practical work. Individual pieces may differ in grain pattern, density, knots, surface condition or other visible features. The fact that pine is a softwood does not mean students may assume that every piece will behave in exactly the same way. Teacher-provided project requirements and approved material information guide the actual selection and use of timber."
+    },
+    {
+      "heading": "Choose using relevant properties",
+      "body": "Material choice involves matching useful properties to the project requirements. A student might consider workability, appearance, grain, density, condition and suitability for the intended purpose. These factors provide more useful evidence than simply choosing hardwood because it sounds stronger or rejecting softwood because it sounds weak. Before making a judgement, identify the botanical category, observe the relevant properties and compare them with the teacher-provided requirements. Current school SOPs and teacher directions control all actual workshop activity. When material information is unclear, pause and ask rather than making an unsupported assumption."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M03S01Q01",
+      "question": "What do the words hardwood and softwood mainly describe?",
+      "choices": [
+        "Botanical groups of trees",
+        "Exact timber hardness",
+        "The age of the timber",
+        "The colour of the grain"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Hardwood and softwood are botanical categories based on the type of tree.",
+      "retryFeedback": "Review Botanical groups, not hardness ratings and focus on what the two terms classify.",
+      "theoryAnchor": "Botanical groups, not hardness ratings"
+    },
+    {
+      "id": "M03S01Q02",
+      "question": "Why can the term hardwood be misleading?",
+      "choices": [
+        "All hardwoods are lightweight",
+        "Some hardwoods can be relatively soft",
+        "Hardwoods never come from trees",
+        "The term only describes timber colour"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The botanical label hardwood does not guarantee that the timber is physically hard.",
+      "retryFeedback": "Return to Botanical groups, not hardness ratings and examine why the category name is not a hardness rating.",
+      "theoryAnchor": "Botanical groups, not hardness ratings"
+    },
+    {
+      "id": "M03S01Q03",
+      "question": "Which statement about softwoods is accurate?",
+      "choices": [
+        "They are always weak",
+        "They are always softer than hardwoods",
+        "Some can be firm and durable",
+        "They cannot be used for projects"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Softwood is a botanical category, and some softwoods can be firm and durable.",
+      "retryFeedback": "Re-read Botanical groups, not hardness ratings and find the example that challenges a simple assumption about softwood.",
+      "theoryAnchor": "Botanical groups, not hardness ratings"
+    },
+    {
+      "id": "M03S01Q04",
+      "question": "Which botanical group does pine belong to?",
+      "choices": [
+        "Hardwood",
+        "Metal",
+        "Manufactured board",
+        "Softwood"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Pine belongs to the softwood botanical group.",
+      "retryFeedback": "Review Pine in the Footstool project and identify the category given for pine.",
+      "theoryAnchor": "Pine in the Footstool project"
+    },
+    {
+      "id": "M03S01Q05",
+      "question": "What timber is identified for the Footstool project?",
+      "choices": [
+        "Oak",
+        "Pine",
+        "Plywood",
+        "Unknown hardwood"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Pine is identified as the timber used for the Footstool project.",
+      "retryFeedback": "Return to Pine in the Footstool project and focus on the named project material.",
+      "theoryAnchor": "Pine in the Footstool project"
+    },
+    {
+      "id": "M03S01Q06",
+      "question": "Why should students inspect individual pieces of pine?",
+      "choices": [
+        "Every piece must have a different botanical category",
+        "Pine has no shared properties",
+        "Pieces may differ in grain, density, knots or condition",
+        "Inspection changes softwood into hardwood"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Individual pieces can vary in visible features and material properties.",
+      "retryFeedback": "Re-read Pine in the Footstool project and identify the ways pieces of the same timber may differ.",
+      "theoryAnchor": "Pine in the Footstool project"
+    },
+    {
+      "id": "M03S01Q07",
+      "question": "What should guide the actual selection and use of timber?",
+      "choices": [
+        "A guess based on the category name",
+        "Another student's preference",
+        "The darkest grain pattern",
+        "Teacher-provided requirements and approved material information"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Project requirements and approved material information guide selection and use.",
+      "retryFeedback": "Review the final sentence of Pine in the Footstool project and focus on what controls material decisions.",
+      "theoryAnchor": "Pine in the Footstool project"
+    },
+    {
+      "id": "M03S01Q08",
+      "question": "Which factor is useful when judging material suitability?",
+      "choices": [
+        "Workability and condition",
+        "The category name alone",
+        "A claim that all hardwood is stronger",
+        "The material nearest to the bench"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Workability and condition are relevant properties when considering suitability.",
+      "retryFeedback": "Return to Choose using relevant properties and identify the material factors listed there.",
+      "theoryAnchor": "Choose using relevant properties"
+    },
+    {
+      "id": "M03S01Q09",
+      "question": "Why is choosing hardwood only because it sounds stronger a weak decision?",
+      "choices": [
+        "Hardwood is not a botanical term",
+        "All hardwood is unsuitable for projects",
+        "The category name alone does not prove suitable properties",
+        "Softwood and hardwood are identical materials"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A botanical label alone does not show whether the material meets the project requirements.",
+      "retryFeedback": "Re-read Choose using relevant properties and focus on why category names provide limited evidence.",
+      "theoryAnchor": "Choose using relevant properties"
+    },
+    {
+      "id": "M03S01Q10",
+      "question": "What should a student do when material information is unclear?",
+      "choices": [
+        "Make an assumption from the name",
+        "Select the hardest-looking piece",
+        "Copy another student's choice",
+        "Pause and ask for clarification"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Pausing and asking prevents unsupported assumptions about the material.",
+      "retryFeedback": "Review the final sentence of Choose using relevant properties and identify the response to uncertainty.",
+      "theoryAnchor": "Choose using relevant properties"
+    }
+  ],
+  "written": {
+    "prompt": "Explain why calling pine a softwood does not fully describe whether a piece is suitable for the Footstool project. Include two relevant properties that should also be considered.",
+    "sentenceStarter": "Pine is classified as a softwood because ___. This does not fully describe its suitability because students must also consider ___ and ___.",
+    "example": "Pine is classified as a softwood because it comes from a cone-bearing tree group. This does not fully describe its suitability because students must also consider properties such as grain and condition, together with the project requirements."
+  }
+}

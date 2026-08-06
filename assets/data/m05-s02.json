@@ -1,0 +1,165 @@
+{
+  "sectionId": "m05-s02",
+  "title": "Dimensions, symbols and scale",
+  "theory": [
+    {
+      "heading": "Follow written dimensions",
+      "body": "Written dimensions control the intended size of a feature. They are more reliable than estimating from the apparent length of a line or measuring a picture on a screen. A preview can change size because of zoom, display settings or cropping, so it must never be treated as a measuring surface. Use the unchanged original two-page Footstool drawing as the dimensional authority. When information appears unclear or conflicting elsewhere, return to the original drawing and seek clarification rather than selecting or inventing a value."
+    },
+    {
+      "heading": "Read symbols as communication cues",
+      "body": "Technical drawings use symbols, line types, labels and notes to communicate information efficiently. A symbol is a cue that directs the reader to a particular meaning, such as the type of feature or how written information should be interpreted. It should be read with the nearby view, dimension or note rather than in isolation. Do not assume that a familiar-looking symbol has the same meaning in every situation. Identify where it appears, connect it to the relevant feature and use the teacher-provided drawing guidance when interpretation is uncertain."
+    },
+    {
+      "heading": "Understand scale proportionally",
+      "body": "Scale describes a proportional relationship between the drawing and the intended object. A scaled drawing may be smaller or larger than the actual product while keeping its parts in consistent proportion. Scale helps a drawing fit clearly on a page, but it does not make screen measurements reliable. Written dimensions still control intended size. A sound drawing check asks whether the correct original page is being used, whether the symbol or note is linked to the right feature and whether the written dimension has been read directly. Current school SOPs and teacher directions control all actual workshop activity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M05S02Q01",
+      "question": "What controls the intended size of a feature on the Footstool drawing?",
+      "choices": [
+        "The written dimension",
+        "The apparent length of the line",
+        "The size of the screen",
+        "A visual estimate"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Written dimensions control intended size and are more reliable than visual estimates.",
+      "retryFeedback": "Review Follow written dimensions and focus on which information controls intended size.",
+      "theoryAnchor": "Follow written dimensions"
+    },
+    {
+      "id": "M05S02Q02",
+      "question": "Why must a screen preview never be measured?",
+      "choices": [
+        "It contains no drawing information",
+        "Its displayed size can change with zoom or cropping",
+        "It always shows a different product",
+        "Its lines have no meaning"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Zoom, display settings and cropping can change the apparent size of a screen preview.",
+      "retryFeedback": "Return to Follow written dimensions and identify why a preview is not a reliable measuring surface.",
+      "theoryAnchor": "Follow written dimensions"
+    },
+    {
+      "id": "M05S02Q03",
+      "question": "What should a student do when dimensional information conflicts with another classroom example?",
+      "choices": [
+        "Average the two values",
+        "Choose the value that looks more suitable",
+        "Return to the original drawing and seek clarification",
+        "Measure the screen image"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. The original two-page drawing remains the dimensional authority, and uncertainty should be clarified.",
+      "retryFeedback": "Re-read Follow written dimensions and focus on the response to unclear or conflicting information.",
+      "theoryAnchor": "Follow written dimensions"
+    },
+    {
+      "id": "M05S02Q04",
+      "question": "What is the broad purpose of symbols on a technical drawing?",
+      "choices": [
+        "To decorate the page",
+        "To show the drawing is complete",
+        "To replace every written dimension",
+        "To provide communication cues"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Symbols communicate meaning efficiently and guide the reader towards relevant information.",
+      "retryFeedback": "Review Read symbols as communication cues and locate the explanation of what symbols do.",
+      "theoryAnchor": "Read symbols as communication cues"
+    },
+    {
+      "id": "M05S02Q05",
+      "question": "How should a drawing symbol be interpreted?",
+      "choices": [
+        "By guessing from its shape alone",
+        "By reading it with the nearby view, note or dimension",
+        "By applying it to every feature",
+        "By measuring its size"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A symbol gains meaning from its connection to the relevant feature and nearby information.",
+      "retryFeedback": "Return to Read symbols as communication cues and focus on what should be read together.",
+      "theoryAnchor": "Read symbols as communication cues"
+    },
+    {
+      "id": "M05S02Q06",
+      "question": "What should a student do when the meaning of a symbol is uncertain?",
+      "choices": [
+        "Use the most familiar meaning",
+        "Ignore the symbol",
+        "Use the drawing guidance and ask for clarification",
+        "Copy another student's answer"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Approved guidance and clarification prevent unsupported interpretations.",
+      "retryFeedback": "Re-read Read symbols as communication cues and identify the response to uncertainty.",
+      "theoryAnchor": "Read symbols as communication cues"
+    },
+    {
+      "id": "M05S02Q07",
+      "question": "What does drawing scale describe?",
+      "choices": [
+        "The weight of the product",
+        "The darkness of the lines",
+        "The number of drawing pages",
+        "The proportional relationship between drawing and object"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Scale describes how drawing size relates proportionally to the intended object.",
+      "retryFeedback": "Review Understand scale proportionally and focus on the opening definition.",
+      "theoryAnchor": "Understand scale proportionally"
+    },
+    {
+      "id": "M05S02Q08",
+      "question": "Why might a technical drawing use scale?",
+      "choices": [
+        "To fit the product clearly on a page while preserving proportion",
+        "To remove the need for dimensions",
+        "To make screen measurements accurate",
+        "To change the intended shape"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Scale allows a product to be represented clearly while keeping parts in consistent proportion.",
+      "retryFeedback": "Return to Understand scale proportionally and identify why scale is useful.",
+      "theoryAnchor": "Understand scale proportionally"
+    },
+    {
+      "id": "M05S02Q09",
+      "question": "Which information still controls intended size on a scaled drawing?",
+      "choices": [
+        "The apparent line length",
+        "The monitor width",
+        "The written dimensions",
+        "The drawing thumbnail"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Written dimensions remain the controlling size information even when a drawing is scaled.",
+      "retryFeedback": "Re-read Understand scale proportionally and focus on what scale does not replace.",
+      "theoryAnchor": "Understand scale proportionally"
+    },
+    {
+      "id": "M05S02Q10",
+      "question": "Which check best supports accurate drawing interpretation?",
+      "choices": [
+        "Measure the preview and compare it with memory",
+        "Apply every note to every view",
+        "Choose the clearest-looking value",
+        "Use the correct original page, link symbols to features and read written dimensions directly"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Accurate interpretation combines the authoritative page, correctly linked cues and directly read dimensions.",
+      "retryFeedback": "Review the final sentences of Understand scale proportionally and identify all parts of the drawing check.",
+      "theoryAnchor": "Understand scale proportionally"
+    }
+  ],
+  "written": {
+    "prompt": "Explain how written dimensions, symbols and scale work together when reading a technical drawing, including why a screen preview must not be measured.",
+    "sentenceStarter": "Written dimensions control ___, symbols help communicate ___, and scale shows ___. A screen preview must not be measured because ___.",
+    "example": "Written dimensions control intended size, symbols help communicate feature information, and scale shows the proportional relationship between the drawing and object. A screen preview must not be measured because its displayed size can change."
+  }
+}

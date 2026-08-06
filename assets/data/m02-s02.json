@@ -1,0 +1,165 @@
+{
+  "sectionId": "m02-s02",
+  "title": "Measuring and marking references",
+  "theory": [
+    {
+      "heading": "Read the written information",
+      "body": "Accurate work begins with the correct reference. Use the written dimensions shown on the original plan and the task information provided by the teacher. Written dimensions are more reliable than judging size from the appearance of a drawing. Never measure a screen thumbnail because zoom, display size and image quality can change how large the drawing appears. Do not guess or invent a dimension when information seems missing. Pause, identify the unclear detail and ask before continuing. Current school SOPs and teacher directions control all actual workshop activity."
+    },
+    {
+      "heading": "Separate measuring and marking",
+      "body": "Measuring means finding or setting a required distance using a teacher-approved measuring tool. Marking means transferring that information onto material so the intended location can be seen clearly. These are connected actions, but they are not the same. A student might read a written dimension, set or locate that distance with an approved tool, and then make a clear mark. The mark should come from the plan information and an agreed reference point, not from estimating by eye or copying another student."
+    },
+    {
+      "heading": "Check before accepting the mark",
+      "body": "Checking means comparing the marked information with the written plan and teacher direction before treating it as correct. A useful check asks whether the correct written dimension was used, whether the approved reference point was followed and whether the mark is clear and unambiguous. Repeating the same mistake is not an effective check, so compare the mark carefully rather than simply measuring in the same rushed way again. If two readings disagree or the plan detail remains unclear, stop and seek clarification instead of choosing one by guesswork."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M02S02Q01",
+      "question": "What is the correct dimensional reference for this project?",
+      "choices": [
+        "The written dimensions on the original plan",
+        "The apparent size of a screen image",
+        "A measurement copied from another student",
+        "An estimate based on the finished appearance"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Written dimensions on the original plan provide the dimensional authority for the project.",
+      "retryFeedback": "Review Read the written information and focus on which information is described as the correct reference.",
+      "theoryAnchor": "Read the written information"
+    },
+    {
+      "id": "M02S02Q02",
+      "question": "Why should a screen thumbnail not be measured?",
+      "choices": [
+        "It contains no useful visual information",
+        "Its displayed size can change with zoom and screen settings",
+        "Only teachers can view it accurately",
+        "It always shows a different project"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The apparent size of a thumbnail can change, so it cannot provide a reliable physical measurement.",
+      "retryFeedback": "Return to Read the written information and find why the appearance of a drawing may be unreliable.",
+      "theoryAnchor": "Read the written information"
+    },
+    {
+      "id": "M02S02Q03",
+      "question": "What should a student do when a required dimension appears to be missing?",
+      "choices": [
+        "Estimate it from the drawing",
+        "Use a value chosen by another student",
+        "Pause and ask for clarification",
+        "Measure the smallest visible preview"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Missing or unclear information should be clarified rather than guessed or invented.",
+      "retryFeedback": "Re-read Read the written information and focus on the response to unclear or missing details.",
+      "theoryAnchor": "Read the written information"
+    },
+    {
+      "id": "M02S02Q04",
+      "question": "Which statement best describes measuring?",
+      "choices": [
+        "Making any visible line on material",
+        "Estimating a distance by eye",
+        "Deciding whether a completed mark looks neat",
+        "Finding or setting a required distance with an approved tool"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Measuring involves finding or setting a required distance using a teacher-approved tool.",
+      "retryFeedback": "Review Separate measuring and marking and locate the definition of measuring.",
+      "theoryAnchor": "Separate measuring and marking"
+    },
+    {
+      "id": "M02S02Q05",
+      "question": "Which statement best describes marking?",
+      "choices": [
+        "Reading a dimension without using it",
+        "Transferring information onto material so a location is clear",
+        "Comparing two screen images",
+        "Choosing a missing dimension"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Marking transfers the required information onto the material in a clear form.",
+      "retryFeedback": "Return to Separate measuring and marking and focus on what happens after a distance is located.",
+      "theoryAnchor": "Separate measuring and marking"
+    },
+    {
+      "id": "M02S02Q06",
+      "question": "Why are measuring and marking not the same action?",
+      "choices": [
+        "Measuring uses guesses, while marking uses dimensions",
+        "Marking always happens before reading the plan",
+        "Measuring finds or sets a distance, while marking records its location",
+        "Only marking requires an approved tool"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Measuring establishes the distance, while marking shows the intended location on the material.",
+      "retryFeedback": "Re-read Separate measuring and marking and compare the two definitions directly.",
+      "theoryAnchor": "Separate measuring and marking"
+    },
+    {
+      "id": "M02S02Q07",
+      "question": "What should a mark be based on?",
+      "choices": [
+        "A visual estimate from the screen",
+        "The nearest existing line",
+        "The appearance of another student's work",
+        "The plan information and an agreed reference point"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A reliable mark comes from written plan information and the approved reference point.",
+      "retryFeedback": "Review the final sentences of Separate measuring and marking and identify the proper basis for a mark.",
+      "theoryAnchor": "Separate measuring and marking"
+    },
+    {
+      "id": "M02S02Q08",
+      "question": "What does checking involve?",
+      "choices": [
+        "Comparing the mark with the written plan and teacher direction",
+        "Accepting the first mark automatically",
+        "Repeating the same rushed action",
+        "Choosing the reading that seems easiest"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Checking compares the marked information against the correct reference before it is accepted.",
+      "retryFeedback": "Return to Check before accepting the mark and focus on what the marked information is compared with.",
+      "theoryAnchor": "Check before accepting the mark"
+    },
+    {
+      "id": "M02S02Q09",
+      "question": "Which question is useful when checking a mark?",
+      "choices": [
+        "Did another student make a similar mark",
+        "Does the mark match my first guess",
+        "Did I use the correct written dimension and reference point",
+        "Does the drawing look large on my screen"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Effective checking confirms both the written dimension and the approved reference point.",
+      "retryFeedback": "Re-read Check before accepting the mark and locate the questions used to test accuracy.",
+      "theoryAnchor": "Check before accepting the mark"
+    },
+    {
+      "id": "M02S02Q10",
+      "question": "What should a student do when two measurements disagree?",
+      "choices": [
+        "Choose the larger reading",
+        "Average the two readings",
+        "Use the reading taken most quickly",
+        "Stop and seek clarification"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Conflicting readings should be resolved through careful checking and clarification, not guesswork.",
+      "retryFeedback": "Review the final sentence of Check before accepting the mark and identify the response to disagreement.",
+      "theoryAnchor": "Check before accepting the mark"
+    }
+  ],
+  "written": {
+    "prompt": "Explain how a student should use written plan information to measure, mark and check one general reference without inventing any missing information.",
+    "sentenceStarter": "First, the student should read ___. Measuring means ___, marking means ___, and checking means ___.",
+    "example": "First, the student should read the written dimension on the original plan. Measuring locates the required distance, marking records that location on the material, and checking compares the mark with the plan and approved reference point."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "sectionId": "m08-s03",
+  "title": "Action and next-step reflection",
+  "theory": [
+    {
+      "heading": "Begin with an observation",
+      "body": "A useful reflection begins with a factual observation. Record what was seen, heard, measured or confirmed during an approved check. An observation might describe a visible gap, an uneven area, matching references or feedback received from the teacher. Avoid vague opinions such as it was bad or guesses such as it will probably be fine. Facts can be supported by evidence, while a guess has not yet been confirmed. Clear observations help identify what needs attention without overstating the result."
+    },
+    {
+      "heading": "Explain the reason and action",
+      "body": "After the observation, explain a possible reason using available evidence. Keep the reason cautious when it has not been confirmed. Then record the action already taken or an action proposed for teacher approval. The action should respond directly to the observation rather than introduce an unrelated task. Do not invent a construction step or assume that a proposed action is approved. The original plan, current school SOPs and teacher directions control all actual making activity."
+    },
+    {
+      "heading": "Confirm the next step",
+      "body": "Finish the reflection by recording the next teacher-confirmed step. This shows what may happen after the observation, reason and action have been considered. If uncertainty could affect quality or safety, stop and ask before continuing. A precise question should identify what is known and what still needs confirmation. A complete reflection follows four parts: observation, reason, action taken or proposed, and next teacher-confirmed step. This pattern turns a general comment into a clear record of thinking and responsible decision-making."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M08S03Q01",
+      "question": "What should begin an action and next-step reflection?",
+      "choices": [
+        "A factual observation",
+        "A construction sequence",
+        "A personal rating",
+        "A guessed solution"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A reflection should begin with specific evidence about what was observed or confirmed.",
+      "retryFeedback": "Review Begin with an observation and focus on the first part of the reflection pattern.",
+      "theoryAnchor": "Begin with an observation"
+    },
+    {
+      "id": "M08S03Q02",
+      "question": "Which statement is a factual observation?",
+      "choices": [
+        "The work will probably be fine",
+        "A visible gap remained during the approved check",
+        "The result is definitely poor",
+        "The next action should be obvious"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. This reports a visible condition without adding an unsupported judgement.",
+      "retryFeedback": "Return to Begin with an observation and identify the example based on observable evidence.",
+      "theoryAnchor": "Begin with an observation"
+    },
+    {
+      "id": "M08S03Q03",
+      "question": "What distinguishes a guess from factual evidence?",
+      "choices": [
+        "A guess is always written first",
+        "A guess uses more detail",
+        "A guess has not yet been confirmed",
+        "A guess comes from the original plan"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A guess is an unconfirmed explanation or conclusion rather than supported evidence.",
+      "retryFeedback": "Re-read Begin with an observation and focus on the difference between facts and guesses.",
+      "theoryAnchor": "Begin with an observation"
+    },
+    {
+      "id": "M08S03Q04",
+      "question": "How should an uncertain reason be written?",
+      "choices": [
+        "As a guaranteed explanation",
+        "As an approved construction action",
+        "As a final conclusion",
+        "Using cautious language because it is not confirmed"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Cautious wording makes it clear that the reason is possible rather than proven.",
+      "retryFeedback": "Review Explain the reason and action and identify how an unconfirmed reason should be expressed.",
+      "theoryAnchor": "Explain the reason and action"
+    },
+    {
+      "id": "M08S03Q05",
+      "question": "What should a proposed action respond to?",
+      "choices": [
+        "Another student's project",
+        "The recorded observation",
+        "An unrelated future activity",
+        "A guessed dimension"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The action should address the specific observation recorded in the reflection.",
+      "retryFeedback": "Return to Explain the reason and action and focus on the connection between observation and action.",
+      "theoryAnchor": "Explain the reason and action"
+    },
+    {
+      "id": "M08S03Q06",
+      "question": "Why should a proposed action not be treated as approved automatically?",
+      "choices": [
+        "Proposed actions are never useful",
+        "Only completed actions may be recorded",
+        "Teacher direction still controls actual making activity",
+        "Every action must come from another student"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A proposal remains unapproved until it is confirmed through teacher direction.",
+      "retryFeedback": "Re-read Explain the reason and action and identify what controls actual workshop activity.",
+      "theoryAnchor": "Explain the reason and action"
+    },
+    {
+      "id": "M08S03Q07",
+      "question": "What should finish a complete reflection?",
+      "choices": [
+        "A personal score",
+        "An invented correction",
+        "A list of all available tools",
+        "The next teacher-confirmed step"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Recording the confirmed next step completes the reflection pattern.",
+      "retryFeedback": "Review Confirm the next step and focus on the final part of the reflection.",
+      "theoryAnchor": "Confirm the next step"
+    },
+    {
+      "id": "M08S03Q08",
+      "question": "What should a student do when uncertainty could affect quality or safety?",
+      "choices": [
+        "Stop and ask before continuing",
+        "Copy another student's action",
+        "Choose the most likely option",
+        "Continue slowly"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Stopping and asking prevents uncertain information from affecting quality or safety.",
+      "retryFeedback": "Return to Confirm the next step and identify the response to important uncertainty.",
+      "theoryAnchor": "Confirm the next step"
+    },
+    {
+      "id": "M08S03Q09",
+      "question": "What makes a question precise?",
+      "choices": [
+        "It avoids mentioning the uncertainty",
+        "It asks another student to decide",
+        "It states what is known and what still needs confirmation",
+        "It proposes several unrelated actions"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A precise question separates confirmed information from the exact point of uncertainty.",
+      "retryFeedback": "Re-read Confirm the next step and focus on what a useful question should identify.",
+      "theoryAnchor": "Confirm the next step"
+    },
+    {
+      "id": "M08S03Q10",
+      "question": "Which sequence forms a complete reflection pattern?",
+      "choices": [
+        "Opinion, mark, correction and result",
+        "Guess, action, grade and approval",
+        "Task, tools, settings and finish",
+        "Observation, reason, action and teacher-confirmed next step"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. These four parts create a clear and responsible reflection record.",
+      "retryFeedback": "Review the final sentences of Confirm the next step and identify the four-part pattern.",
+      "theoryAnchor": "Confirm the next step"
+    }
+  ],
+  "written": {
+    "prompt": "Write a reflection that includes one factual observation, a cautious possible reason, an action taken or proposed, and the next teacher-confirmed step.",
+    "sentenceStarter": "I observed ___. A possible reason is ___. I have taken or propose ___. The teacher-confirmed next step is ___.",
+    "example": "I observed that one visible reference did not align during the approved check. A possible reason is that the earlier mark was unclear. I proposed checking the reference again. The teacher-confirmed next step is to pause and review the relevant plan information before continuing."
+  }
+}

@@ -1,40 +1,41 @@
-# Year 8 Intro Timber Technology — release audit
+# Year 8 Intro Timber Technology — flagship release audit
 
-## Student clarity
+Audit date: 6 August 2026
+Course status: Year 8 elective, not Technology Mandatory
+Release decision: local gates passed; rendered live verification required after deployment
 
-- Eight named, source-grounded theory sections are present.
-- Every section has exactly 10 student-learning checks and two written prompts with an Appropriate response example.
-- Student routes do not display outcomes, syllabus administration, source boundaries, formal assessment dates/marks or local procedure placeholders.
-- Browser saving is explicitly described as device-local; no cloud submission claim is made.
+## Authority and boundaries
 
-## Plan integrity
+- The unchanged two-page `assets/resources/Footstool.pdf` is the sole dimensional and construction authority. SHA-256: `2e7d2f0c74415810cbc45dabab767f01a664ed076195773e6badbb4838ef6fa1`.
+- Slide 19 is excluded as dimensional authority because its 360/375 values conflict.
+- Current school SOPs and teacher directions control practical work. The course does not invent construction details, materials, safety procedures, machine settings, assessment dates, marks or weightings.
+- No generated workshop or hybrid-tool imagery is included. The rejected cropped source-title hero and obsolete eight-section data files were removed.
 
-- Original two-page `assets/resources/Footstool.pdf` SHA-256: `2e7d2f0c74415810cbc45dabab767f01a664ed076195773e6badbb4838ef6fa1`.
-- Both pages have readable orientation previews and an adjacent `Open larger (PDF, 2 pages)` link.
-- Slide 19 is excluded from dimensional teaching because it conflicts with the plan (360 mm versus 375 mm).
+## Student-learning package
 
-## Visual audit
+- Ten paired-week module routes contain 30 named theory sections.
+- Each section contains three substantial theory parts, exactly 10 unique source-grounded checks, precise retry feedback, and one written-evidence scaffold.
+- Total: 300 knowledge checks and 30 autosaving written responses.
+- Student details, device-local autosave wording, Print / Save PDF and Main Menu return paths are present.
+- The folio provides 12 evidence cards across all 10 modules, progress state, JSON backup/restore, folio-only reset and one-card-per-page printing.
 
-| Visual | Decision | Reason |
-|---|---|---|
-| Original Footstool plan | Retain once in plan route | Sole dimensional and construction authority. |
-| Source-deck Footstool project hero | Retain once on landing page | Course-specific context; not repeated on cards or banner. |
-| Hierarchy of controls | Retain once in workshop-safety theory | General risk-control discussion only; not machine instruction. |
-| Pine/MDF comparison | Retain once in timber theory | Supports material recognition; caption avoids claiming Footstool material. |
-| Combination square | Retain once as small Busy Work tool-recognition image | Real-world tool identity and geometry inspected; no practical setup claim. |
-| Source-deck emblem workflow | Retain only as a source learning example | Supports concept development; no settings or production workflow claim. |
-| Disc-sander/pedestal-drill source sketches | Remove | Not strong enough or approved for safety-critical instruction. |
-| Generic/generated workshop images | Prohibited | Prevent hybrid tools, implausible machinery, unsafe setups and false construction evidence. |
-| Slide 19 dimension graphic | Remove from plan teaching | Conflicts with authoritative plan. |
+## Resource destinations
 
-## Route and device checks
+- Busy Work provides a hub plus 10 routes with 10 distinct mechanics, meaningful feedback, persistence and printable evidence where appropriate.
+- YouTube learning provides three topic-mapped clips. Playback is student activated, uses `youtube-nocookie.com`, and provides accessible fallbacks. Metadata, thumbnail and embed endpoints returned 200 on 6 August 2026.
+- The plan route shows both unchanged page previews with accurate captions and visible Open larger access to the original PDF.
+- Teacher Resources states the course and assessment boundaries, links the source program, plan and teaching deck, and lists unresolved local controls as Action required.
 
-- Landing, plans, Busy Work, YouTube, folio and Teacher Resources routes loaded locally.
-- Main Menu and Teacher Resources navigation are present on every major route.
-- At phone width, the local landing page had no horizontal overflow and navigation wrapped within the viewport.
-- JavaScript syntax and data validation passed; data totals are 8 sections, 80 checks and 16 written prompts.
+## Verified local gates
 
-## School-controlled confirmations
+- Structural validator: 10 modules, 30 sections, 300 checks, unique question text, 220–300 theory words per section, balanced answer positions, source-safe retry feedback, 10 distinct Busy Work mechanics, privacy-enhanced YouTube manifest and authoritative PDF hash.
+- Route crawl: 43 internal routes/assets returned successfully.
+- JavaScript syntax: all scripts passed.
+- Desktop browser QA: landing, every module, folio and resource routes rendered without console errors or horizontal overflow.
+- True 390 px QA: landing, every module, folio, Busy Work, YouTube, plan and Teacher Resources rendered at `innerWidth = scrollWidth = 390` with a usable compact menu.
+- Interaction QA: incorrect/correct feedback, answer persistence, written-response persistence, folio readiness, YouTube start/stop and Busy Work route count passed.
+- Print QA: module evidence printed across 13 pages with all three theory sections and responses; folio printed 12 clear evidence-card pages.
 
-- Current school SOP/permission confirmation for any machine-specific practical delivery.
-- Local confirmation of construction sequence, joints, material/finish details and formal assessment settings before practical delivery.
+## Release boundary
+
+A Git push is not live proof. The final release record must separately confirm the deployed commit, rendered desktop and 390 px routes, authoritative plan hash, video destinations, Main Page card and clean `HEAD == origin/main` state.

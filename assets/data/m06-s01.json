@@ -1,0 +1,165 @@
+{
+  "sectionId": "m06-s01",
+  "title": "Third-angle projection",
+  "theory": [
+    {
+      "heading": "A system of related views",
+      "body": "Third-angle projection is a drawing system that represents an object through related two-dimensional views. Each view shows one face or direction while remaining connected to the others. The views are positioned in a recognised arrangement so the reader can compare them and understand the object more clearly. A single view may not show every feature, so information from several views must be combined. Third-angle projection communicates shape and position without relying on a three-dimensional picture."
+    },
+    {
+      "heading": "Front, plan and side views",
+      "body": "The front view shows the object as seen directly from its selected front. The plan, also called the top view, shows it from directly above. A side view shows the object from an identified side. Each view communicates different visible edges and features. A feature may appear as a shape in one view and as an edge or line in another. These differences do not mean the object has changed. They show the same object from different directions."
+    },
+    {
+      "heading": "Compare position and alignment",
+      "body": "Related views should be compared by looking for matching positions and aligned features. A feature near one side in the front view should connect logically with its position in the plan and side views. Alignment helps the reader decide which lines represent the same part of the object. Do not invent a feature because one view seems unclear. Return to the related views and written information, then ask about any remaining uncertainty. The unchanged original two-page Footstool drawing remains the sole dimensional and construction authority. Current school SOPs and teacher directions control all actual workshop activity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M06S01Q01",
+      "question": "What is third-angle projection?",
+      "choices": [
+        "A system of related two-dimensional views",
+        "A three-dimensional photograph",
+        "A list of materials",
+        "A sequence of workshop actions"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Third-angle projection uses connected two-dimensional views to communicate an object.",
+      "retryFeedback": "Review A system of related views and focus on the opening definition.",
+      "theoryAnchor": "A system of related views"
+    },
+    {
+      "id": "M06S01Q02",
+      "question": "Why are several views often needed?",
+      "choices": [
+        "Each view shows a different object",
+        "One view may not show every feature",
+        "The drawing must fill the page",
+        "Every feature changes between views"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Several views combine information that may not be visible from one direction alone.",
+      "retryFeedback": "Return to A system of related views and identify why a single view may be incomplete.",
+      "theoryAnchor": "A system of related views"
+    },
+    {
+      "id": "M06S01Q03",
+      "question": "What does third-angle projection communicate without requiring a three-dimensional picture?",
+      "choices": [
+        "Material cost and quantity",
+        "A practical work sequence",
+        "Shape and position",
+        "The age of the object"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. The related views communicate the shape and position of features.",
+      "retryFeedback": "Re-read A system of related views and focus on what the drawing system communicates.",
+      "theoryAnchor": "A system of related views"
+    },
+    {
+      "id": "M06S01Q04",
+      "question": "What does the front view represent?",
+      "choices": [
+        "The object seen from directly above",
+        "Only the largest feature",
+        "The object seen from underneath",
+        "The object seen from its selected front"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. The front view shows the object from the direction selected as its front.",
+      "retryFeedback": "Review Front, plan and side views and locate the definition of the front view.",
+      "theoryAnchor": "Front, plan and side views"
+    },
+    {
+      "id": "M06S01Q05",
+      "question": "Which view shows an object from directly above?",
+      "choices": [
+        "Side view",
+        "Plan view",
+        "Front view",
+        "Detail view"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The plan, or top view, represents the object from directly above.",
+      "retryFeedback": "Return to Front, plan and side views and identify the view also called the top view.",
+      "theoryAnchor": "Front, plan and side views"
+    },
+    {
+      "id": "M06S01Q06",
+      "question": "Why might the same feature look different in two views?",
+      "choices": [
+        "One view must be incorrect",
+        "Its actual form changes",
+        "It is represented from different directions",
+        "The feature moves between views"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Viewing direction changes how the same feature appears on the page.",
+      "retryFeedback": "Re-read Front, plan and side views and focus on how one feature may be shown differently.",
+      "theoryAnchor": "Front, plan and side views"
+    },
+    {
+      "id": "M06S01Q07",
+      "question": "What is the purpose of comparing aligned features across views?",
+      "choices": [
+        "To create a new dimension",
+        "To choose the largest view",
+        "To replace written information",
+        "To identify lines representing the same part"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Alignment helps connect representations of the same feature across related views.",
+      "retryFeedback": "Review Compare position and alignment and identify what alignment helps the reader decide.",
+      "theoryAnchor": "Compare position and alignment"
+    },
+    {
+      "id": "M06S01Q08",
+      "question": "A feature appears near one side in the front view. What should the reader do next?",
+      "choices": [
+        "Compare its position in the plan and side views",
+        "Invent its unseen form",
+        "Assume it is absent from other views",
+        "Ignore the feature"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Comparing related positions helps confirm how the feature is represented across views.",
+      "retryFeedback": "Return to Compare position and alignment and focus on how positions should connect logically.",
+      "theoryAnchor": "Compare position and alignment"
+    },
+    {
+      "id": "M06S01Q09",
+      "question": "What should a student do when one view seems unclear?",
+      "choices": [
+        "Invent the missing feature",
+        "Use only the unclear view",
+        "Return to related views and written information",
+        "Copy another student's interpretation"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Related views and written information should be checked before reaching a conclusion.",
+      "retryFeedback": "Re-read Compare position and alignment and identify the response to unclear information.",
+      "theoryAnchor": "Compare position and alignment"
+    },
+    {
+      "id": "M06S01Q10",
+      "question": "What should happen if uncertainty remains after comparing the views?",
+      "choices": [
+        "Ignore the uncertainty",
+        "Choose the most likely shape",
+        "Add a feature from memory",
+        "Ask for clarification"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Asking prevents unsupported assumptions about the drawing.",
+      "retryFeedback": "Review the final sentences of Compare position and alignment and identify the response to remaining uncertainty.",
+      "theoryAnchor": "Compare position and alignment"
+    }
+  ],
+  "written": {
+    "prompt": "Explain how the front, plan and side views work together in third-angle projection to communicate one object.",
+    "sentenceStarter": "The front view shows ___, the plan view shows ___, and the side view shows ___. Together, they help the reader ___.",
+    "example": "The front view shows the object from its selected front, the plan view shows it from above, and the side view shows it from one side. Together, they help the reader compare aligned features and understand the object's shape and position."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "sectionId": "m09-s02",
+  "title": "Testing with evidence",
+  "theory": [
+    {
+      "heading": "Name the criterion",
+      "body": "A fair functional judgement begins by naming the criterion being considered. A criterion is the particular quality being investigated, such as stability, reliability, safety, durability, efficiency or another teacher-approved requirement. Naming the criterion keeps the judgement focused. A general comment such as the product works well is too broad because it does not explain which part of function was considered. One approved check may provide evidence about a single criterion without proving every other quality."
+    },
+    {
+      "heading": "Use an approved check",
+      "body": "The check or observation must match the chosen criterion and follow teacher direction. Students should not invent a load, force, user, dimension, pass level or testing method. Before any actual Footstool testing, confirm what may be checked and how the observation should be made. During the approved check, observe only the relevant behaviour or condition. Keep the situation consistent enough for the evidence to be meaningful, and stop to ask if uncertainty could affect quality or safety. Current school SOPs and teacher directions control all actual workshop activity."
+    },
+    {
+      "heading": "Record evidence and limits",
+      "body": "Record what happened using specific, objective language. State the criterion, the approved check or observation and the evidence noticed. Avoid unsupported conclusions such as perfect, definitely safe or passed unless the teacher-approved requirement supports that wording. If the evidence is incomplete, state what remains unknown or needs another approved check. A fair judgement may say that the available evidence supports one limited conclusion while other functional qualities have not been tested. This separates evidence from guesses and keeps the evaluation honest."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M09S02Q01",
+      "question": "What should begin a fair functional judgement?",
+      "choices": [
+        "Naming the criterion being considered",
+        "Choosing the most positive conclusion",
+        "Inventing a testing method",
+        "Comparing the product with another student's work"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Naming the criterion keeps the judgement focused on one clearly identified quality.",
+      "retryFeedback": "Review Name the criterion and focus on the first part of a fair judgement.",
+      "theoryAnchor": "Name the criterion"
+    },
+    {
+      "id": "M09S02Q02",
+      "question": "Why is the statement the product works well too broad?",
+      "choices": [
+        "It includes too much evidence",
+        "It does not identify which functional quality was considered",
+        "It names an approved criterion",
+        "It provides a complete test result"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. A fair judgement must identify the specific quality being investigated.",
+      "retryFeedback": "Return to Name the criterion and identify why a general comment is insufficient.",
+      "theoryAnchor": "Name the criterion"
+    },
+    {
+      "id": "M09S02Q03",
+      "question": "What can one approved check usually support?",
+      "choices": [
+        "A conclusion about every product quality",
+        "A guaranteed pass result",
+        "Evidence about the criterion it was designed to examine",
+        "A new construction requirement"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. One check may support a limited judgement about its chosen criterion without proving all other qualities.",
+      "retryFeedback": "Re-read Name the criterion and focus on the limits of one check.",
+      "theoryAnchor": "Name the criterion"
+    },
+    {
+      "id": "M09S02Q04",
+      "question": "What must guide actual Footstool testing?",
+      "choices": [
+        "Another student's method",
+        "A testing idea found online",
+        "The easiest available approach",
+        "Teacher direction and current school SOPs"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Actual testing must follow teacher direction and current school SOPs.",
+      "retryFeedback": "Review Use an approved check and identify what controls all actual testing activity.",
+      "theoryAnchor": "Use an approved check"
+    },
+    {
+      "id": "M09S02Q05",
+      "question": "Which testing decision must a student avoid making independently?",
+      "choices": [
+        "Naming the approved criterion",
+        "Inventing a load, force or pass level",
+        "Recording an objective observation",
+        "Asking when uncertain"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Students must not invent testing conditions, methods or thresholds.",
+      "retryFeedback": "Return to Use an approved check and focus on the testing details students must not create.",
+      "theoryAnchor": "Use an approved check"
+    },
+    {
+      "id": "M09S02Q06",
+      "question": "Why should the approved check match the selected criterion?",
+      "choices": [
+        "To make every test identical",
+        "To remove the need for observations",
+        "So the evidence is relevant to the quality being judged",
+        "So one check proves every quality"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Relevant evidence comes from a check that examines the chosen functional quality.",
+      "retryFeedback": "Re-read Use an approved check and focus on the relationship between the criterion and the check.",
+      "theoryAnchor": "Use an approved check"
+    },
+    {
+      "id": "M09S02Q07",
+      "question": "What should a student do if uncertainty could affect quality or safety?",
+      "choices": [
+        "Continue and record the result later",
+        "Choose the most likely method",
+        "Copy another student's approach",
+        "Stop and ask before continuing"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Stopping and asking prevents uncertain decisions from affecting quality or safety.",
+      "retryFeedback": "Review Use an approved check and identify the response to important uncertainty.",
+      "theoryAnchor": "Use an approved check"
+    },
+    {
+      "id": "M09S02Q08",
+      "question": "Which record is the strongest example of testing evidence?",
+      "choices": [
+        "The named criterion, approved check and specific observation are recorded",
+        "The student feels confident",
+        "The product definitely passed",
+        "The product seems fine"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A strong record connects a criterion with an authorised check and objective evidence.",
+      "retryFeedback": "Return to Record evidence and limits and identify the three elements of a useful record.",
+      "theoryAnchor": "Record evidence and limits"
+    },
+    {
+      "id": "M09S02Q09",
+      "question": "What should a student do when the evidence is incomplete?",
+      "choices": [
+        "Invent a likely result",
+        "Declare that the product passed",
+        "State what remains unknown or needs further approved checking",
+        "Ignore the missing evidence"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Stating the limitation keeps the judgement accurate and evidence-based.",
+      "retryFeedback": "Re-read Record evidence and limits and focus on how incomplete evidence should be handled.",
+      "theoryAnchor": "Record evidence and limits"
+    },
+    {
+      "id": "M09S02Q10",
+      "question": "Why should a student avoid writing definitely safe without supporting evidence?",
+      "choices": [
+        "Safety is never a functional criterion",
+        "Every product must receive the same conclusion",
+        "Only photographs can support safety",
+        "The claim may go beyond what the approved evidence supports"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Strong conclusions must not exceed the evidence gathered through approved checks.",
+      "retryFeedback": "Review Record evidence and limits and identify why unsupported conclusions should be avoided.",
+      "theoryAnchor": "Record evidence and limits"
+    }
+  ],
+  "written": {
+    "prompt": "Write a fair functional judgement by naming one criterion, describing the approved check or observation, recording the evidence and stating one limitation.",
+    "sentenceStarter": "The criterion was ___. During the approved check, I observed ___. This evidence suggests ___. It does not yet show ___.",
+    "example": "The criterion was stability. During the approved check, I observed no visible unwanted movement in the condition directed by the teacher. This evidence supports a limited stability judgement. It does not yet show durability or reliability over time."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "sectionId": "m03-s03",
+  "title": "Workability and material description",
+  "theory": [
+    {
+      "heading": "Understand workability",
+      "body": "Workability describes how a material responds to approved shaping, joining and finishing processes. It is not a fixed label that applies equally in every situation. A material may respond differently depending on its properties, condition, the approved tools and the process being used. Workability should be judged from evidence rather than from assumptions such as softwood is always easy to work or dense timber is always difficult. Current school SOPs and teacher directions control all actual workshop activity."
+    },
+    {
+      "heading": "Observe material evidence",
+      "body": "A useful material description begins with careful observation. Grain describes the direction and pattern of the wood fibres. Knots show where branches grew and may change the nearby grain. Texture describes how the surface looks or feels, such as smooth, coarse or uneven. Density is mass in relation to volume. Students can also record observed behaviour during teacher-approved activities, such as whether the material responded evenly or showed noticeable variation. These observations should describe what happened without claiming more than the evidence supports."
+    },
+    {
+      "heading": "Build a supported description",
+      "body": "An evidence-based description combines several relevant observations instead of relying on one feature. A student might describe mostly straight grain, one visible knot, a moderately smooth texture and variation near the knot during an approved process. This is more useful than simply calling the material good, bad, strong or easy. The condition of the sample, the approved tool and the process must also be considered because each can affect the result. When evidence is unclear or limited, state the uncertainty and ask rather than inventing an explanation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M03S03Q01",
+      "question": "What does workability describe?",
+      "choices": [
+        "How a material responds to approved shaping, joining and finishing processes",
+        "The exact age of the timber",
+        "The colour of the finished project",
+        "The number of tools in the workshop"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Workability describes how a material responds during approved processes.",
+      "retryFeedback": "Review Understand workability and focus on the opening definition.",
+      "theoryAnchor": "Understand workability"
+    },
+    {
+      "id": "M03S03Q02",
+      "question": "Why is workability not a fixed label?",
+      "choices": [
+        "Every material behaves exactly the same",
+        "The response can depend on properties, condition, tools and process",
+        "Only timber colour affects it",
+        "It can only be judged from the tree species name"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Several factors can change how a material responds in a particular situation.",
+      "retryFeedback": "Return to Understand workability and identify the factors that influence material response.",
+      "theoryAnchor": "Understand workability"
+    },
+    {
+      "id": "M03S03Q03",
+      "question": "Which statement is an unsupported assumption?",
+      "choices": [
+        "The material responded evenly during an approved activity",
+        "The sample has visible knots",
+        "All softwood is always easy to work",
+        "The surface appears uneven"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A botanical category alone does not prove how workable every sample will be.",
+      "retryFeedback": "Re-read Understand workability and focus on the examples of assumptions that should be avoided.",
+      "theoryAnchor": "Understand workability"
+    },
+    {
+      "id": "M03S03Q04",
+      "question": "What does grain describe?",
+      "choices": [
+        "The smoothness of a finish",
+        "The mass of a timber sample",
+        "The age of a knot",
+        "The direction and pattern of wood fibres"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Grain describes the direction and visible pattern of the fibres.",
+      "retryFeedback": "Review Observe material evidence and locate the definition of grain.",
+      "theoryAnchor": "Observe material evidence"
+    },
+    {
+      "id": "M03S03Q05",
+      "question": "What does texture describe?",
+      "choices": [
+        "The botanical group of the tree",
+        "How the surface looks or feels",
+        "The volume of the sample",
+        "The location of a branch"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Texture describes surface qualities such as smoothness, coarseness or unevenness.",
+      "retryFeedback": "Return to Observe material evidence and focus on the surface feature described there.",
+      "theoryAnchor": "Observe material evidence"
+    },
+    {
+      "id": "M03S03Q06",
+      "question": "Which observation best describes material behaviour?",
+      "choices": [
+        "The timber is definitely strong",
+        "The sample will always be suitable",
+        "The material responded evenly during an approved activity",
+        "The knot proves poor quality"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. This statement records observed behaviour without adding an unsupported conclusion.",
+      "retryFeedback": "Re-read Observe material evidence and focus on how observed behaviour should be recorded.",
+      "theoryAnchor": "Observe material evidence"
+    },
+    {
+      "id": "M03S03Q07",
+      "question": "Why should students avoid claiming more than the evidence supports?",
+      "choices": [
+        "Density explains every property",
+        "All timber samples are identical",
+        "Only the teacher may observe texture",
+        "Material descriptions should separate observation from assumption"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Evidence-based descriptions report what can be observed without inventing conclusions.",
+      "retryFeedback": "Review the final sentence of Observe material evidence and identify the limit placed on conclusions.",
+      "theoryAnchor": "Observe material evidence"
+    },
+    {
+      "id": "M03S03Q08",
+      "question": "Which description uses several pieces of evidence?",
+      "choices": [
+        "The sample has mostly straight grain, one knot and a moderately smooth texture",
+        "The timber is easy",
+        "The material is good",
+        "The material must be strong"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. This description combines specific observations instead of using a vague judgement.",
+      "retryFeedback": "Return to Build a supported description and locate the example combining several material features.",
+      "theoryAnchor": "Build a supported description"
+    },
+    {
+      "id": "M03S03Q09",
+      "question": "Why must the sample condition, approved tool and process be considered?",
+      "choices": [
+        "They remove the need to observe grain",
+        "They change softwood into hardwood",
+        "Each can affect the observed result",
+        "They guarantee the same response every time"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Material response can vary when the sample condition, tool or process changes.",
+      "retryFeedback": "Re-read Build a supported description and focus on the factors that can affect the result.",
+      "theoryAnchor": "Build a supported description"
+    },
+    {
+      "id": "M03S03Q10",
+      "question": "What should a student do when material evidence is unclear?",
+      "choices": [
+        "Invent the most likely explanation",
+        "Copy another student's description",
+        "Describe the material as poor quality",
+        "State the uncertainty and ask"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Recognising uncertainty is more accurate than inventing an unsupported explanation.",
+      "retryFeedback": "Review the final sentence of Build a supported description and identify the response to limited evidence.",
+      "theoryAnchor": "Build a supported description"
+    }
+  ],
+  "written": {
+    "prompt": "Write an evidence-based description of a timber sample using grain, knots, texture, density information and one observed behaviour from an approved activity.",
+    "sentenceStarter": "The sample has ___ grain, ___ knots and a ___ texture. The density information shows ___. During the approved activity, I observed ___.",
+    "example": "The sample has mostly straight grain, one visible knot and a moderately smooth texture. The available density information suggests it is denser than the comparison sample. During the approved activity, it responded evenly except near the knot."
+  }
+}

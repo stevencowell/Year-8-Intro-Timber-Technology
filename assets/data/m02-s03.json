@@ -1,0 +1,165 @@
+{
+  "sectionId": "m02-s03",
+  "title": "Safe tool decisions",
+  "theory": [
+    {
+      "heading": "Match the tool to the purpose",
+      "body": "A safe tool decision begins before anything is used. First, identify the broad purpose of the task and consider whether the named tool is generally suited to that purpose. Recognising a tool does not automatically mean it is the correct choice or that you may use it. The task information provided by the teacher must guide the decision. Do not choose equipment because it is nearby, familiar or being used by another student. If the purpose of the task or tool is unclear, pause and ask before taking further action."
+    },
+    {
+      "heading": "Check approval and condition",
+      "body": "Before tool use, check that you have teacher authorisation and that the current school SOP applies to the planned activity. Permission from another student is not enough. Without operating the tool, look for obvious signs of damage, loose parts, missing guards, unusual wear or anything else that appears unsafe. Do not test, adjust or attempt to repair equipment. Report the concern and wait for teacher direction. Current school SOPs and teacher instructions control all actual workshop activity."
+    },
+    {
+      "heading": "Stay clear and resolve uncertainty",
+      "body": "Safe decisions also depend on what is happening nearby. Keep clear of active work, avoid distracting the person working and do not enter an authorised work area without direction. Observe whether your position, movement or materials could interfere with someone else. If any part of the tool, task, authorisation, condition or surrounding area is uncertain, stop and ask a precise question. Wait for confirmation before continuing. A useful check is: Does the tool match the broad purpose, am I authorised, does it appear undamaged and is the area clear?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "M02S03Q01",
+      "question": "What should be identified first when making a tool decision?",
+      "choices": [
+        "The intended broad purpose of the task",
+        "The colour of the tool",
+        "Which student used it last",
+        "Where the tool is stored"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Identifying the broad purpose helps determine whether the named tool may be generally suitable.",
+      "retryFeedback": "Review Match the tool to the purpose and focus on the first decision made before tool use.",
+      "theoryAnchor": "Match the tool to the purpose"
+    },
+    {
+      "id": "M02S03Q02",
+      "question": "Why is recognising a tool not enough to begin using it?",
+      "choices": [
+        "Recognised tools are never suitable",
+        "Teacher task information and authorisation are still required",
+        "Another student must use it first",
+        "Only damaged tools need approval"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Recognition does not replace teacher-provided task information or authorisation.",
+      "retryFeedback": "Return to Match the tool to the purpose and identify what recognition does not provide.",
+      "theoryAnchor": "Match the tool to the purpose"
+    },
+    {
+      "id": "M02S03Q03",
+      "question": "Which is the weakest reason for selecting a tool?",
+      "choices": [
+        "It matches the teacher-provided task information",
+        "Its broad purpose suits the task",
+        "It is nearby and familiar",
+        "The teacher has authorised its use"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Convenience and familiarity do not show that a tool is suitable or authorised.",
+      "retryFeedback": "Re-read Match the tool to the purpose and focus on reasons that should not guide selection.",
+      "theoryAnchor": "Match the tool to the purpose"
+    },
+    {
+      "id": "M02S03Q04",
+      "question": "What must a student check before using a tool?",
+      "choices": [
+        "Whether another student approves",
+        "Whether the activity can be finished quickly",
+        "Whether the tool is the newest one available",
+        "Whether teacher authorisation and the current SOP apply"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Teacher authorisation and the current SOP must apply before tool use.",
+      "retryFeedback": "Review Check approval and condition and identify the required approval and guidance.",
+      "theoryAnchor": "Check approval and condition"
+    },
+    {
+      "id": "M02S03Q05",
+      "question": "How should a student inspect equipment before use?",
+      "choices": [
+        "Operate it briefly to test it",
+        "Look for obvious damage without operating it",
+        "Adjust any loose parts",
+        "Ask another student to repair it"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. The inspection is visual and should not involve operating, adjusting or repairing the equipment.",
+      "retryFeedback": "Return to Check approval and condition and focus on how the condition check is completed.",
+      "theoryAnchor": "Check approval and condition"
+    },
+    {
+      "id": "M02S03Q06",
+      "question": "What should a student do after noticing a loose or damaged part?",
+      "choices": [
+        "Continue if the task is nearly finished",
+        "Attempt a simple repair",
+        "Report it and wait for teacher direction",
+        "Test whether the tool still works"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Possible damage must be reported, and the student should wait for teacher direction.",
+      "retryFeedback": "Re-read Check approval and condition and find the response to signs of damage.",
+      "theoryAnchor": "Check approval and condition"
+    },
+    {
+      "id": "M02S03Q07",
+      "question": "Which action shows appropriate behaviour near active work?",
+      "choices": [
+        "Standing close to watch every movement",
+        "Entering the area to offer advice",
+        "Moving materials through the work area",
+        "Keeping clear and avoiding distractions"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Keeping clear and avoiding distractions reduces interference with active work.",
+      "retryFeedback": "Review Stay clear and resolve uncertainty and focus on behaviour around someone who is working.",
+      "theoryAnchor": "Stay clear and resolve uncertainty"
+    },
+    {
+      "id": "M02S03Q08",
+      "question": "What should a student consider before moving near a work area?",
+      "choices": [
+        "Whether their movement or materials could interfere with someone",
+        "Whether the tool looks interesting",
+        "Whether another student has finished talking",
+        "Whether they can move through quickly"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Students should consider how their position, movement and materials may affect others.",
+      "retryFeedback": "Return to Stay clear and resolve uncertainty and identify the surrounding-area observation.",
+      "theoryAnchor": "Stay clear and resolve uncertainty"
+    },
+    {
+      "id": "M02S03Q09",
+      "question": "What is the best response when any part of a tool decision is uncertain?",
+      "choices": [
+        "Choose the most familiar option",
+        "Continue slowly",
+        "Stop, ask a precise question and wait for confirmation",
+        "Copy another student"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A precise question and teacher confirmation prevent decisions based on assumptions.",
+      "retryFeedback": "Re-read Stay clear and resolve uncertainty and focus on what happens when information is unclear.",
+      "theoryAnchor": "Stay clear and resolve uncertainty"
+    },
+    {
+      "id": "M02S03Q10",
+      "question": "Which final check best supports a safe tool decision?",
+      "choices": [
+        "The tool is nearby and another student has used it",
+        "The student remembers seeing the tool used before",
+        "The tool looks simple and the task seems easy",
+        "The tool matches the purpose, authorisation is confirmed, it appears undamaged and the area is clear"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. This check covers purpose, authorisation, visible condition and the surrounding area.",
+      "retryFeedback": "Review the final sentence of Stay clear and resolve uncertainty and identify all parts of the check.",
+      "theoryAnchor": "Stay clear and resolve uncertainty"
+    }
+  ],
+  "written": {
+    "prompt": "Explain how a student should decide whether they are ready to use a named tool for a general teacher-provided task without describing any operating procedure.",
+    "sentenceStarter": "The student should first identify ___. They must then check ___, inspect ___ and ___.",
+    "example": "The student should first identify the broad purpose of the task. They must then check teacher authorisation and the current SOP, inspect the tool for obvious damage without operating it, and wait for confirmation if anything is unclear."
+  }
+}

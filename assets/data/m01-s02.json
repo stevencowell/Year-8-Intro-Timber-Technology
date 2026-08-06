@@ -1,0 +1,165 @@
+{
+  "sectionId": "m01-s02",
+  "title": "Hazards, risks and controls",
+  "theory": [
+    {
+      "heading": "Hazard, risk and control",
+      "body": "A hazard is anything with the potential to cause harm. In a workshop, broad examples include a sharp edge, dust, noise, a damaged item or an object blocking a walkway. Risk describes both the likelihood that the hazard could cause harm and the possible consequence if it does. A control is an action, system or feature that removes the hazard or reduces the risk. These three ideas are connected, but they are not interchangeable. Before beginning an activity, identify what could cause harm, consider what might happen and notice which controls are already in place."
+    },
+    {
+      "heading": "Use the hierarchy of controls",
+      "body": "Controls are considered from strongest to weakest: elimination, substitution, engineering controls, administrative controls and personal protective equipment, or PPE. Elimination removes the hazard completely. Substitution replaces it with a safer option. Engineering controls separate people from the hazard through a physical feature. Administrative controls guide behaviour through instructions, signs, boundaries or organised routines. PPE creates a final personal barrier. Stronger controls should be considered before relying on weaker controls because PPE and instructions do not remove the original hazard."
+    },
+    {
+      "heading": "Check the situation",
+      "body": "Imagine a loose object left in a walkway. The object is the hazard. The risk includes the chance of someone tripping and the possible seriousness of the injury. Removing the object is elimination because the hazard no longer remains. Marking the area may reduce risk, but it leaves the hazard in place. Workshop conditions can change, so observe the area and check that controls remain suitable. Current school SOPs and teacher directions control all actual workshop activity. When unsure, stop and ask before continuing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M01S02Q01",
+      "question": "Which statement best describes a hazard?",
+      "choices": [
+        "Something with the potential to cause harm",
+        "The chance that harm will occur",
+        "The seriousness of an injury only",
+        "A method used to reduce risk"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. A hazard is a source or situation that has the potential to cause harm.",
+      "retryFeedback": "Review Hazard, risk and control and focus on the definition of a hazard.",
+      "theoryAnchor": "Hazard, risk and control"
+    },
+    {
+      "id": "M01S02Q02",
+      "question": "What two ideas are combined when considering risk?",
+      "choices": [
+        "Permission and location",
+        "Likelihood and consequence",
+        "Equipment and materials",
+        "Instructions and signs"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Risk considers how likely harm is and how serious the consequence could be.",
+      "retryFeedback": "Return to Hazard, risk and control and find the two parts used to describe risk.",
+      "theoryAnchor": "Hazard, risk and control"
+    },
+    {
+      "id": "M01S02Q03",
+      "question": "Which option is an example of a control?",
+      "choices": [
+        "Dust in the air",
+        "A damaged item",
+        "A system that reduces exposure to dust",
+        "The possibility of irritation"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. A control is an action, system or feature that removes a hazard or reduces risk.",
+      "retryFeedback": "Re-read Hazard, risk and control and focus on what a control is designed to do.",
+      "theoryAnchor": "Hazard, risk and control"
+    },
+    {
+      "id": "M01S02Q04",
+      "question": "Which control is strongest in the hierarchy?",
+      "choices": [
+        "PPE",
+        "Administrative controls",
+        "Substitution",
+        "Elimination"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Elimination is strongest because it removes the hazard completely.",
+      "retryFeedback": "Review Use the hierarchy of controls and follow the order from strongest to weakest.",
+      "theoryAnchor": "Use the hierarchy of controls"
+    },
+    {
+      "id": "M01S02Q05",
+      "question": "Replacing a hazardous option with a safer one is called what?",
+      "choices": [
+        "Engineering control",
+        "Substitution",
+        "Administrative control",
+        "PPE"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Substitution means replacing a hazard with a safer option.",
+      "retryFeedback": "Return to Use the hierarchy of controls and find the control based on replacement.",
+      "theoryAnchor": "Use the hierarchy of controls"
+    },
+    {
+      "id": "M01S02Q06",
+      "question": "Which example best matches an engineering control?",
+      "choices": [
+        "A reminder sign",
+        "Approved eye protection",
+        "A physical barrier separating people from a hazard",
+        "A spoken instruction"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Engineering controls use physical features to separate people from hazards.",
+      "retryFeedback": "Re-read Use the hierarchy of controls and focus on the control that creates physical separation.",
+      "theoryAnchor": "Use the hierarchy of controls"
+    },
+    {
+      "id": "M01S02Q07",
+      "question": "Why should stronger controls be considered before PPE?",
+      "choices": [
+        "PPE always removes the hazard",
+        "PPE is only used outside workshops",
+        "PPE replaces all other controls",
+        "PPE does not remove the original hazard"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. PPE may reduce exposure, but the original hazard can still remain.",
+      "retryFeedback": "Review the final sentences of Use the hierarchy of controls and focus on the limitation of PPE.",
+      "theoryAnchor": "Use the hierarchy of controls"
+    },
+    {
+      "id": "M01S02Q08",
+      "question": "A loose object is left in a walkway. Which action eliminates the hazard?",
+      "choices": [
+        "Remove the object from the walkway",
+        "Place a marker near it",
+        "Wear protective equipment",
+        "Warn people to step around it"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Removing the object eliminates the hazard because it is no longer present.",
+      "retryFeedback": "Return to Check the situation and identify the action that removes the walkway hazard completely.",
+      "theoryAnchor": "Check the situation"
+    },
+    {
+      "id": "M01S02Q09",
+      "question": "Why should controls be checked during workshop activity?",
+      "choices": [
+        "Students must replace school procedures",
+        "All controls stop working after a short time",
+        "Conditions can change and controls may no longer be suitable",
+        "Only PPE needs to be observed"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Workshop conditions can change, so controls need to remain suitable for the situation.",
+      "retryFeedback": "Re-read Check the situation and focus on why observation must continue.",
+      "theoryAnchor": "Check the situation"
+    },
+    {
+      "id": "M01S02Q10",
+      "question": "What should a student do when unsure whether a control is suitable?",
+      "choices": [
+        "Continue carefully",
+        "Copy another student",
+        "Choose PPE without permission",
+        "Stop and ask before continuing"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Stopping and asking keeps the activity consistent with current SOPs and teacher directions.",
+      "retryFeedback": "Review the final sentences of Check the situation and identify the response to uncertainty.",
+      "theoryAnchor": "Check the situation"
+    }
+  ],
+  "written": {
+    "prompt": "Identify one broad workshop hazard, explain its risk using likelihood and consequence, and choose the strongest practical control from the hierarchy.",
+    "sentenceStarter": "The hazard is ___, and the risk is ___ because ___. The strongest practical control is ___ because ___.",
+    "example": "The loose object is a trip hazard, and the risk is that someone may fall and be injured. Removing it from the walkway eliminates the hazard, so it is stronger than relying only on a warning."
+  }
+}

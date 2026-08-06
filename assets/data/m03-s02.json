@@ -1,0 +1,165 @@
+{
+  "sectionId": "m03-s02",
+  "title": "Grain, knots and density",
+  "theory": [
+    {
+      "heading": "Read the grain",
+      "body": "Grain describes the direction and visible pattern of wood fibres. It may appear mostly straight, curved, wavy or uneven across a timber sample. Grain can be observed on different faces of the same piece, so one surface may not show the whole pattern. Use clear descriptive words and point to visible evidence rather than guessing how the timber will perform. For example, a student might describe fibres running mainly along the length with some change near a knot. Careful observation provides useful information without turning appearance into an unsupported strength claim."
+    },
+    {
+      "heading": "Notice knots and variation",
+      "body": "A knot is evidence of where a branch grew from the tree. Knots can change the colour, pattern and direction of nearby fibres. They may also affect how a piece behaves, but appearance alone does not prove that a sample is strong, weak, suitable or unsuitable. Describe what can actually be seen, such as the knot location, approximate shape and changes in surrounding grain. Different samples may contain no visible knots, one knot or several knots. Teacher-provided requirements guide decisions about whether a particular sample is appropriate."
+    },
+    {
+      "heading": "Describe density carefully",
+      "body": "Density is the amount of mass in relation to volume. Two samples of the same size may have different masses, while samples of different sizes cannot be compared fairly by mass alone. Density is a material property, but it should not be used by itself to invent claims about strength or quality. When examining a sample, record observable grain and knots, then use approved information when describing density. Current school SOPs and teacher directions control all actual workshop activity. If evidence is limited, state what is known and avoid guessing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "M03S02Q01",
+      "question": "What does grain describe in timber?",
+      "choices": [
+        "The direction and pattern of wood fibres",
+        "The exact strength of the timber",
+        "The age of the finished product",
+        "The mass of the whole tree"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. Grain is the direction and visible pattern formed by the wood fibres.",
+      "retryFeedback": "Review Read the grain and focus on the definition in the opening sentence.",
+      "theoryAnchor": "Read the grain"
+    },
+    {
+      "id": "M03S02Q02",
+      "question": "Why might a student observe more than one face of a timber sample?",
+      "choices": [
+        "Each face always has a different density",
+        "One surface may not show the complete grain pattern",
+        "Knots can only appear on one face",
+        "The timber category changes between faces"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Different faces can reveal different parts of the grain pattern.",
+      "retryFeedback": "Return to Read the grain and identify why one surface may provide incomplete evidence.",
+      "theoryAnchor": "Read the grain"
+    },
+    {
+      "id": "M03S02Q03",
+      "question": "Which statement is an evidence-based grain description?",
+      "choices": [
+        "This timber will never break",
+        "This is the strongest piece available",
+        "The fibres run mainly along the length and curve near a knot",
+        "The grain guarantees perfect quality"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. This describes visible fibre direction without inventing a performance claim.",
+      "retryFeedback": "Re-read Read the grain and focus on the example of an observation based on visible evidence.",
+      "theoryAnchor": "Read the grain"
+    },
+    {
+      "id": "M03S02Q04",
+      "question": "What does a knot show about the original tree?",
+      "choices": [
+        "The sample has a fixed density",
+        "The timber was manufactured",
+        "The tree had no grain",
+        "A branch grew from that area"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A knot is evidence of branch growth within the tree.",
+      "retryFeedback": "Review Notice knots and variation and focus on the explanation of how knots form.",
+      "theoryAnchor": "Notice knots and variation"
+    },
+    {
+      "id": "M03S02Q05",
+      "question": "How can a knot affect the visible timber sample?",
+      "choices": [
+        "It removes all visible grain",
+        "It can alter colour, pattern and nearby fibre direction",
+        "It proves the timber is unsuitable",
+        "It makes every sample identical"
+      ],
+      "answer": "B",
+      "correctFeedback": "Correct. Knots can change the appearance and direction of fibres around them.",
+      "retryFeedback": "Return to Notice knots and variation and identify the visible changes linked to knots.",
+      "theoryAnchor": "Notice knots and variation"
+    },
+    {
+      "id": "M03S02Q06",
+      "question": "Which conclusion should not be made from a knot alone?",
+      "choices": [
+        "The knot has a visible location",
+        "The surrounding grain changes direction",
+        "The sample is definitely weak",
+        "The knot has an observable shape"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Appearance alone does not prove a definite strength claim.",
+      "retryFeedback": "Re-read Notice knots and variation and focus on the claims that visible appearance cannot prove.",
+      "theoryAnchor": "Notice knots and variation"
+    },
+    {
+      "id": "M03S02Q07",
+      "question": "What is density?",
+      "choices": [
+        "The colour of the timber surface",
+        "The direction of wood fibres",
+        "The number of knots in a sample",
+        "Mass in relation to volume"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. Density compares the amount of mass with the volume of the material.",
+      "retryFeedback": "Review Describe density carefully and locate the definition of density.",
+      "theoryAnchor": "Describe density carefully"
+    },
+    {
+      "id": "M03S02Q08",
+      "question": "Two timber samples are the same size, but one has more mass. What can be said?",
+      "choices": [
+        "The heavier sample has greater density",
+        "The heavier sample is automatically stronger",
+        "The lighter sample has more knots",
+        "Both samples must have equal density"
+      ],
+      "answer": "A",
+      "correctFeedback": "Correct. When volume is the same, the sample with greater mass has greater density.",
+      "retryFeedback": "Return to Describe density carefully and focus on the comparison between samples of the same size.",
+      "theoryAnchor": "Describe density carefully"
+    },
+    {
+      "id": "M03S02Q09",
+      "question": "Why is comparing mass alone unfair when samples have different sizes?",
+      "choices": [
+        "Larger samples always have lower density",
+        "Grain removes the need for measurement",
+        "Density relates mass to volume",
+        "Knots determine all mass differences"
+      ],
+      "answer": "C",
+      "correctFeedback": "Correct. Density requires both mass and volume, so size differences must be considered.",
+      "retryFeedback": "Re-read Describe density carefully and identify why differently sized samples need more than a mass comparison.",
+      "theoryAnchor": "Describe density carefully"
+    },
+    {
+      "id": "M03S02Q10",
+      "question": "What should a student do when the available evidence is limited?",
+      "choices": [
+        "Invent a likely strength claim",
+        "Copy another student's conclusion",
+        "Assume density proves quality",
+        "State what is known and avoid guessing"
+      ],
+      "answer": "D",
+      "correctFeedback": "Correct. A careful description separates observed evidence from unsupported assumptions.",
+      "retryFeedback": "Review the final sentence of Describe density carefully and identify the response to limited evidence.",
+      "theoryAnchor": "Describe density carefully"
+    }
+  ],
+  "written": {
+    "prompt": "Observe a timber sample and describe its grain, any visible knots and what can responsibly be said about density without making a strength claim.",
+    "sentenceStarter": "The grain appears ___, and I can see ___. The knot evidence shows ___. About density, I can responsibly state ___.",
+    "example": "The grain runs mainly along the length and curves near one visible knot. The knot shows where a branch grew. Density cannot be judged from appearance alone, so approved information or a fair mass and volume comparison is needed."
+  }
+}
