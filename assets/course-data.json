@@ -1,0 +1,1092 @@
+{
+  "sections": [
+    {
+      "number": 1,
+      "title": "Working safely in the workshop",
+      "questions": [
+        {
+          "id": "WS-01",
+          "question": "Where should timber off-cuts and scraps be placed?",
+          "choices": [
+            "On the nearest bench",
+            "In the scrap box or bin",
+            "Inside a machine safety zone",
+            "Under the project"
+          ],
+          "answer": "B",
+          "feedback": "Correct: placing scraps in the assigned box or bin helps keep the workshop clear."
+        },
+        {
+          "id": "WS-02",
+          "question": "What must happen before a student uses a machine?",
+          "choices": [
+            "A classmate gives permission",
+            "The machine is already running",
+            "The teacher gives permission",
+            "The student finishes quickly"
+          ],
+          "answer": "C",
+          "feedback": "Correct: teacher permission is required before machine use."
+        },
+        {
+          "id": "WS-03",
+          "question": "Which footwear matches the workshop rule?",
+          "choices": [
+            "Covered shoes",
+            "Thongs",
+            "Bare feet",
+            "Open sandals"
+          ],
+          "answer": "A",
+          "feedback": "Correct: covered shoes are required in the workshop."
+        },
+        {
+          "id": "WS-04",
+          "question": "What protects a student's eyes during relevant machine work?",
+          "choices": [
+            "A dustpan",
+            "Safety glasses, goggles or an eye shield",
+            "A ruler",
+            "Earphones"
+          ],
+          "answer": "B",
+          "feedback": "Correct: approved eye protection guards against flying particles."
+        },
+        {
+          "id": "WS-05",
+          "question": "What should a student do with tools after using them?",
+          "choices": [
+            "Leave them on the bench",
+            "Hide them with the project",
+            "Return them to the shadow board or rack",
+            "Give them to another group"
+          ],
+          "answer": "C",
+          "feedback": "Correct: returning tools makes them available, visible and safer for everyone."
+        },
+        {
+          "id": "WS-06",
+          "question": "Why must a file have a handle?",
+          "choices": [
+            "So it matches the tool board",
+            "So it is longer",
+            "So the tang is not used as an exposed hand grip",
+            "So it can cut timber faster"
+          ],
+          "answer": "C",
+          "feedback": "Correct: a proper handle prevents the exposed tang from being held in the hand."
+        },
+        {
+          "id": "WS-07",
+          "question": "Where should a student's body be in relation to a chisel's cutting edge?",
+          "choices": [
+            "Behind the cutting edge",
+            "Directly in front of it",
+            "Over the work",
+            "Wherever is fastest"
+          ],
+          "answer": "A",
+          "feedback": "Correct: keeping the body behind the cutting edge reduces the chance of cutting towards yourself."
+        },
+        {
+          "id": "WS-08",
+          "question": "What should happen before leaving a machine?",
+          "choices": [
+            "Leave it running for the next person",
+            "Make sure it is not left running",
+            "Ask a classmate to watch it",
+            "Cover it with timber"
+          ],
+          "answer": "B",
+          "feedback": "Correct: a machine must not be left running when the operator walks away."
+        },
+        {
+          "id": "WS-09",
+          "question": "How many students should be in a marked machine safety zone at one time?",
+          "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Any number who fit"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the deck's workshop rule is one student in the safety zone at a time."
+        },
+        {
+          "id": "WS-10",
+          "question": "Which action reduces trip and entanglement hazards?",
+          "choices": [
+            "Put materials on the floor",
+            "Wear loose jewellery",
+            "Tie back long hair and keep the floor clear",
+            "Run between benches"
+          ],
+          "answer": "C",
+          "feedback": "Correct: secure hair and clothing, and keep trip hazards off the floor."
+        }
+      ],
+      "prompts": [
+        {
+          "prompt": "Explain two actions you will take to keep your workshop area safe.",
+          "example": "I will return tools after use and place off-cuts in the correct scrap box so the bench and floor stay clear."
+        },
+        {
+          "prompt": "What should you do if you are unsure whether you may use a tool or machine?",
+          "example": "I will stop, keep clear of the machine and ask the teacher for permission and the correct instruction."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Timber words and properties",
+      "questions": [
+        {
+          "id": "TP-01",
+          "question": "In the source vocabulary, hardwood comes from which type of tree?",
+          "choices": [
+            "A deciduous tree",
+            "An artificial tree",
+            "A metal frame",
+            "A grass plant"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the deck defines hardwood as timber from a deciduous tree."
+        },
+        {
+          "id": "TP-02",
+          "question": "In the source vocabulary, softwood comes from which type of tree?",
+          "choices": [
+            "A fruit vine",
+            "An evergreen or coniferous tree",
+            "A deciduous tree only",
+            "A recycled board"
+          ],
+          "answer": "B",
+          "feedback": "Correct: the deck links softwood with evergreen or coniferous trees."
+        },
+        {
+          "id": "TP-03",
+          "question": "What does `tight grained` describe?",
+          "choices": [
+            "Low ring count and fast growth",
+            "High ring count, slower growth and greater density",
+            "A timber with no colour",
+            "Timber made from plastic"
+          ],
+          "answer": "B",
+          "feedback": "Correct: tight grain is associated with a higher ring count and slower growth."
+        },
+        {
+          "id": "TP-04",
+          "question": "What does `loose grained` describe?",
+          "choices": [
+            "Low ring count and faster growth",
+            "High ring count and slower growth",
+            "A manufactured board only",
+            "A polished surface"
+          ],
+          "answer": "A",
+          "feedback": "Correct: loose grain is associated with a lower ring count and faster growth."
+        },
+        {
+          "id": "TP-05",
+          "question": "Which description best matches dense timber?",
+          "choices": [
+            "Very light with large spaces",
+            "Heavy, with wood particles close together",
+            "Always waterproof",
+            "Always manufactured"
+          ],
+          "answer": "B",
+          "feedback": "Correct: density describes how closely the material's particles are packed."
+        },
+        {
+          "id": "TP-06",
+          "question": "What is straight grain?",
+          "choices": [
+            "Grain that twists around a knot",
+            "Timber that has grown straight with a uniform grain",
+            "A painted line",
+            "A sheet made from plastic"
+          ],
+          "answer": "B",
+          "feedback": "Correct: straight-grained timber has a more uniform grain direction."
+        },
+        {
+          "id": "TP-07",
+          "question": "What is a knot in timber?",
+          "choices": [
+            "A paint mark",
+            "An irregularity where a branch or offshoot existed",
+            "A type of glue",
+            "A scale symbol"
+          ],
+          "answer": "B",
+          "feedback": "Correct: a knot records where a branch or offshoot grew."
+        },
+        {
+          "id": "TP-08",
+          "question": "Which property describes good resistance to water and heat in the source vocabulary?",
+          "choices": [
+            "Weather resistant",
+            "Loose grained",
+            "Economical",
+            "Isometric"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the deck uses `weather resistant` for this property."
+        },
+        {
+          "id": "TP-09",
+          "question": "Which timber is described as easier to cut and shape?",
+          "choices": [
+            "Only the densest timber",
+            "Low- or medium-density timber",
+            "Timber with metal inside",
+            "Timber with no grain"
+          ],
+          "answer": "B",
+          "feedback": "Correct: lower or medium density can make timber easier to work."
+        },
+        {
+          "id": "TP-10",
+          "question": "What does `lightweight` mean?",
+          "choices": [
+            "Timber has little mass for its size",
+            "Timber is always softwood",
+            "Timber glows",
+            "Timber has been laser cut"
+          ],
+          "answer": "A",
+          "feedback": "Correct: hardwood or softwood can be lightweight; the term describes weight, not tree group."
+        }
+      ],
+      "prompts": [
+        {
+          "prompt": "Use `grain`, `density` and `knot` in a short description of a piece of timber.",
+          "example": "This piece has a mostly straight grain, feels fairly light for its size and has one knot where a branch grew."
+        },
+        {
+          "prompt": "Why is it useful to describe material properties before making a project?",
+          "example": "Properties help me explain how a material may behave and whether it is suitable for the job, instead of choosing only by appearance."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Manufactured wood products",
+      "questions": [
+        {
+          "id": "MW-01",
+          "question": "What is another common term for manufactured wood products?",
+          "choices": [
+            "Engineered wood products",
+            "Raw metal products",
+            "Solid stone products",
+            "Natural fibres only"
+          ],
+          "answer": "A",
+          "feedback": "Correct: `engineered wood products` is a common name for manufactured wood products."
+        },
+        {
+          "id": "MW-02",
+          "question": "Which raw forms may be used to make manufactured wood?",
+          "choices": [
+            "Veneers, strands, fibres or particles",
+            "Glass bottles only",
+            "Solid metal only",
+            "Clay bricks only"
+          ],
+          "answer": "A",
+          "feedback": "Correct: manufacturers can combine different wood forms with controlled processes."
+        },
+        {
+          "id": "MW-03",
+          "question": "How is plywood formed?",
+          "choices": [
+            "One thick board is painted",
+            "Thin veneers are bonded in layers with grain directions alternating",
+            "Wood is melted into a mould",
+            "Plastic is folded around metal"
+          ],
+          "answer": "B",
+          "feedback": "Correct: alternating veneer directions help plywood resist movement in one direction."
+        },
+        {
+          "id": "MW-04",
+          "question": "What does OSB use as its main wood form?",
+          "choices": [
+            "Oriented wood strands",
+            "A single log",
+            "Woven fabric",
+            "Ceramic tiles"
+          ],
+          "answer": "A",
+          "feedback": "Correct: oriented strand board is made from arranged wood strands bonded into layers."
+        },
+        {
+          "id": "MW-05",
+          "question": "How is laminated veneer lumber (LVL) mainly built?",
+          "choices": [
+            "Thin veneers bonded with their grain mainly running in the same direction",
+            "Crossed metal rods",
+            "Loose sawdust with no binder",
+            "One unprocessed branch"
+          ],
+          "answer": "A",
+          "feedback": "Correct: aligned veneers help LVL act as a long structural member."
+        },
+        {
+          "id": "MW-06",
+          "question": "How is cross-laminated timber (CLT) arranged?",
+          "choices": [
+            "Timber layers are placed across one another",
+            "All layers are loose",
+            "Timber is mixed only with plastic",
+            "One layer is used"
+          ],
+          "answer": "A",
+          "feedback": "Correct: cross-laminating places adjacent layers in different directions to form panels."
+        },
+        {
+          "id": "MW-07",
+          "question": "What two material groups are combined in wood-plastic composite?",
+          "choices": [
+            "Wood material and plastic",
+            "Timber and glass only",
+            "Steel and concrete",
+            "Paper and clay"
+          ],
+          "answer": "A",
+          "feedback": "Correct: wood-plastic composite combines a wood component with a polymer component."
+        },
+        {
+          "id": "MW-08",
+          "question": "Why can engineered wood products be more consistent than a single natural board?",
+          "choices": [
+            "Their layers and ingredients can be selected and controlled",
+            "They have no manufacturing process",
+            "They contain no wood",
+            "They are always the same colour"
+          ],
+          "answer": "A",
+          "feedback": "Correct: controlled manufacture can reduce some of the variation found in individual boards."
+        },
+        {
+          "id": "MW-09",
+          "question": "Which products are commonly used as structural sheet panels?",
+          "choices": [
+            "Plywood and OSB",
+            "LVL and a nail",
+            "CLT and paint",
+            "Solid glass and fabric"
+          ],
+          "answer": "A",
+          "feedback": "Correct: plywood and OSB are manufactured as sheet panels for structural applications."
+        },
+        {
+          "id": "MW-10",
+          "question": "What is the most responsible way to make an environmental claim about a wood product?",
+          "choices": [
+            "Assume every wood product is automatically sustainable",
+            "Consider sourcing, manufacture, use and end-of-life",
+            "Judge only by colour",
+            "Ignore transport and adhesives"
+          ],
+          "answer": "B",
+          "feedback": "Correct: environmental decisions need the whole product context, not a blanket claim."
+        }
+      ],
+      "prompts": [
+        {
+          "prompt": "Compare plywood and solid timber in one or two sentences.",
+          "example": "Plywood is made from bonded veneers with alternating grain directions, while solid timber is cut from a tree as one piece. Their different structures give them different uses and behaviour."
+        },
+        {
+          "prompt": "Choose one manufactured wood product and explain why its structure suits a use.",
+          "example": "CLT uses timber layers arranged across one another to form large panels, so it can be used where a strong panel is needed."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Reading the original Footstool plan",
+      "questions": [
+        {
+          "id": "PR-01",
+          "question": "What title appears on the original drawing sheets?",
+          "choices": [
+            "Wagga High School Foot Stool",
+            "Year 8 Metal Box",
+            "Garden Seat",
+            "Folding Chair"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the original sheets are titled `Wagga High School Foot Stool`."
+        },
+        {
+          "id": "PR-02",
+          "question": "How many pages are in the original plan PDF?",
+          "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "answer": "B",
+          "feedback": "Correct: the issued plan contains two drawing pages."
+        },
+        {
+          "id": "PR-03",
+          "question": "What does the symbol `Ø` before a dimension identify?",
+          "choices": [
+            "Radius",
+            "Diameter",
+            "Angle",
+            "Scale"
+          ],
+          "answer": "B",
+          "feedback": "Correct: `Ø` identifies a diameter dimension."
+        },
+        {
+          "id": "PR-04",
+          "question": "Why should a student use `Open larger` before reading small dimensions?",
+          "choices": [
+            "To change the design",
+            "To view the original detail clearly",
+            "To remove dimension lines",
+            "To replace the plan"
+          ],
+          "answer": "B",
+          "feedback": "Correct: the full-resolution source makes small labels and linework easier to read accurately."
+        },
+        {
+          "id": "PR-05",
+          "question": "If a drawing is at scale 1:2, how large is the drawing compared with the real object?",
+          "choices": [
+            "Twice as large",
+            "Half as large",
+            "The same size",
+            "One quarter as large"
+          ],
+          "answer": "B",
+          "feedback": "Correct: at 1:2, one unit on the drawing represents two units on the real object."
+        },
+        {
+          "id": "PR-06",
+          "question": "A length is 180 mm on a true 1:2 drawing. What is the full-size length?",
+          "choices": [
+            "90 mm",
+            "180 mm",
+            "360 mm",
+            "720 mm"
+          ],
+          "answer": "C",
+          "feedback": "Correct: multiply a true 1:2 drawing measurement by 2 to find the full size."
+        },
+        {
+          "id": "PR-07",
+          "question": "Which is the safest source for an exact component size?",
+          "choices": [
+            "Guessing from the screen",
+            "The plan's written dimension",
+            "Measuring a thumbnail",
+            "Copying a classmate's memory"
+          ],
+          "answer": "B",
+          "feedback": "Correct: written dimensions on the original plan control; screen thumbnails may not be to scale."
+        },
+        {
+          "id": "PR-08",
+          "question": "What is the purpose of a dimension line and number?",
+          "choices": [
+            "To decorate the page",
+            "To communicate a measured size",
+            "To show timber colour",
+            "To hide a feature"
+          ],
+          "answer": "B",
+          "feedback": "Correct: dimensions communicate the intended size of a feature or component."
+        },
+        {
+          "id": "PR-09",
+          "question": "Why are several views used on a technical plan?",
+          "choices": [
+            "One view cannot show every shape and position clearly",
+            "To make the file longer",
+            "To avoid dimensions",
+            "To show different colours"
+          ],
+          "answer": "A",
+          "feedback": "Correct: related views communicate different faces and features of the same object."
+        },
+        {
+          "id": "PR-10",
+          "question": "What should a student do if a plan detail is unclear?",
+          "choices": [
+            "Invent a likely size",
+            "Cut first and check later",
+            "Pause and ask the teacher to confirm the original detail",
+            "Ignore the dimension"
+          ],
+          "answer": "C",
+          "feedback": "Correct: uncertainty must be resolved from the original plan and teacher direction before making."
+        }
+      ],
+      "prompts": [
+        {
+          "prompt": "Identify two types of information you can read from the original plan.",
+          "example": "I can read written dimensions and compare the related views to understand where components are positioned."
+        },
+        {
+          "prompt": "Explain why measuring a plan thumbnail can give the wrong result.",
+          "example": "A thumbnail may be resized by the screen, so I should use the written dimension or the correctly printed scale instead."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Third-angle and isometric communication",
+      "questions": [
+        {
+          "id": "TD-01",
+          "question": "What does third-angle projection show?",
+          "choices": [
+            "Related 2D views of an object",
+            "Only a colour scheme",
+            "A written evaluation",
+            "A material price list"
+          ],
+          "answer": "A",
+          "feedback": "Correct: third-angle projection communicates an object's shape through related 2D views."
+        },
+        {
+          "id": "TD-02",
+          "question": "Which view looks down on the object?",
+          "choices": [
+            "Plan",
+            "Front elevation",
+            "Right-hand elevation",
+            "Perspective"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the plan is the top view."
+        },
+        {
+          "id": "TD-03",
+          "question": "Which view shows the object directly from the front?",
+          "choices": [
+            "Plan",
+            "Front elevation",
+            "Right-hand elevation",
+            "Section title"
+          ],
+          "answer": "B",
+          "feedback": "Correct: the front elevation shows the front face."
+        },
+        {
+          "id": "TD-04",
+          "question": "Which view shows the object from its right side?",
+          "choices": [
+            "Plan",
+            "Front elevation",
+            "Right-hand elevation",
+            "Thumbnail"
+          ],
+          "answer": "C",
+          "feedback": "Correct: the right-hand elevation shows the object's right side."
+        },
+        {
+          "id": "TD-05",
+          "question": "Why are horizontal projection lines drawn between related views?",
+          "choices": [
+            "To align shared heights or positions",
+            "To colour the object",
+            "To show timber grain",
+            "To calculate cost"
+          ],
+          "answer": "A",
+          "feedback": "Correct: projection lines keep corresponding features aligned."
+        },
+        {
+          "id": "TD-06",
+          "question": "What line style is used for a visible outline?",
+          "choices": [
+            "Bold continuous",
+            "Dashed only",
+            "Dot-dash only",
+            "Freehand shading"
+          ],
+          "answer": "A",
+          "feedback": "Correct: visible outlines are shown with bold continuous lines."
+        },
+        {
+          "id": "TD-07",
+          "question": "What line style shows a hidden feature?",
+          "choices": [
+            "Bold continuous",
+            "Dashed",
+            "Wavy",
+            "Coloured"
+          ],
+          "answer": "B",
+          "feedback": "Correct: dashed lines communicate features hidden behind a visible surface."
+        },
+        {
+          "id": "TD-08",
+          "question": "What line style identifies a centre line?",
+          "choices": [
+            "Dot-dash repeating",
+            "Thick zigzag",
+            "Solid colour block",
+            "Double outline"
+          ],
+          "answer": "A",
+          "feedback": "Correct: a repeating dot-dash line marks a centre or axis."
+        },
+        {
+          "id": "TD-09",
+          "question": "What does an isometric drawing help communicate?",
+          "choices": [
+            "A 3D-looking view of the object",
+            "Only the assessment mark",
+            "Only the timber species",
+            "A safety-zone map"
+          ],
+          "answer": "A",
+          "feedback": "Correct: isometric drawing helps the viewer visualise three dimensions in one view."
+        },
+        {
+          "id": "TD-10",
+          "question": "In the deck's isometric sequence, what is drawn after the top and rails?",
+          "choices": [
+            "The legs",
+            "The title page",
+            "The KWL table",
+            "The safety zone"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the shown sequence is top, rails, then legs."
+        }
+      ],
+      "prompts": [
+        {
+          "prompt": "Explain one difference between a third-angle drawing and an isometric drawing.",
+          "example": "A third-angle drawing separates the object into aligned 2D views, while an isometric drawing shows a 3D-looking view in one image."
+        },
+        {
+          "prompt": "Why should projection lines be light while visible outlines are bold?",
+          "example": "Light projection lines guide alignment without competing with the bold lines that show the finished visible shape."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Developing a personal emblem",
+      "questions": [
+        {
+          "id": "ED-01",
+          "question": "How many themes does the design task ask a student to choose?",
+          "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Six"
+          ],
+          "answer": "C",
+          "feedback": "Correct: the task begins by choosing three themes."
+        },
+        {
+          "id": "ED-02",
+          "question": "Which is one of the suggested theme types?",
+          "choices": [
+            "Name or initials",
+            "Machine speed",
+            "Assessment date",
+            "Timber tolerance"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the source suggests name or initials, place, hobby, animal or a significant number."
+        },
+        {
+          "id": "ED-03",
+          "question": "What is the purpose of thumbnail sketches?",
+          "choices": [
+            "To explore several quick possibilities",
+            "To produce the final plan",
+            "To set a machine speed",
+            "To record attendance"
+          ],
+          "answer": "A",
+          "feedback": "Correct: thumbnails let a designer test ideas before committing to one."
+        },
+        {
+          "id": "ED-04",
+          "question": "How many combined emblem ideas are required?",
+          "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Ten"
+          ],
+          "answer": "C",
+          "feedback": "Correct: the task asks for three emblem ideas."
+        },
+        {
+          "id": "ED-05",
+          "question": "What should be recorded for each emblem idea?",
+          "choices": [
+            "Pros and cons",
+            "A final mark only",
+            "A machine setting",
+            "A timber cutting list"
+          ],
+          "answer": "A",
+          "feedback": "Correct: recording strengths and weaknesses supports a reasoned choice."
+        },
+        {
+          "id": "ED-06",
+          "question": "What makes a design choice well justified?",
+          "choices": [
+            "Saying only `I like it`",
+            "Explaining why its arrangement and clarity work best",
+            "Choosing the first idea",
+            "Copying the demonstration"
+          ],
+          "answer": "B",
+          "feedback": "Correct: a reason linked to balance, recognition or clarity is stronger evidence."
+        },
+        {
+          "id": "ED-07",
+          "question": "What happens after one emblem is selected?",
+          "choices": [
+            "It is prepared carefully as the final design",
+            "All ideas are erased immediately",
+            "The plan dimensions change",
+            "The project is complete"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the chosen concept is refined into a clear final design."
+        },
+        {
+          "id": "ED-08",
+          "question": "What should be used to outline the final design?",
+          "choices": [
+            "Black pen",
+            "Chalk dust",
+            "A timber off-cut",
+            "A dimension line"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the preparation instructions specify a black pen outline."
+        },
+        {
+          "id": "ED-09",
+          "question": "What should happen to remaining pencil lines after outlining?",
+          "choices": [
+            "They should be erased",
+            "They should be made darker",
+            "They should become dimensions",
+            "They should be cut immediately"
+          ],
+          "answer": "A",
+          "feedback": "Correct: erasing stray pencil leaves a cleaner source image."
+        },
+        {
+          "id": "ED-10",
+          "question": "When may the prepared emblem move to a laser-cutting or engraving process?",
+          "choices": [
+            "Whenever a student decides",
+            "Only when the process is available and approved by the teacher",
+            "Before the design is checked",
+            "Without preparing a file"
+          ],
+          "answer": "B",
+          "feedback": "Correct: laser use is an opportunity within the course and remains teacher-controlled."
+        }
+      ],
+      "prompts": [
+        {
+          "prompt": "Compare two emblem ideas and explain which one you would develop.",
+          "example": "Idea 2 is clearer because the initials and wave shape can be recognised quickly. Idea 1 has more detail, but the parts compete with each other."
+        },
+        {
+          "prompt": "What change would make your selected emblem easier to recognise?",
+          "example": "I would simplify the small shapes and use a stronger outline so the main symbol remains clear."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Functional design and evaluation",
+      "questions": [
+        {
+          "id": "FN-01",
+          "question": "What does `durable` mean?",
+          "choices": [
+            "Able to last through use",
+            "Brightly coloured",
+            "Symmetrical",
+            "Expensive"
+          ],
+          "answer": "A",
+          "feedback": "Correct: durability is about lasting and resisting wear or damage."
+        },
+        {
+          "id": "FN-02",
+          "question": "What does `reliable` mean?",
+          "choices": [
+            "Performs dependably",
+            "Has an organic shape",
+            "Uses many colours",
+            "Is difficult to repair"
+          ],
+          "answer": "A",
+          "feedback": "Correct: a reliable product works as expected repeatedly."
+        },
+        {
+          "id": "FN-03",
+          "question": "What does `stable` mean for a product?",
+          "choices": [
+            "It resists unwanted movement or tipping",
+            "It has a shiny surface",
+            "It uses less text",
+            "It is made from one colour"
+          ],
+          "answer": "A",
+          "feedback": "Correct: stability concerns secure support and resistance to tipping or wobbling."
+        },
+        {
+          "id": "FN-04",
+          "question": "What does `ergonomic` mean?",
+          "choices": [
+            "Designed to suit the user comfortably and effectively",
+            "Designed only to be decorative",
+            "Designed without measurements",
+            "Designed to be heavy"
+          ],
+          "answer": "A",
+          "feedback": "Correct: ergonomic design considers the way a person uses and experiences a product."
+        },
+        {
+          "id": "FN-05",
+          "question": "What does `efficient` mean?",
+          "choices": [
+            "Achieves its purpose without unnecessary waste of time or resources",
+            "Uses the most parts possible",
+            "Has a natural shape",
+            "Has no evaluation"
+          ],
+          "answer": "A",
+          "feedback": "Correct: efficiency considers how effectively resources or effort are used."
+        },
+        {
+          "id": "FN-06",
+          "question": "What does `economical` mean?",
+          "choices": [
+            "Uses resources and cost sensibly",
+            "Uses only geometric shapes",
+            "Is always the largest design",
+            "Avoids planning"
+          ],
+          "answer": "A",
+          "feedback": "Correct: economical design seeks a sensible result for the resources used."
+        },
+        {
+          "id": "FN-07",
+          "question": "Which question begins a useful evaluation?",
+          "choices": [
+            "What went well?",
+            "Who finished first?",
+            "What colour is the website?",
+            "Can I skip the evidence?"
+          ],
+          "answer": "A",
+          "feedback": "Correct: identifying what worked is one part of a balanced evaluation."
+        },
+        {
+          "id": "FN-08",
+          "question": "Which question supports improvement?",
+          "choices": [
+            "What could have been improved?",
+            "Can I change the original plan without approval?",
+            "Which answer is shortest?",
+            "Who packed away last?"
+          ],
+          "answer": "A",
+          "feedback": "Correct: improvement begins by identifying a specific weakness or limitation."
+        },
+        {
+          "id": "FN-09",
+          "question": "What makes a functional rating useful?",
+          "choices": [
+            "A score supported by observed evidence",
+            "A random number",
+            "The highest score for every feature",
+            "A copied score"
+          ],
+          "answer": "A",
+          "feedback": "Correct: the rating needs evidence such as a test, observation or clear reason."
+        },
+        {
+          "id": "FN-10",
+          "question": "Which statement is the strongest functional evaluation?",
+          "choices": [
+            "`It is good.`",
+            "`It is stable because it stayed level during the approved check, but one area needs more accurate finishing.`",
+            "`I like it.`",
+            "`It is finished.`"
+          ],
+          "answer": "B",
+          "feedback": "Correct: a strong evaluation uses a criterion, evidence and a realistic improvement."
+        }
+      ],
+      "prompts": [
+        {
+          "prompt": "Evaluate one functional quality of your project using evidence.",
+          "example": "The project is stable because it remained level during the approved check. I would improve the accuracy of one component so the support is more even."
+        },
+        {
+          "prompt": "Explain one way you used time or material efficiently.",
+          "example": "I checked the plan and marked carefully before working, which reduced mistakes and avoided wasting material."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Aesthetic design and evaluation",
+      "questions": [
+        {
+          "id": "AE-01",
+          "question": "What does `aesthetics` refer to?",
+          "choices": [
+            "The visual qualities and appearance of a design",
+            "Only its cost",
+            "Only its safety zone",
+            "A machine's speed"
+          ],
+          "answer": "A",
+          "feedback": "Correct: aesthetics concerns how a design looks and the visual response it creates."
+        },
+        {
+          "id": "AE-02",
+          "question": "What does `symmetrical` mean?",
+          "choices": [
+            "Balanced as matching or corresponding parts around a line or point",
+            "Completely random",
+            "Hidden from view",
+            "Made from one material"
+          ],
+          "answer": "A",
+          "feedback": "Correct: symmetry creates a recognisable form of visual balance."
+        },
+        {
+          "id": "AE-03",
+          "question": "What is contrast?",
+          "choices": [
+            "A noticeable difference between visual elements",
+            "Two elements made identical",
+            "A hidden dimension",
+            "A production delay"
+          ],
+          "answer": "A",
+          "feedback": "Correct: contrast helps elements stand apart, such as dark text on a light background."
+        },
+        {
+          "id": "AE-04",
+          "question": "What does visual hierarchy do?",
+          "choices": [
+            "Guides attention to the most important information first",
+            "Removes all differences",
+            "Measures the timber",
+            "Selects a machine"
+          ],
+          "answer": "A",
+          "feedback": "Correct: hierarchy controls the order in which a viewer notices information."
+        },
+        {
+          "id": "AE-05",
+          "question": "How can emphasis be created?",
+          "choices": [
+            "Make an important element bigger, bolder or otherwise distinct",
+            "Make every element compete equally",
+            "Hide the main idea",
+            "Remove all spacing"
+          ],
+          "answer": "A",
+          "feedback": "Correct: emphasis makes one feature attract attention."
+        },
+        {
+          "id": "AE-06",
+          "question": "Which description best matches an organic form?",
+          "choices": [
+            "A form inspired by nature or flowing growth",
+            "A form based only on regular mathematical shapes",
+            "A dimension line",
+            "A safety symbol"
+          ],
+          "answer": "A",
+          "feedback": "Correct: organic forms often resemble shapes found in nature."
+        },
+        {
+          "id": "AE-07",
+          "question": "Which description best matches a geometric form?",
+          "choices": [
+            "A form based on regular shapes and clear structure",
+            "A form with no edges or pattern",
+            "A written reflection",
+            "A material defect"
+          ],
+          "answer": "A",
+          "feedback": "Correct: geometric forms use recognisable shapes such as circles, triangles or rectangles."
+        },
+        {
+          "id": "AE-08",
+          "question": "What is pattern?",
+          "choices": [
+            "A repeated visual element or arrangement",
+            "A single hidden line",
+            "A tool handle",
+            "A scale calculation"
+          ],
+          "answer": "A",
+          "feedback": "Correct: pattern is created through repetition or an organised recurring arrangement."
+        },
+        {
+          "id": "AE-09",
+          "question": "What is texture in an aesthetic evaluation?",
+          "choices": [
+            "The surface quality seen or felt",
+            "The product's assessment date",
+            "The number of pages",
+            "The machine permission"
+          ],
+          "answer": "A",
+          "feedback": "Correct: texture describes the character of a surface, whether visual or physical."
+        },
+        {
+          "id": "AE-10",
+          "question": "Which statement is the strongest aesthetic evaluation?",
+          "choices": [
+            "`It looks nice.`",
+            "`The emblem has clear contrast and a balanced layout, but simplifying one small shape would improve clarity.`",
+            "`It is my favourite.`",
+            "`It has timber.`"
+          ],
+          "answer": "B",
+          "feedback": "Correct: a strong evaluation names visual criteria, evidence and a specific improvement."
+        }
+      ],
+      "prompts": [
+        {
+          "prompt": "Evaluate two aesthetic qualities of your project.",
+          "example": "The emblem has strong contrast, so the main shape is clear. The layout is mostly balanced, but the initials could move slightly to create more even spacing."
+        },
+        {
+          "prompt": "Explain how one design choice creates emphasis.",
+          "example": "I made the central symbol larger and used a bolder outline, so it is the first part the viewer notices."
+        }
+      ]
+    }
+  ]
+}
