@@ -34,8 +34,7 @@
 - At phone width, the local landing page had no horizontal overflow and navigation wrapped within the viewport.
 - JavaScript syntax and data validation passed; data totals are 8 sections, 80 checks and 16 written prompts.
 
-## Still required before public release
+## School-controlled confirmations
 
 - Current school SOP/permission confirmation for any machine-specific practical delivery.
-- Local confirmation of construction sequence, joints, material/finish details and formal assessment settings.
-- GitHub repository creation, Main Page card integration, push, Pages deployment and live-route verification.
+- Local confirmation of construction sequence, joints, material/finish details and formal assessment settings before practical delivery.
