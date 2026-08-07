@@ -1,0 +1,33 @@
+/* Match the established guided-course reading rhythm: one readable flow, not narrow columns. */
+.theory-copy {
+  display: block;
+  max-width: 78ch;
+}
+
+.theory-copy article {
+  padding: .15rem 0 .15rem 1rem;
+  border: 0;
+  border-left: 4px solid var(--teal);
+  border-radius: 0;
+  background: transparent;
+}
+
+.theory-copy article + article {
+  margin-top: 1.4rem;
+}
+
+.theory-copy h3 {
+  margin: 0 0 .45rem;
+  color: var(--teal-dark);
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.theory-copy p {
+  max-width: 72ch;
+  margin: 0;
+  color: #344f53;
+  font-size: 1rem;
+  line-height: 1.7;
+  text-wrap: pretty;
+}
