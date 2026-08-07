@@ -2,7 +2,7 @@ const STORAGE='footstool-y8:v2';
 const letter=['A','B','C','D'];
 const titles=['','Workshop readiness','Tools and accurate references','Timber properties','Engineered wood','Read the original plan','Graphical communication','Personal emblem design','Progress and quality evidence','Function and testing','Aesthetics and final evaluation'];
 const visuals={
-  1:['../assets/reference/hierarchy-of-controls.jpg','Hierarchy of controls reference diagram. It supports general risk-control thinking and does not replace current school procedures.'],
+  1:['../assets/reference/hierarchy-of-controls.jpg','Hierarchy of controls reference diagram. It supports general risk-control thinking and does not replace current school procedures.',1],
   2:['../assets/reference/combination-square.jpg','Combination square from the approved teaching reference library, shown for broad recognition only.'],
   3:['../assets/reference/radiata-pine-mdf-comparison.png','Visual comparison of a pine-like grain surface and a uniform MDF-like surface. It does not specify Footstool stock.'],
   4:['../assets/reference/radiata-pine-mdf-comparison.png','Visual comparison supporting material-description language, not a project-material instruction.'],
@@ -32,7 +32,8 @@ function renderQuestion(question,index,state){
 
 function renderSection(data,index){
   const state=getState(data.sectionId);
-  const visual=index===0?visuals[Number(document.body.dataset.module)]:null;
+  const moduleVisual=visuals[Number(document.body.dataset.module)];
+  const visual=moduleVisual&&index===(moduleVisual[2]??0)?moduleVisual:null;
   return `<article class="theory-section" id="${escapeHtml(data.sectionId)}" data-section-id="${escapeHtml(data.sectionId)}"><p class="section-label">THEORY SECTION ${index+1} · 10 CHECKS</p><h2>${escapeHtml(data.title)}</h2><div class="theory-copy">${data.theory.map(item=>`<article id="${escapeHtml(data.sectionId)}-${escapeHtml(item.heading).toLowerCase().replace(/[^a-z0-9]+/g,'-')}"><h3>${escapeHtml(item.heading)}</h3><p>${escapeHtml(item.body)}</p></article>`).join('')}</div>${visual?`<figure class="module-visual"><img src="${visual[0]}" alt="${escapeHtml(visual[1])}"><figcaption>${escapeHtml(visual[1])}</figcaption></figure>`:''}<details class="checks" ${state.open?'open':''}><summary>Open the 10 learning checks and written evidence</summary>${data.questions.map((q,i)=>renderQuestion(q,i,state)).join('')}<section class="written-card"><h3>Written evidence</h3><p>${escapeHtml(data.written.prompt)}</p><p class="starter"><strong>Sentence starter:</strong> ${escapeHtml(data.written.sentenceStarter)}</p><label class="field">Your response<textarea data-written>${escapeHtml(state.written||'')}</textarea></label><details class="example"><summary>Appropriate response example</summary><p>${escapeHtml(data.written.example)}</p></details></section></details></article>`;
 }
 

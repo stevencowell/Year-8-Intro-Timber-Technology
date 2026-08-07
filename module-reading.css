@@ -31,3 +31,13 @@
   line-height: 1.7;
   text-wrap: pretty;
 }
+
+body[data-module="01"] .module-visual img {
+  width: auto;
+  max-width: calc(100% - 2rem);
+  height: auto;
+  max-height: none;
+  margin: 0 auto;
+  padding: 1.25rem 0 .5rem;
+  background: #fff;
+}
