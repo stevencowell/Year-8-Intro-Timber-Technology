@@ -18,29 +18,29 @@
       id: '02', module: 1, weeks: '1–2', title: 'Workshop readiness',
       action: 'Explain two actions you will take to keep your workshop area safe.',
       starter: 'I will … because … If I am unsure, I will …',
-      visual: { type: 'image', src: 'assets/reference/hierarchy-of-controls.jpg', alt: 'Hierarchy of controls diagram ordered from elimination to personal protective equipment.', href: 'assets/reference/hierarchy-of-controls.jpg', link: 'Open source visual larger' },
-      caption: 'Controls reduce risk in different ways. Current workshop procedures and teacher directions still control practical work.'
+      visual: { type: 'image', src: 'assets/source-library/ear-muffs.jpeg', alt: 'Green and black earmuffs photographed against a white background.', href: 'assets/source-library/ear-muffs.jpeg', link: 'Open PPE visual larger' },
+      caption: 'Earmuffs are a recognisable PPE example. Explain safe conduct broadly; the teacher confirms activity-specific requirements.'
     },
     {
       id: '03', module: 2, weeks: '3–4', title: 'Tool communication',
       action: 'Name one teacher-approved tool and explain its broad purpose.',
       starter: 'The tool is called … Its broad purpose is … Before using it, I need …',
-      visual: { type: 'image', src: 'assets/reference/combination-square.jpg', alt: 'A combination square with a metal rule and adjustable square head.', href: 'assets/reference/combination-square.jpg', link: 'Open tool visual larger' },
-      caption: 'Use the approved tool name and a broad purpose. Do not invent an operating procedure.'
+      visual: { type: 'image', src: 'assets/source-library/steel-rule.jpeg', alt: 'Two steel rules photographed against a white background.', href: 'assets/source-library/steel-rule.jpeg', link: 'Open tool visual larger' },
+      caption: 'Use the approved tool name and a broad purpose. Do not invent an operating procedure or project setting.'
     },
     {
       id: '04', module: 3, weeks: '5–6', title: 'Timber language',
       action: 'Describe a timber sample using grain, density and knot vocabulary.',
       starter: 'The grain appears … The sample feels … for its size. I can see …',
-      visual: { type: 'image', src: 'assets/reference/radiata-pine-mdf-comparison.png', alt: 'Visual comparison of a solid radiata pine sample with visible grain and knot beside a uniform MDF sample.', href: 'assets/reference/radiata-pine-mdf-comparison.png', link: 'Open material visual larger' },
-      caption: 'Look for visible grain and surface character. The comparison does not assign a material to a project component.'
+      visual: { type: 'image', src: 'assets/source-library/timber-board.jpeg', alt: 'Single timber board showing visible grain and a knot.', href: 'assets/source-library/timber-board.jpeg', link: 'Open timber visual larger' },
+      caption: 'Describe only the visible grain, knot and surface evidence. This image does not identify the Footstool stock.'
     },
     {
       id: '05', module: 4, weeks: '7–8', title: 'Board investigation',
       action: 'Compare one manufactured wood product with solid timber using evidence.',
       starter: 'The manufactured product uses … Solid timber differs because … This structure suits …',
-      visual: { type: 'wood-forms' },
-      caption: 'Manufactured products may use veneers, strands, fibres or particles arranged and bonded in controlled ways.'
+      visual: { type: 'image', src: 'assets/source-library/flat-pack-cupboard.jpeg', alt: 'Exploded view of flat-pack cupboard panels and components.', href: 'assets/source-library/flat-pack-cupboard.jpeg', link: 'Open product-context visual larger' },
+      caption: 'A flat-pack product provides manufactured-board context, but its image alone does not prove the internal material structure.'
     },
     {
       id: '06', module: 5, weeks: '9–10', title: 'Plan reading',
@@ -74,8 +74,8 @@
       id: '10', module: 8, weeks: '15–16', title: 'Quality log',
       action: 'Record one observed quality point, the action you took and your next step.',
       starter: 'I observed … I responded by … My next step is …',
-      visual: { type: 'quality' },
-      caption: 'Record what you observed and checked. The original plan, current procedures and teacher directions control practical work.',
+      visual: { type: 'image', src: 'assets/source-library/g-clamp.jpg', alt: 'Blue G-clamp photographed against a white background.', href: 'assets/source-library/g-clamp.jpg', link: 'Open evidence-context visual larger' },
+      caption: 'A clear photograph identifies its subject; your quality log must still state what you observed and checked.',
       date: true
     },
     {
@@ -89,8 +89,8 @@
       id: '12', module: 10, weeks: '19–20', title: 'Aesthetic review',
       action: 'Evaluate two visual qualities and identify one improvement.',
       starter: 'The appearance shows … and … This is evident because … I would improve …',
-      visual: { type: 'aesthetic' },
-      caption: 'Use precise visual vocabulary such as balance, contrast, emphasis, form, pattern or texture.'
+      visual: { type: 'image', src: 'assets/source-library/paint-tins.jpeg', alt: 'Several coating tins grouped against a dark background.', href: 'assets/source-library/paint-tins.jpeg', link: 'Open finish-context visual larger' },
+      caption: 'Use precise visual vocabulary when evaluating appearance. The teacher confirms any approved project finish.'
     }
   ];
 

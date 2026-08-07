@@ -1,0 +1,71 @@
+/* Compact visual-and-evidence rhythm for the folio cards. */
+.folio-card {
+  display: grid;
+  grid-template-columns: minmax(11.5rem, .72fr) minmax(0, 1.28fr);
+  align-content: start;
+}
+
+.folio-card .card-heading {
+  grid-column: 1 / -1;
+}
+
+.folio-card .card-visual {
+  grid-column: 1;
+  margin: 1.1rem 0 1.1rem 1.1rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: .65rem;
+  align-self: start;
+}
+
+.folio-card .card-task {
+  grid-column: 2;
+}
+
+.folio-card .card-visual img {
+  width: auto;
+  height: auto;
+  max-height: 9.5rem;
+  margin-inline: auto;
+  padding: .55rem;
+}
+
+.folio-card .visual-diagram {
+  min-height: 9.5rem;
+  padding: .8rem;
+}
+
+.folio-card .card-visual figcaption {
+  min-height: 0;
+  padding: .65rem .75rem;
+}
+
+@media (max-width: 640px) {
+  .folio-card {
+    grid-template-columns: 1fr;
+  }
+
+  .folio-card .card-heading,
+  .folio-card .card-visual,
+  .folio-card .card-task {
+    grid-column: 1;
+  }
+
+  .folio-card .card-visual {
+    width: min(calc(100% - 2rem), 18rem);
+    margin: 1rem auto 0;
+  }
+
+  .folio-card .card-visual img,
+  .folio-card .visual-diagram {
+    height: auto;
+    min-height: 8.5rem;
+    max-height: 11rem;
+  }
+}
+
+@media print {
+  .folio-card {
+    display: block;
+  }
+}

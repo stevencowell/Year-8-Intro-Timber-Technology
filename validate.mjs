@@ -64,5 +64,20 @@ for(const marker of ['Learn it. Check it. Show it.','TEN PAIRED-WEEK MODULES','B
 const planHash=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'assets','resources','Footstool.pdf'))).digest('hex').toUpperCase();
 assert(planHash==='2E7D2F0C74415810CBC45DABAB767F01A664ED076195773E6BADBB4838EF6FA1',`Authoritative plan hash mismatch: ${planHash}`);
 
+const sourceVisualDir=path.join(root,'assets','source-library');
+const sourceVisualFiles=fs.existsSync(sourceVisualDir)?fs.readdirSync(sourceVisualDir).filter(file=>/\.(?:jpe?g|png|webp)$/i.test(file)):[];
+assert(sourceVisualFiles.length===20,`Expected exactly 20 approved source-library visuals; found ${sourceVisualFiles.length}`);
+const visualUsage=read('module.js')+read('folio.js');
+for(const file of sourceVisualFiles)assert(visualUsage.includes(`assets/source-library/${file}`),`Approved source visual is not used: ${file}`);
+
+const moduleScript=read('module.js');
+const writtenAnchorEntries=[...moduleScript.matchAll(/'(m\d{2}-s\d{2})':'([^']+)'/g)].filter(([,id])=>/^m\d{2}-s\d{2}$/.test(id));
+assert(writtenAnchorEntries.length===30,`Expected 30 written-response theory links; found ${writtenAnchorEntries.length}`);
+for(const [id,heading] of writtenAnchorEntries.map(match=>[match[1],match[2]])){
+  const data=JSON.parse(read(`assets/data/${id}.json`));
+  assert(data.theory.some(item=>item.heading===heading),`${id}: written-response help target does not match a theory heading: ${heading}`);
+}
+assert(moduleScript.includes('class="theory-help-link"'), 'Written-response theory-help control is missing');
+
 if(failures.length){console.error(`FAIL (${failures.length})`);for(const failure of failures)console.error(`- ${failure}`);process.exit(1)}
-console.log(`PASS: 10 modules, ${sections} named sections, ${questions} questions, plan hash verified, routes and landing markers present.`);
+console.log(`PASS: 10 modules, ${sections} named sections, ${questions} questions, 20 approved source visuals, plan hash verified, routes and landing markers present.`);

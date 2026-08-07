@@ -1,19 +1,72 @@
 const STORAGE='footstool-y8:v2';
 const letter=['A','B','C','D'];
 const titles=['','Workshop readiness','Tools and accurate references','Timber properties','Engineered wood','Read the original plan','Graphical communication','Personal emblem design','Progress and quality evidence','Function and testing','Aesthetics and final evaluation'];
-const visuals={
-  1:['../assets/reference/hierarchy-of-controls.jpg','Hierarchy of controls reference diagram. It supports general risk-control thinking and does not replace current school procedures.',1],
-  2:['../assets/reference/combination-square.jpg','Combination square from the approved teaching reference library, shown for broad recognition only.'],
-  3:['../assets/reference/radiata-pine-mdf-comparison.png','Visual comparison of a pine-like grain surface and a uniform MDF-like surface. It does not specify Footstool stock.'],
-  4:['../assets/reference/radiata-pine-mdf-comparison.png','Visual comparison supporting material-description language, not a project-material instruction.'],
-  5:['../assets/plan-page-1.png','Page one preview of the unchanged Footstool plan. Open the original PDF larger for written information.'],
-  6:['../assets/plan-page-2.png','Page two preview of the unchanged Footstool plan. Do not measure the screen image.'],
-  7:['../assets/emblem-development-example.png','Source-deck emblem development sheet showing exploration and arrangement stages.'],
-  8:['../assets/plan-page-1.png','Original plan preview retained as the authority while students record progress evidence.'],
-  9:['../assets/plan-page-2.png','Original plan preview retained as the authority for teacher-directed functional checks.'],
- 10:['../assets/emblem-development-example.png','Source-deck design worksheet supporting evidence-based visual reflection.']
+const sectionVisuals={
+  'm01-s02':[
+    ['../assets/source-library/hierarchy-of-controls.jpg','Hierarchy of controls diagram ordered from elimination to personal protective equipment.','The hierarchy orders broad control types from strongest to weakest. Current school procedures still control practical activity.'],
+    ['../assets/source-library/safety-glasses.jpg','Clear safety glasses with green and black arms.','Safety glasses are a recognisable PPE example. The teacher confirms the PPE required for each activity.']
+  ],
+  'm02-s01':[
+    ['../assets/source-library/combination-square.jpg','Combination square with an adjustable head and metal rule.','Combination square shown for accurate tool-name recognition and broad reference only.'],
+    ['../assets/source-library/coping-saw.jpg','Coping saw with a narrow blade held in a metal frame.','Coping saw shown for accurate tool-name recognition; practical use remains teacher-directed.'],
+    ['../assets/source-library/tenon-saw.jpg','Tenon saw with a straight backed blade and closed handle.','Tenon saw shown for accurate tool-name recognition; practical use remains teacher-directed.'],
+    ['../assets/source-library/bevel-edge-chisels.jpeg','Pair of bevel-edge chisels with black and yellow handles.','Bevel-edge chisels shown for accurate tool-name recognition; practical use remains teacher-directed.'],
+    ['../assets/source-library/battery-drill.jpeg','Blue cordless battery drill viewed from the side.','Battery drill shown for accurate tool-name recognition; approval and current procedures control practical use.']
+  ],
+  'm02-s02':[
+    ['../assets/source-library/tape-measure.jpeg','Yellow retractable tape measure with its tape extended.','Tape measure shown as a familiar measuring reference; use written task information before accepting a value.'],
+    ['../assets/source-library/sliding-bevel.jpg','Sliding bevel held against a timber strip.','Sliding bevel shown as a reference tool. Confirm its task-specific use with the teacher.']
+  ],
+  'm03-s01':[
+    ['../assets/source-library/timber-lengths.jpeg','Stacked lengths of timber showing varied end grain.','Timber lengths can vary in visible grain and colour. This image does not identify the Footstool stock.']
+  ],
+  'm03-s03':[
+    ['../assets/source-library/hand-plane.jpeg','Metal hand plane with wooden front and rear handles.','Hand plane shown as a familiar timber-working reference. It does not prescribe a Footstool process.']
+  ],
+  'm08-s01':[
+    ['../assets/source-library/f-clamps.jpeg','Two F-clamps photographed against a white background.','A clear reference photograph identifies the item in view; useful evidence must also state what was actually observed.']
+  ],
+  'm08-s02':[
+    ['../assets/source-library/woodwork-vice.jpg','Red woodwork vice photographed against a white background.','A contextual photograph can support a quality record, but written evidence must explain the observed feature.']
+  ],
+  'm09-s02':[
+    ['../assets/source-library/spirit-level.jpg','Yellow spirit level with two visible bubble vials.','Spirit level shown as an example of a checking tool. Only teacher-approved checks apply to the project.']
+  ],
+  'm04-s02':[
+    ['../assets/reference/radiata-pine-mdf-comparison.png','Visual comparison of a solid timber surface with visible grain and a uniform MDF-like surface.','Compare only the visible surface evidence; this visual does not assign a material to a Footstool component.']
+  ],
+  'm05-s01':[
+    ['../assets/plan-page-1.png','Page one preview of the authoritative Wagga High School Foot Stool plan.','Use the unchanged original plan and its written information. Do not measure the screen image.']
+  ],
+  'm06-s01':[
+    ['../assets/plan-page-2.png','Page two preview of the authoritative Wagga High School Foot Stool plan.','Related plan views communicate different faces and features. Open the original plan for full-resolution detail.']
+  ],
+  'm07-s02':[
+    ['../assets/emblem-development-example.png','Source worksheet showing explore, experiment and arrange stages for emblem development.','The source worksheet supports comparison of distinct ideas before a concept is selected.']
+  ],
+  'm10-s01':[
+    ['../assets/source-library/paint-tins.jpeg','Group of coating tins photographed against a dark background.','Coating containers provide appearance and finish context only; the teacher confirms any approved project finish.']
+  ]
+};
+const writtenTheoryAnchors={
+  'm01-s01':'Report problems and pack away','m01-s02':'Use the hierarchy of controls','m01-s03':'Ask precisely and wait',
+  'm02-s01':'Connect name and broad purpose','m02-s02':'Separate measuring and marking','m02-s03':'Check approval and condition',
+  'm03-s01':'Choose using relevant properties','m03-s02':'Describe density carefully','m03-s03':'Build a supported description',
+  'm04-s01':'Compare three examples','m04-s02':'Plywood uses veneer layers','m04-s03':'Start with the intended use',
+  'm05-s01':'Connect views with written information','m05-s02':'Understand scale proportionally','m05-s03':'Cross-check and clarify',
+  'm06-s01':'Compare position and alignment','m06-s02':'Align features across views','m06-s03':'Read form without estimating size',
+  'm07-s01':'Turn meaning into simple shapes','m07-s02':'Annotate arrangement and meaning','m07-s03':'Justify and refine one concept',
+  'm08-s01':'Write objective observations','m08-s02':'Connect evidence to requirements','m08-s03':'Explain the reason and action',
+  'm09-s01':'Describe performance qualities','m09-s02':'Record evidence and limits','m09-s03':'Predict and seek confirmation',
+  'm10-s01':'Explain form, layout and style','m10-s02':'Explain the effect on the viewer','m10-s03':'Evaluate function and aesthetics'
 };
 const escapeHtml=value=>String(value??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+const theoryHeadingId=(sectionId,heading)=>`${sectionId}-${heading.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`;
+const renderSectionVisuals=sectionId=>{
+  const visuals=sectionVisuals[sectionId]||[];
+  if(!visuals.length)return '';
+  return `<aside class="magazine-visuals visual-count-${visuals.length}" aria-label="Visual references for this theory section">${visuals.map(([src,alt,caption])=>`<figure class="magazine-visual"><div class="magazine-image"><img src="${src}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async"></div><figcaption>${escapeHtml(caption)} <a href="${src}" target="_blank" rel="noopener">Open larger</a></figcaption></figure>`).join('')}</aside>`;
+};
 const sectionKey=id=>`${STORAGE}:section:${id}`;
 const getState=id=>{try{return JSON.parse(localStorage.getItem(sectionKey(id))||'{}')}catch{return {}}};
 
@@ -32,9 +85,9 @@ function renderQuestion(question,index,state){
 
 function renderSection(data,index){
   const state=getState(data.sectionId);
-  const moduleVisual=visuals[Number(document.body.dataset.module)];
-  const visual=moduleVisual&&index===(moduleVisual[2]??0)?moduleVisual:null;
-  return `<article class="theory-section" id="${escapeHtml(data.sectionId)}" data-section-id="${escapeHtml(data.sectionId)}"><p class="section-label">THEORY SECTION ${index+1} · 10 CHECKS</p><h2>${escapeHtml(data.title)}</h2><div class="theory-copy">${data.theory.map(item=>`<article id="${escapeHtml(data.sectionId)}-${escapeHtml(item.heading).toLowerCase().replace(/[^a-z0-9]+/g,'-')}"><h3>${escapeHtml(item.heading)}</h3><p>${escapeHtml(item.body)}</p></article>`).join('')}</div>${visual?`<figure class="module-visual"><img src="${visual[0]}" alt="${escapeHtml(visual[1])}"><figcaption>${escapeHtml(visual[1])}</figcaption></figure>`:''}<details class="checks" ${state.open?'open':''}><summary>Open the 10 learning checks and written evidence</summary>${data.questions.map((q,i)=>renderQuestion(q,i,state)).join('')}<section class="written-card"><h3>Written evidence</h3><p>${escapeHtml(data.written.prompt)}</p><p class="starter"><strong>Sentence starter:</strong> ${escapeHtml(data.written.sentenceStarter)}</p><label class="field">Your response<textarea data-written>${escapeHtml(state.written||'')}</textarea></label><details class="example"><summary>Appropriate response example</summary><p>${escapeHtml(data.written.example)}</p></details></section></details></article>`;
+  const writtenAnchor=writtenTheoryAnchors[data.sectionId];
+  const writtenTheoryId=theoryHeadingId(data.sectionId,writtenAnchor);
+  return `<article class="theory-section" id="${escapeHtml(data.sectionId)}" data-section-id="${escapeHtml(data.sectionId)}"><p class="section-label">THEORY SECTION ${index+1} · 10 CHECKS</p><h2>${escapeHtml(data.title)}</h2><div class="theory-copy">${renderSectionVisuals(data.sectionId)}${data.theory.map(item=>`<article id="${escapeHtml(theoryHeadingId(data.sectionId,item.heading))}" tabindex="-1"><h3>${escapeHtml(item.heading)}</h3><p>${escapeHtml(item.body)}</p></article>`).join('')}</div><details class="checks" ${state.open?'open':''}><summary>Open the 10 learning checks and written evidence</summary>${data.questions.map((q,i)=>renderQuestion(q,i,state)).join('')}<section class="written-card"><h3>Written evidence</h3><p>${escapeHtml(data.written.prompt)}</p><p class="starter"><strong>Sentence starter:</strong> ${escapeHtml(data.written.sentenceStarter)}</p><div class="theory-help"><strong>Need help finding the evidence?</strong><a class="theory-help-link" href="#${escapeHtml(writtenTheoryId)}" data-theory-help="${escapeHtml(writtenTheoryId)}">I’m struggling — take me to “${escapeHtml(writtenAnchor)}”</a></div><label class="field">Your response<textarea data-written>${escapeHtml(state.written||'')}</textarea></label><details class="example"><summary>Appropriate response example</summary><p>${escapeHtml(data.written.example)}</p></details></section></details></article>`;
 }
 
 function attachSection(data){
@@ -54,6 +107,16 @@ function attachSection(data){
       feedback.textContent=correct?question.correctFeedback:question.retryFeedback;
       saveState(data.sectionId,state);
     });
+  });
+  root.querySelector('.theory-help-link').addEventListener('click',event=>{
+    const target=document.getElementById(event.currentTarget.dataset.theoryHelp);
+    if(!target)return;
+    event.preventDefault();
+    target.scrollIntoView({behavior:'smooth',block:'center'});
+    target.focus({preventScroll:true});
+    target.classList.add('theory-target');
+    window.setTimeout(()=>target.classList.remove('theory-target'),2400);
+    history.replaceState(null,'',`#${target.id}`);
   });
   const written=root.querySelector('[data-written]');
   let timer;written.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{state.written=written.value;saveState(data.sectionId,state)},250)});
