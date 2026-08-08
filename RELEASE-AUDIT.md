@@ -4,7 +4,7 @@ Audit updated: 8 August 2026
 
 Course status: Year 8 elective, not Technology Mandatory
 
-Release decision: local gates passed; rendered live verification required after deployment
+Release decision: released and verified live
 
 ## Authority and boundaries
 
@@ -52,6 +52,13 @@ Release decision: local gates passed; rendered live verification required after 
 - Rendered inspection confirmed colour-rich, slide-like activity stages, usable controls, high-quality existing tool photographs and responsive layouts.
 - Print rendering produced a clean 18-page Module 1 theory/activity record and retained the folio's clear 12-card, one-card-per-page PDF layout.
 
-## Release boundary
+## Verified live release
 
-A Git push is not live proof. The final release record must separately confirm the deployed commit, rendered desktop and 390 px routes, authoritative plan and deck hashes, video destinations, Busy Work routes, Main Page card/destination and clean `HEAD == origin/main` state.
+- GitHub Pages served the rebuilt landing page, all ten modules and all 11 mapped activities after commit `550c981` was pushed to `main`.
+- Live browser QA proved activity autosave/reload, shared folio state, self-contained HTML export, direct desktop and 390 px anchor placement, no representative-route overflow and no uncaught browser errors.
+- All ten Busy Work activity routes returned 200.
+- YouTube learning rendered three validated clips; student-activated playback and stop controls used privacy-enhanced embeds.
+- The plan route rendered both page previews and `Open larger`; the downloaded live PDF matched the authoritative SHA-256 exactly.
+- Teacher Resources linked the local master PowerPoint; the downloaded live PPTX matched the source SHA-256 exactly.
+- The live Main Page contained one correctly labelled Intro Timber Technology card pointing to the canonical Footstool course and rendered without overflow at exactly 390 px.
+- The release checkout finished clean with local `HEAD == origin/main`.
