@@ -279,7 +279,7 @@
 
   const renderCard = card => {
     const dateField = card.date ? `<label class="date-field" for="card-${card.id}-date">Date of this observation<input id="card-${card.id}-date" type="date" data-card-date="${card.id}"></label>` : '';
-    return `<details class="folio-card" id="card-${card.id}" data-card="${card.id}">
+    return `<details class="folio-card" id="card-${card.id}" data-card="${card.id}" open>
       <summary class="card-heading">
         <div class="card-number" aria-hidden="true">${card.id}</div>
         <div><p class="card-module">Module ${card.module} · Weeks ${card.weeks}</p><h3>${escapeHtml(card.title)}</h3></div>
@@ -525,25 +525,17 @@
   folioCards.innerHTML = cardGroups.map(renderCardGroup).join('');
   hydrateForm();
 
-  const openCardFromHash = (useNext = false) => {
-    let target = /^#card-\d{2}$/.test(window.location.hash) ? document.querySelector(window.location.hash) : null;
-    if (!target && useNext) {
-      const next = cards.find(card => !isReady(state.cards[card.id])) || cards[cards.length - 1];
-      target = document.getElementById(`card-${next.id}`);
-    }
+  const openCardFromHash = () => {
+    const target = /^#card-\d{2}$/.test(window.location.hash) ? document.querySelector(window.location.hash) : null;
     if (!target) return;
-    document.querySelectorAll('.folio-card[open]').forEach(card => { if (card !== target) card.open = false; });
     target.open = true;
   };
 
   let printMode = false;
   let printOpenCards = [];
-  document.querySelectorAll('.folio-card').forEach(card => card.addEventListener('toggle', () => {
-    if (printMode || !card.open) return;
-    document.querySelectorAll('.folio-card[open]').forEach(other => { if (other !== card) other.open = false; });
-  }));
-  openCardFromHash(true);
-  window.addEventListener('hashchange', () => openCardFromHash(false));
+  document.querySelectorAll('.folio-card').forEach(card => { card.open = true; });
+  openCardFromHash();
+  window.addEventListener('hashchange', openCardFromHash);
 
   document.getElementById('student-name').addEventListener('input', event => {
     state.student.name = event.target.value;

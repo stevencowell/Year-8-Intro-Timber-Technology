@@ -85,7 +85,11 @@ assert(folioScript.includes('footstool-submission-${exportSafeName()}-${date}.ht
 assert(!folioScript.includes('assets/emblem-development-example.png'),'A slide crop remains in the rebuilt folio activity flow');
 assert((folioScript.match(/id: '\d{2}'/g)||[]).length===12,'The original twelve-card folio contract changed');
 assert((folioScript.match(/number: '[1-4]', title:/g)||[]).length===4,'The folio is not grouped into four clear evidence stages');
+assert(folioScript.includes('data-card="${card.id}" open'),'Folio evidence cards are not open on entry');
+assert(folioScript.includes("document.querySelectorAll('.folio-card').forEach(card => { card.open = true; });"),'The folio does not explicitly open every evidence card on entry');
+assert(!folioScript.includes("document.querySelectorAll('.folio-card[open]').forEach(other"),'The one-card-at-a-time accordion behaviour remains');
 for(const marker of ['YOUR PROGRESS','TWELVE-CARD EVIDENCE FOLIO','PROJECT ACTIVITIES','FINISH AND KEEP A COPY'])assert(folioHtml.includes(marker),`Folio dashboard marker missing: ${marker}`);
+assert(folioHtml.includes('All cards are open. Do one clear job at a time.'),'The folio entry guidance does not match the all-open card behaviour');
 assert(folioPresentation.includes('.folio-card > summary')&&folioPresentation.includes('object-fit: contain'),'Calm card disclosure or complete image framing is missing');
 assert(!folioPresentation.includes('grid-template-columns: minmax(11.5rem'),'The rejected narrow side-thumbnail folio layout returned');
 
