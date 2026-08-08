@@ -93,7 +93,14 @@ const sourceVisualDir=path.join(root,'assets','source-library');
 const sourceVisualFiles=fs.existsSync(sourceVisualDir)?fs.readdirSync(sourceVisualDir).filter(file=>/\.(?:jpe?g|png|webp)$/i.test(file)):[];
 assert(sourceVisualFiles.length===20,`Expected exactly 20 approved source-library visuals; found ${sourceVisualFiles.length}`);
 const visualUsage=read('module.js')+read('folio.js')+read('source-activities.js');
-for(const file of sourceVisualFiles)assert(visualUsage.includes(`assets/source-library/${file}`),`Approved source visual is not used: ${file}`);
+for(const file of sourceVisualFiles)assert(visualUsage.includes(`assets/source-library/${file}`)||folioScript.includes(`sourcePhoto('${file}'`),`Approved source visual is not used: ${file}`);
+const folioSourceVisuals=[...folioScript.matchAll(/sourcePhoto\('([^']+)'/g)].map(match=>match[1]);
+assert(folioSourceVisuals.length===20,`Expected exactly 20 source photographs in the folio; found ${folioSourceVisuals.length}`);
+assert(new Set(folioSourceVisuals).size===20,'The folio source photographs must be unique; repeated decoration is not allowed');
+for(const file of sourceVisualFiles)assert(folioSourceVisuals.includes(file),`Approved source visual is not placed in the folio: ${file}`);
+assert((folioScript.match(/sourceVisuals: \[/g)||[]).length===10,'The 20 source photographs are not spread across ten relevant folio cards');
+for(const marker of ['source-visual-tile','Open ${name.toLowerCase()} larger','decoding="async"'])assert(folioScript.includes(marker),`Folio source-visual interaction missing: ${marker}`);
+for(const marker of ['.source-visual-grid','object-fit: contain','.source-visual-tile:focus-visible'])assert(folioPresentation.includes(marker),`Folio source-visual presentation missing: ${marker}`);
 
 const moduleScript=read('module.js');
 const writtenAnchorEntries=[...moduleScript.matchAll(/'(m\d{2}-s\d{2})':'([^']+)'/g)].filter(([,id])=>/^m\d{2}-s\d{2}$/.test(id));

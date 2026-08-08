@@ -29,6 +29,23 @@ The 20 files below are unchanged copies from the current `stevencowell/Construct
 | 19 | `spirit-level.jpg` | Module 9, Testing with evidence | Show a checking-tool example while retaining teacher approval | Pass; no project-specific test is asserted |
 | 20 | `paint-tins.jpeg` | Module 10, Aesthetic vocabulary; Folio card 12, Aesthetic review | Connect finish context to appearance vocabulary and later evidence transfer | Pass; deliberate repeated cue from taught theory to the matching folio task |
 
+## Folio source-visual placement
+
+The folio now uses all 20 approved source photographs exactly once, spread across ten evidence cards. Cards 8 and 9 deliberately retain their emblem-development diagrams because a generic workshop photograph would not support those design decisions. The two plan cards retain their authoritative plan previews as the primary visual; the source photographs underneath are supporting recognition cues only.
+
+| Folio card | Source photographs | Direct connection to the student action |
+|---|---|---|
+| 1 · Starting point | `timber-lengths.jpeg` | Prompts prior knowledge and a learning goal about the subject context without assigning Footstool stock |
+| 2 · Workshop readiness | `hierarchy-of-controls.jpg`, `safety-glasses.jpg`, `ear-muffs.jpeg` | Supports broad control and PPE recognition while leaving activity-specific requirements to the teacher |
+| 3 · Tool communication | `battery-drill.jpeg`, `bevel-edge-chisels.jpeg`, `coping-saw.jpg`, `tenon-saw.jpg` | Gives four clearly recognisable choices for accurate tool naming and broad-purpose language |
+| 4 · Timber language | `timber-board.jpeg`, `hand-plane.jpeg` | Provides a visible timber observation surface and general timber-working context |
+| 5 · Board investigation | `flat-pack-cupboard.jpeg` | Provides a manufactured-board product context while the caption blocks unsupported structure claims |
+| 6 · Plan reading | `steel-rule.jpeg`, `tape-measure.jpeg` | Reinforces measuring-reference recognition while the unchanged plan's written dimensions remain controlling |
+| 7 · Drawing communication | `combination-square.jpg`, `sliding-bevel.jpg` | Supports accurate reference-tool vocabulary without replacing the plan's views or notes |
+| 10 · Quality log | `f-clamps.jpeg`, `g-clamp.jpg`, `woodwork-vice.jpg` | Models clearly identifiable photographic subjects for an observation/action/next-step record |
+| 11 · Function review | `spirit-level.jpg` | Provides one checking-tool example while requiring teacher approval for any actual test |
+| 12 · Aesthetic review | `paint-tins.jpeg` | Provides broad coating context while explicitly not identifying or approving the Footstool finish |
+
 ## Retained authoritative and course-source visuals
 
 - `assets/plan-page-1.png` and `assets/plan-page-2.png`: retained once each in the relevant plan-reading and drawing-communication theory. Both link to a larger source route; the unchanged PDF remains authoritative.
@@ -39,7 +56,8 @@ The 20 files below are unchanged copies from the current `stevencowell/Construct
 ## Coverage and rejection summary
 
 - Theory modules: source or authoritative adjacent visuals appear across workshop readiness, tools and references, timber, engineered wood, plans, drawing, emblem development, progress evidence, testing and aesthetic evaluation.
-- Folio: six of the 20 approved source-library images provide compact evidence cues; existing plan and emblem sources remain where authoritative.
+- Folio: all 20 approved source-library photographs appear exactly once across ten task-relevant cards; the plan and emblem sources remain where they are more authoritative.
+- Folio framing: every photograph uses `object-fit: contain`, a complete-image frame and a visible keyboard-accessible **Open larger** link. No source photograph is intentionally cropped.
 - Rejected from this integration: joint diagrams, construction-process graphics, generic signs and low-credibility composites that could imply unsupported Footstool details or add decoration without a clear learning purpose.
 - Desktop treatment: compact right-floated visual groups allow theory text to wrap in a magazine-style reading flow.
 - Mobile treatment: grouped visuals leave the float and form a contained horizontal magazine strip so theory begins in the same screen; single visuals remain compact and centred. Captions and **Open larger** links remain available without page overflow.
