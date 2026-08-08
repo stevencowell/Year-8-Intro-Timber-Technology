@@ -78,8 +78,16 @@ const sourceActivityIds=[...sourceActivities.matchAll(/\{ id:'([^']+)', module:/
 assert(sourceActivityIds.length===11&&new Set(sourceActivityIds).size===11,`Expected 11 distinct PowerPoint-derived web activities; found ${sourceActivityIds.length}`);
 assert(!/\b360\b/.test(sourceActivities.replace(/viewBox="[^"]+"/g,'')),'Slide 19 conflict leaked into source activities');
 assert(sourceActivities.includes('footstool-y8:v1:folio'),'Project activities do not use the existing folio storage record');
-assert(read('folio.js').includes('footstool-submission-${exportSafeName()}-${date}.html'),'Self-contained submission export is missing');
-assert(!read('folio.js').includes('assets/emblem-development-example.png'),'A slide crop remains in the rebuilt folio activity flow');
+const folioHtml=read('folio.html');
+const folioScript=read('folio.js');
+const folioPresentation=read('folio-magazine.css');
+assert(folioScript.includes('footstool-submission-${exportSafeName()}-${date}.html'),'Self-contained submission export is missing');
+assert(!folioScript.includes('assets/emblem-development-example.png'),'A slide crop remains in the rebuilt folio activity flow');
+assert((folioScript.match(/id: '\d{2}'/g)||[]).length===12,'The original twelve-card folio contract changed');
+assert((folioScript.match(/number: '[1-4]', title:/g)||[]).length===4,'The folio is not grouped into four clear evidence stages');
+for(const marker of ['YOUR PROGRESS','TWELVE-CARD EVIDENCE FOLIO','PROJECT ACTIVITIES','FINISH AND KEEP A COPY'])assert(folioHtml.includes(marker),`Folio dashboard marker missing: ${marker}`);
+assert(folioPresentation.includes('.folio-card > summary')&&folioPresentation.includes('object-fit: contain'),'Calm card disclosure or complete image framing is missing');
+assert(!folioPresentation.includes('grid-template-columns: minmax(11.5rem'),'The rejected narrow side-thumbnail folio layout returned');
 
 const sourceVisualDir=path.join(root,'assets','source-library');
 const sourceVisualFiles=fs.existsSync(sourceVisualDir)?fs.readdirSync(sourceVisualDir).filter(file=>/\.(?:jpe?g|png|webp)$/i.test(file)):[];

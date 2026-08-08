@@ -1,71 +1,539 @@
-/* Compact visual-and-evidence rhythm for the folio cards. */
-.folio-card {
+/* Calm dashboard presentation for the existing folio and activity data. */
+.folio-hero {
+  max-width: 1180px;
+  padding: clamp(3.2rem, 7vw, 6rem) clamp(1rem, 4vw, 2.5rem) clamp(2.4rem, 5vw, 4.2rem);
+  grid-template-columns: minmax(0, 1.12fr) minmax(20rem, .88fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+}
+
+.folio-hero h1 {
+  max-width: 11ch;
+  margin: .45rem 0 1rem;
+  font-size: clamp(3.25rem, 7vw, 5.6rem);
+}
+
+.folio-hero .lede {
+  max-width: 62ch;
+}
+
+.folio-hero .actions {
+  align-items: center;
+}
+
+.folio-utility-link {
+  padding: .65rem .2rem;
+  color: var(--green);
+  font-weight: 850;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .25rem;
+}
+
+.folio-overview {
+  padding: clamp(1.5rem, 4vw, 2.3rem);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 1.35rem;
+  background: linear-gradient(145deg, #153b45, #0b665b);
+  box-shadow: 0 1rem 2.8rem rgba(13,48,53,.15);
+}
+
+.progress-summary {
   display: grid;
-  grid-template-columns: minmax(11.5rem, .72fr) minmax(0, 1.28fr);
-  align-content: start;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.progress-summary > div {
+  padding: .9rem;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: .9rem;
+  background: rgba(255,255,255,.07);
+}
+
+.progress-label {
+  margin: 0;
+  color: #cae8e0;
+  font-size: .74rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.progress-number,
+.activity-progress-number {
+  display: flex;
+  align-items: baseline;
+  gap: .35rem;
+  margin: .35rem 0 0;
+}
+
+.progress-number strong,
+.activity-progress-number strong {
+  font-size: clamp(2.3rem, 5vw, 3.6rem);
+  line-height: 1;
+}
+
+.progress-number span,
+.activity-progress-number span {
+  font-size: .82rem;
+  font-weight: 800;
+}
+
+.folio-start {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(17rem, .65fr);
+  gap: 1rem;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 2.5rem) 2rem;
+}
+
+.student-panel,
+.folio-start .device-notice {
+  min-width: 0;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.student-panel {
+  display: grid;
+  grid-template-columns: minmax(12rem, .65fr) minmax(0, 1.35fr);
+  gap: 1.5rem;
+  align-items: end;
+  padding: 1.3rem;
+}
+
+.student-panel h2 {
+  margin: .25rem 0 0;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.student-fields {
+  gap: .8rem;
+}
+
+.folio-start .device-notice {
+  display: grid;
+  gap: .45rem;
+  align-content: center;
+  padding: 1.3rem;
+  border-left: 5px solid var(--green);
+  background: #eef6f2;
+}
+
+.folio-deck-section {
+  padding-top: clamp(3.5rem, 7vw, 6rem);
+  padding-bottom: clamp(4rem, 7vw, 6.5rem);
+}
+
+.folio-deck-section .section-heading-row {
+  align-items: flex-start;
+}
+
+.folio-deck-section h2,
+.project-activity-section h2,
+.folio-tools h2 {
+  max-width: 18ch;
+}
+
+.module-map-details {
+  margin-top: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: .85rem;
+  background: #fff;
+}
+
+.module-map-details > summary {
+  padding: 1rem 1.15rem;
+  color: var(--green);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.module-map-details[open] > summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.module-map-details .module-progress,
+.module-map-details .completion-note {
+  margin: 1rem;
+}
+
+.folio-deck {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(2.5rem, 6vw, 4.5rem);
+  margin-top: clamp(2.4rem, 5vw, 4rem);
+}
+
+.folio-card-group {
+  min-width: 0;
+}
+
+.folio-card-group-heading {
+  display: grid;
+  grid-template-columns: auto minmax(0,1fr);
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.folio-card-group-number {
+  display: grid;
+  place-items: center;
+  width: 3.15rem;
+  height: 3.15rem;
+  border-radius: .9rem;
+  background: var(--navy);
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 950;
+}
+
+.folio-card-group-heading h3 {
+  margin: 0;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+}
+
+.folio-card-group-heading p {
+  margin: .2rem 0 0;
+  color: var(--muted);
+}
+
+.folio-card-group-grid {
+  display: grid;
+  gap: .85rem;
+}
+
+.folio-card {
+  display: block;
+  min-width: 0;
+  scroll-margin-top: 8.5rem;
+  overflow: clip;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 .35rem 1.25rem rgba(23,48,44,.06);
+}
+
+.folio-card > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.folio-card > summary::-webkit-details-marker {
+  display: none;
 }
 
 .folio-card .card-heading {
-  grid-column: 1 / -1;
+  grid-template-columns: auto minmax(0,1fr) auto auto;
+  gap: 1rem;
+  min-height: 5.5rem;
+  padding: 1rem 1.2rem;
+  border: 0;
+}
+
+.folio-card .card-number {
+  background: var(--navy);
+}
+
+.folio-card .card-heading::after {
+  content: '+';
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #e9f3ef;
+  color: var(--green);
+  font-size: 1.3rem;
+  font-weight: 950;
+}
+
+.folio-card[open] .card-heading::after {
+  content: '−';
+}
+
+.folio-card[open] .card-heading {
+  border-bottom: 1px solid var(--line);
+  background: #f7faf8;
+}
+
+.folio-card .card-heading h3 {
+  font-size: clamp(1.25rem, 3vw, 1.65rem);
+}
+
+.folio-card-body {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .folio-card .card-visual {
-  grid-column: 1;
-  margin: 1.1rem 0 1.1rem 1.1rem;
+  display: block;
+  width: 100%;
+  margin: 0;
   overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: .65rem;
-  align-self: start;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: #f4f5f0;
 }
 
-.folio-card .card-task {
-  grid-column: 2;
-}
-
-.folio-card .card-visual img {
-  width: auto;
-  height: auto;
-  max-height: 9.5rem;
-  margin-inline: auto;
-  padding: .55rem;
+.folio-card .card-image img {
+  display: block;
+  width: 100%;
+  height: clamp(14rem, 28vw, 20rem);
+  max-height: none;
+  margin: 0;
+  padding: 1.2rem;
+  object-fit: contain;
+  object-position: center;
+  background: #f4f5f0;
 }
 
 .folio-card .visual-diagram {
-  min-height: 9.5rem;
-  padding: .8rem;
+  width: 100%;
+  min-height: clamp(12rem, 24vw, 17rem);
+  padding: clamp(1rem, 3vw, 2rem);
 }
 
 .folio-card .card-visual figcaption {
   min-height: 0;
-  padding: .65rem .75rem;
+  padding: .85rem 1.2rem 1rem;
+  border-top: 1px solid var(--line);
+  background: #fff;
+  color: var(--muted);
+  font-size: .88rem;
 }
 
-@media (max-width: 640px) {
-  .folio-card {
+.folio-card .card-task {
+  padding: clamp(1.2rem, 4vw, 2rem);
+}
+
+.folio-card .card-task textarea {
+  min-height: 13rem;
+}
+
+.project-activity-section {
+  border-radius: 1.4rem;
+  background: #edf5f1;
+}
+
+.project-activity-section .section-heading-row {
+  align-items: flex-start;
+}
+
+.project-activity-section .folio-activity-summary {
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: .7rem;
+}
+
+.project-activity-section .folio-activity-card {
+  grid-template-columns: auto minmax(0,1fr) auto;
+  min-height: 5rem;
+  border-radius: .8rem;
+  box-shadow: none;
+}
+
+.folio-tools {
+  padding-top: clamp(4rem, 7vw, 6rem);
+  padding-bottom: 6rem;
+}
+
+.tools-heading {
+  max-width: 68ch;
+  margin-bottom: 1.5rem;
+}
+
+.utility-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 1rem;
+}
+
+.utility-card {
+  min-width: 0;
+  padding: clamp(1.25rem, 3vw, 1.8rem);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.utility-card h3 {
+  margin: .35rem 0 .65rem;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+}
+
+.utility-step {
+  margin: 0;
+  color: var(--green);
+  font-size: .76rem;
+  font-weight: 950;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.submission-utility {
+  border-top: 6px solid var(--green);
+}
+
+.backup-utility {
+  border-top: 6px solid #c7983d;
+}
+
+.utility-card .submission-actions,
+.utility-card .backup-actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: .65rem;
+  flex-wrap: wrap;
+  margin-top: 1.2rem;
+}
+
+.utility-card .submission-status,
+.utility-card .backup-status {
+  margin: .85rem 0 0;
+  color: var(--muted);
+  font-size: .88rem;
+}
+
+@media (max-width: 820px) {
+  .folio-hero,
+  .folio-start,
+  .student-panel,
+  .utility-grid {
     grid-template-columns: 1fr;
   }
 
-  .folio-card .card-heading,
-  .folio-card .card-visual,
-  .folio-card .card-task {
-    grid-column: 1;
+  .folio-overview {
+    max-width: none;
   }
 
-  .folio-card .card-visual {
-    width: min(calc(100% - 2rem), 18rem);
-    margin: 1rem auto 0;
+  .project-activity-section .folio-activity-summary {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .folio-hero {
+    padding-top: 2.6rem;
   }
 
-  .folio-card .card-visual img,
+  .folio-hero h1 {
+    font-size: 3rem;
+  }
+
+  .folio-hero .actions {
+    display: grid;
+  }
+
+  .folio-hero .actions .button {
+    width: 100%;
+  }
+
+  .progress-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .student-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .folio-card .card-heading {
+    grid-template-columns: auto minmax(0,1fr) auto;
+    gap: .7rem;
+  }
+
+  .folio-card .card-status {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .folio-card .card-heading::after {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .folio-card .card-image img {
+    height: 14rem;
+    padding: .8rem;
+  }
+
   .folio-card .visual-diagram {
-    height: auto;
-    min-height: 8.5rem;
-    max-height: 11rem;
+    min-height: 12rem;
+  }
+
+  .project-activity-section .folio-activity-card {
+    grid-template-columns: auto minmax(0,1fr);
+  }
+
+  .project-activity-section .folio-activity-card > strong {
+    grid-column: 2;
+  }
+
+  .utility-card .submission-actions,
+  .utility-card .backup-actions {
+    display: grid;
+  }
+
+  .utility-card .button,
+  .utility-card .text-button {
+    width: 100%;
+    text-align: center;
   }
 }
 
 @media print {
+  .folio-deck-section > .section-heading-row,
+  .module-map-details,
+  .folio-card-group-heading {
+    display: none !important;
+  }
+
+  .folio-deck,
+  .folio-card-group-grid {
+    display: block;
+    margin: 0;
+  }
+
+  .folio-card-group {
+    display: contents;
+  }
+
   .folio-card {
     display: block;
+    overflow: visible;
+    break-before: page !important;
+    page-break-before: always !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .folio-card-group:first-child .folio-card:first-child {
+    break-before: auto !important;
+    page-break-before: auto !important;
+  }
+
+  .folio-card > :not(summary) {
+    display: block !important;
+  }
+
+  .folio-card .card-heading::after {
+    display: none;
+  }
+
+  .folio-card-body {
+    display: block !important;
+  }
+
+  .folio-card .print-card-heading {
+    display: flex !important;
+    gap: 1rem;
+  }
+
+  .folio-card .print-card-heading span:last-child {
+    margin-left: auto;
   }
 }

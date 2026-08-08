@@ -96,6 +96,13 @@
     }
   ];
 
+  const cardGroups = [
+    { number: '1', title: 'Start safely and communicate', description: 'Set a starting point, show workshop readiness and use accurate tool language.', cards: ['01', '02', '03'] },
+    { number: '2', title: 'Understand materials and drawings', description: 'Record material observations and read the original plan without guessing.', cards: ['04', '05', '06', '07'] },
+    { number: '3', title: 'Develop and record decisions', description: 'Keep emblem concepts, a justified choice and one practical quality observation.', cards: ['08', '09', '10'] },
+    { number: '4', title: 'Evaluate the finished work', description: 'Use evidence to review function and appearance.', cards: ['11', '12'] }
+  ];
+
   const moduleLabels = [
     'Workshop conduct and readiness',
     'Tool recognition and purpose',
@@ -208,27 +215,37 @@
 
   const renderCard = card => {
     const dateField = card.date ? `<label class="date-field" for="card-${card.id}-date">Date of this observation<input id="card-${card.id}-date" type="date" data-card-date="${card.id}"></label>` : '';
-    return `<article class="folio-card" id="card-${card.id}" data-card="${card.id}">
-      <div class="print-card-heading"><span>Year 8 Intro Timber Technology · Footstool evidence folio</span><span class="print-student"></span></div>
-      <header class="card-heading">
+    return `<details class="folio-card" id="card-${card.id}" data-card="${card.id}">
+      <summary class="card-heading">
         <div class="card-number" aria-hidden="true">${card.id}</div>
         <div><p class="card-module">Module ${card.module} · Weeks ${card.weeks}</p><h3>${escapeHtml(card.title)}</h3></div>
         <span class="card-status" data-card-status="${card.id}">In progress</span>
-      </header>
-      ${renderVisual(card)}
-      <div class="card-task">
-        <p class="action-label">Your one action</p>
-        <p class="card-action">${escapeHtml(card.action)}</p>
-        ${dateField}
-        <label for="card-${card.id}-response">Your evidence
-          <textarea id="card-${card.id}-response" data-card-response="${card.id}" maxlength="4000" rows="7" placeholder="${escapeHtml(card.starter)}"></textarea>
-        </label>
-        <div class="response-meta"><span data-character-count="${card.id}">0 characters</span><span>Write at least ${MIN_RESPONSE_LENGTH} characters before marking ready.</span></div>
-        <label class="ready-check" for="card-${card.id}-ready"><input id="card-${card.id}-ready" type="checkbox" data-card-ready="${card.id}"> I have checked this evidence and it is ready for my folio.</label>
-        <p class="card-guidance" data-card-guidance="${card.id}">Write a meaningful response to continue.</p>
+      </summary>
+      <div class="folio-card-body">
+        <div class="print-card-heading"><span>Year 8 Intro Timber Technology · Footstool evidence folio</span><span class="print-student"></span></div>
+        ${renderVisual(card)}
+        <div class="card-task">
+          <p class="action-label">Your one action</p>
+          <p class="card-action">${escapeHtml(card.action)}</p>
+          ${dateField}
+          <label for="card-${card.id}-response">Your evidence
+            <textarea id="card-${card.id}-response" data-card-response="${card.id}" maxlength="4000" rows="7" placeholder="${escapeHtml(card.starter)}"></textarea>
+          </label>
+          <div class="response-meta"><span data-character-count="${card.id}">0 characters</span><span>Write at least ${MIN_RESPONSE_LENGTH} characters before marking ready.</span></div>
+          <label class="ready-check" for="card-${card.id}-ready"><input id="card-${card.id}-ready" type="checkbox" data-card-ready="${card.id}"> I have checked this evidence and it is ready for my folio.</label>
+          <p class="card-guidance" data-card-guidance="${card.id}">Write a meaningful response to continue.</p>
+        </div>
       </div>
-    </article>`;
+    </details>`;
   };
+
+  const renderCardGroup = group => `<section class="folio-card-group" aria-labelledby="folio-group-${group.number}">
+    <header class="folio-card-group-heading">
+      <span class="folio-card-group-number" aria-hidden="true">${group.number}</span>
+      <div><h3 id="folio-group-${group.number}">${escapeHtml(group.title)}</h3><p>${escapeHtml(group.description)}</p></div>
+    </header>
+    <div class="folio-card-group-grid">${group.cards.map(id => renderCard(cards.find(card => card.id === id))).join('')}</div>
+  </section>`;
 
   const isMeaningful = item => item.response.trim().length >= MIN_RESPONSE_LENGTH;
   const isReady = item => item.ready && isMeaningful(item);
@@ -279,6 +296,11 @@
     track.setAttribute('aria-valuenow', String(count));
     const next = cards.find(card => !isReady(state.cards[card.id]));
     document.getElementById('next-step').textContent = next ? `Next: Card ${next.id} · ${next.title}.` : 'All twelve cards are ready for backup or print.';
+    const continueCard = document.getElementById('continue-card');
+    if (continueCard) {
+      continueCard.href = next ? `#card-${next.id}` : '#folio-tools';
+      continueCard.textContent = next ? `Continue Card ${next.id}` : 'Export completed folio';
+    }
 
     const modules = moduleLabels.map((label, index) => {
       const number = index + 1;
@@ -310,6 +332,8 @@
     }).join('');
     const ready = activityManifest.filter(activity => state.activities[activity.id]?.ready).length;
     document.getElementById('activity-completion-note').textContent = `${ready}/${activityManifest.length} project activities marked ready. Activity readiness is learning evidence, not a mark.`;
+    const activityReadyCount = document.getElementById('activity-ready-count');
+    if (activityReadyCount) activityReadyCount.textContent = String(ready);
   };
 
   const hydrateForm = () => {
@@ -432,8 +456,29 @@
     }
   };
 
-  document.getElementById('folio-cards').innerHTML = cards.map(renderCard).join('');
+  const folioCards = document.getElementById('folio-cards');
+  folioCards.innerHTML = cardGroups.map(renderCardGroup).join('');
   hydrateForm();
+
+  const openCardFromHash = (useNext = false) => {
+    let target = /^#card-\d{2}$/.test(window.location.hash) ? document.querySelector(window.location.hash) : null;
+    if (!target && useNext) {
+      const next = cards.find(card => !isReady(state.cards[card.id])) || cards[cards.length - 1];
+      target = document.getElementById(`card-${next.id}`);
+    }
+    if (!target) return;
+    document.querySelectorAll('.folio-card[open]').forEach(card => { if (card !== target) card.open = false; });
+    target.open = true;
+  };
+
+  let printMode = false;
+  let printOpenCards = [];
+  document.querySelectorAll('.folio-card').forEach(card => card.addEventListener('toggle', () => {
+    if (printMode || !card.open) return;
+    document.querySelectorAll('.folio-card[open]').forEach(other => { if (other !== card) other.open = false; });
+  }));
+  openCardFromHash(true);
+  window.addEventListener('hashchange', () => openCardFromHash(false));
 
   document.getElementById('student-name').addEventListener('input', event => {
     state.student.name = event.target.value;
@@ -445,7 +490,7 @@
     updateProgress();
     queueSave();
   });
-  document.getElementById('folio-cards').addEventListener('input', event => {
+  folioCards.addEventListener('input', event => {
     const id = event.target.dataset.cardResponse || event.target.dataset.cardDate;
     if (!id) return;
     if (event.target.dataset.cardResponse) state.cards[id].response = event.target.value;
@@ -453,7 +498,7 @@
     updateProgress();
     queueSave();
   });
-  document.getElementById('folio-cards').addEventListener('change', event => {
+  folioCards.addEventListener('change', event => {
     const id = event.target.dataset.cardReady;
     if (!id) return;
     state.cards[id].ready = event.target.checked;
@@ -471,5 +516,14 @@
     window.print();
   };
   document.querySelectorAll('[data-print-folio], #print-folio').forEach(button => button.addEventListener('click', printFolio));
-  window.addEventListener('beforeprint', updateProgress);
+  window.addEventListener('beforeprint', () => {
+    printMode = true;
+    printOpenCards = [...document.querySelectorAll('.folio-card[open]')];
+    document.querySelectorAll('.folio-card').forEach(card => { card.open = true; });
+    updateProgress();
+  });
+  window.addEventListener('afterprint', () => {
+    document.querySelectorAll('.folio-card').forEach(card => { card.open = printOpenCards.includes(card); });
+    printMode = false;
+  });
 })();

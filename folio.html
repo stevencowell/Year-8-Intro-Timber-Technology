@@ -8,8 +8,8 @@
   <title>Evidence folio | Year 8 Intro Timber</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="folio.css">
-  <link rel="stylesheet" href="folio-magazine.css">
   <link rel="stylesheet" href="source-activities.css">
+  <link rel="stylesheet" href="folio-magazine.css">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to evidence folio</a>
@@ -24,18 +24,28 @@
 
   <main id="content">
     <section class="folio-hero">
-      <div>
+      <div class="folio-hero-copy">
         <p class="eyebrow">YOUR FOOTSTOOL EVIDENCE</p>
-        <h1>Show what you noticed, decided and learned.</h1>
-        <p class="lede">Build one folio across the twelve evidence cards and the matching project activities. Everything autosaves on this laptop and can be exported as one submission file.</p>
+        <h1>Your Footstool folio.</h1>
+        <p class="lede">Work through twelve evidence cards, then return to the separate project activities when you need them. Everything autosaves on this laptop.</p>
         <div class="actions no-print">
-          <a class="button" href="#evidence-deck">Start the next card</a>
-          <button class="button secondary" data-print-folio type="button">Print / Save PDF</button>
+          <a class="button" id="continue-card" href="#card-01">Continue next card</a>
+          <a class="button secondary" href="#project-activities">Project activities</a>
+          <a class="folio-utility-link" href="#folio-tools">Export and backup</a>
         </div>
       </div>
       <aside class="folio-overview" aria-labelledby="overview-title">
-        <p class="eyebrow" id="overview-title">FOLIO AT A GLANCE</p>
-        <p class="progress-number"><strong id="ready-count">0</strong><span>/ 12 cards ready</span></p>
+        <p class="eyebrow" id="overview-title">YOUR PROGRESS</p>
+        <div class="progress-summary">
+          <div>
+            <p class="progress-label">Evidence cards</p>
+            <p class="progress-number"><strong id="ready-count">0</strong><span>/ 12 ready</span></p>
+          </div>
+          <div>
+            <p class="progress-label">Project activities</p>
+            <p class="activity-progress-number"><strong id="activity-ready-count">0</strong><span>/ 11 ready</span></p>
+          </div>
+        </div>
         <div class="progress-track" role="progressbar" aria-label="Evidence card progress" aria-valuemin="0" aria-valuemax="12" aria-valuenow="0">
           <span id="progress-fill"></span>
         </div>
@@ -43,87 +53,88 @@
       </aside>
     </section>
 
-    <section class="device-notice" aria-label="How saving works">
-      <strong>Saved on this device only.</strong>
-      <span>This is preparation evidence, not cloud submission. Download the <strong>submission file</strong> for an intentional Google Classroom upload, and keep a backup before changing device or clearing browser data.</span>
+    <section class="folio-start no-print" aria-labelledby="student-details-heading">
+      <div class="student-panel">
+        <div>
+          <p class="eyebrow">STUDENT DETAILS</p>
+          <h2 id="student-details-heading">Make this folio yours.</h2>
+        </div>
+        <div class="student-fields">
+          <label for="student-name">Name
+            <input id="student-name" name="student-name" autocomplete="name" maxlength="80">
+          </label>
+          <label for="student-class">Class
+            <input id="student-class" name="student-class" autocomplete="organization-title" maxlength="40">
+          </label>
+          <p class="save-state" id="save-state" role="status" aria-live="polite">Ready to save on this device.</p>
+        </div>
+      </div>
+      <aside class="device-notice" aria-label="How saving works">
+        <strong>Saved on this device only.</strong>
+        <span>This is preparation evidence, not cloud submission. Use the submission export for an intentional Google Classroom upload.</span>
+      </aside>
     </section>
 
-    <section class="section folio-details" aria-labelledby="student-details-heading">
-      <div>
-        <p class="eyebrow">STUDENT DETAILS</p>
-        <h2 id="student-details-heading">Make the evidence yours.</h2>
-        <p>Your name and class appear on the printed folio. Your teacher will explain any class submission process.</p>
-      </div>
-      <div class="student-fields">
-        <label for="student-name">Name
-          <input id="student-name" name="student-name" autocomplete="name" maxlength="80">
-        </label>
-        <label for="student-class">Class
-          <input id="student-class" name="student-class" autocomplete="organization-title" maxlength="40">
-        </label>
-        <p class="save-state" id="save-state" role="status" aria-live="polite">Ready to save on this device.</p>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="module-progress-heading">
-      <p class="eyebrow">TEN-MODULE EVIDENCE PATH</p>
+    <section class="section folio-deck-section" id="evidence-deck" aria-labelledby="deck-heading">
       <div class="section-heading-row">
         <div>
-          <h2 id="module-progress-heading">See what is ready and what comes next.</h2>
-          <p>Cards follow the course sequence. A card becomes ready after you write a meaningful response and confirm that you have checked it.</p>
+          <p class="eyebrow">TWELVE-CARD EVIDENCE FOLIO</p>
+          <h2 id="deck-heading">Open one card. Do one clear job.</h2>
+          <p class="deck-intro">Cards are grouped into four stages. Open the card you need, use its complete visual cue and save your response.</p>
         </div>
         <a class="button secondary no-print" href="index.html#modules">Open learning modules</a>
       </div>
-      <div class="module-progress" id="module-progress" aria-live="polite"></div>
-      <p class="completion-note">Ready status shows participation and progress. It is not a mark or formal assessment result.</p>
+      <details class="module-map-details no-print">
+        <summary>View the ten-module card map</summary>
+        <div class="module-progress" id="module-progress" aria-live="polite"></div>
+        <p class="completion-note">Ready status shows participation and progress. It is not a mark or formal assessment result.</p>
+      </details>
+      <div class="folio-deck" id="folio-cards"></div>
     </section>
 
-    <section class="section" aria-labelledby="activity-pathway-heading">
-      <p class="eyebrow">PROJECT ACTIVITY PATHWAY</p>
+    <section class="section project-activity-section" id="project-activities" aria-labelledby="activity-pathway-heading">
       <div class="section-heading-row">
         <div>
-          <h2 id="activity-pathway-heading">Return to each PowerPoint activity without hunting through the deck.</h2>
-          <p>The activity links open the exact matching web experience inside its module. Your responses return here in the same device-local folio record.</p>
+          <p class="eyebrow">PROJECT ACTIVITIES</p>
+          <h2 id="activity-pathway-heading">Eleven activities, kept separate from your evidence cards.</h2>
+          <p>Each link opens the exact matching activity in its module. Responses return here through the same device-local folio record.</p>
         </div>
-        <a class="button secondary no-print" href="assets/resources/Year-8-Footstool-Project.pptx">Download the master PowerPoint</a>
+        <a class="button secondary no-print" href="assets/resources/Year-8-Footstool-Project.pptx">Master PowerPoint</a>
       </div>
       <div class="folio-activity-summary" id="folio-activity-summary" aria-live="polite"></div>
       <p class="completion-note" id="activity-completion-note">Activity readiness is learning evidence, not a mark.</p>
     </section>
 
-    <section class="section folio-deck-section" id="evidence-deck" aria-labelledby="deck-heading">
-      <p class="eyebrow">TWELVE-CARD EVIDENCE DECK</p>
-      <h2 id="deck-heading">Write, check and keep each piece of evidence.</h2>
-      <p class="deck-intro">Use the visual cue, complete the single action and write enough detail to show your thinking. Where a practical detail is unclear, record the question and ask your teacher rather than guessing.</p>
-      <div class="folio-deck" id="folio-cards"></div>
-    </section>
-
-    <section class="section backup-panel submission-panel no-print" aria-labelledby="submission-heading">
-      <div>
-        <p class="eyebrow">ONE SUBMISSION FILE</p>
-        <h2 id="submission-heading">Export the completed folio for Google Classroom.</h2>
-        <p>The download is one self-contained HTML file containing student details, the twelve folio responses, project-activity responses, optional evidence images and completed module written evidence found on this laptop. It does not upload or submit anything automatically.</p>
+    <section class="section folio-tools no-print" id="folio-tools" aria-labelledby="folio-tools-heading">
+      <div class="tools-heading">
+        <p class="eyebrow">FINISH AND KEEP A COPY</p>
+        <h2 id="folio-tools-heading">Export when the work is ready.</h2>
+        <p>These controls stay available without competing with the writing space above.</p>
       </div>
-      <div class="submission-actions">
-        <button class="button light" id="download-submission" type="button">Download submission file (.html)</button>
-        <button class="button secondary" id="print-folio" type="button">Print / Save PDF</button>
-        <p class="submission-status" id="submission-status" role="status" aria-live="polite">After downloading, attach the file to the Google Classroom task your teacher identifies.</p>
+      <div class="utility-grid">
+        <article class="utility-card submission-utility" aria-labelledby="submission-heading">
+          <p class="utility-step">Submission copy</p>
+          <h3 id="submission-heading">One self-contained Classroom file</h3>
+          <p>Includes student details, twelve folio responses, project activities, optional evidence images and completed module writing. Nothing uploads automatically.</p>
+          <div class="submission-actions">
+            <button class="button" id="download-submission" type="button">Download submission (.html)</button>
+            <button class="button secondary" id="print-folio" type="button">Print / Save PDF</button>
+          </div>
+          <p class="submission-status" id="submission-status" role="status" aria-live="polite">Attach the downloaded file to the Google Classroom task your teacher identifies.</p>
+        </article>
+        <article class="utility-card backup-utility" aria-labelledby="backup-heading">
+          <p class="utility-step">Working backup</p>
+          <h3 id="backup-heading">Move or restore your folio</h3>
+          <p>The JSON backup preserves student details, cards, project activities, ready status and saved evidence images. It is not the Classroom submission file.</p>
+          <div class="backup-actions">
+            <button class="button" id="download-backup" type="button">Download backup</button>
+            <label class="button secondary file-button" for="restore-backup">Restore backup</label>
+            <input id="restore-backup" class="visually-hidden" type="file" accept="application/json,.json">
+            <button class="text-button" id="reset-folio" type="button">Reset this folio</button>
+          </div>
+          <p id="backup-status" class="backup-status" role="status" aria-live="polite"></p>
+        </article>
       </div>
-    </section>
-
-    <section class="section backup-panel no-print" aria-labelledby="backup-heading">
-      <div>
-        <p class="eyebrow">KEEP A COPY</p>
-        <h2 id="backup-heading">Back up before you move devices.</h2>
-        <p>The JSON backup preserves your name, class, folio cards, project activities, ready status and saved evidence images so you can restore the working folio later. It is not the Classroom submission file.</p>
-      </div>
-      <div class="backup-actions">
-        <button class="button" id="download-backup" type="button">Download backup</button>
-        <label class="button secondary file-button" for="restore-backup">Restore backup</label>
-        <input id="restore-backup" class="visually-hidden" type="file" accept="application/json,.json">
-        <button class="text-button" id="reset-folio" type="button">Reset this folio</button>
-      </div>
-      <p id="backup-status" class="backup-status" role="status" aria-live="polite"></p>
     </section>
   </main>
 
