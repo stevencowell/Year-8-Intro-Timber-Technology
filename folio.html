@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="folio.css">
   <link rel="stylesheet" href="folio-magazine.css">
+  <link rel="stylesheet" href="source-activities.css">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to evidence folio</a>
@@ -26,10 +27,10 @@
       <div>
         <p class="eyebrow">YOUR FOOTSTOOL EVIDENCE</p>
         <h1>Show what you noticed, decided and learned.</h1>
-        <p class="lede">Build your folio one card at a time. Write in your own words, mark evidence ready when you have checked it, then keep a backup or print a PDF.</p>
+        <p class="lede">Build one folio across the twelve evidence cards and the matching project activities. Everything autosaves on this laptop and can be exported as one submission file.</p>
         <div class="actions no-print">
           <a class="button" href="#evidence-deck">Start the next card</a>
-          <button class="button secondary" id="print-folio" type="button">Print / Save PDF</button>
+          <button class="button secondary" data-print-folio type="button">Print / Save PDF</button>
         </div>
       </div>
       <aside class="folio-overview" aria-labelledby="overview-title">
@@ -44,7 +45,7 @@
 
     <section class="device-notice" aria-label="How saving works">
       <strong>Saved on this device only.</strong>
-      <span>This is preparation evidence, not cloud submission. Use <strong>Download backup</strong> or <strong>Print / Save PDF</strong> before changing device or clearing browser data.</span>
+      <span>This is preparation evidence, not cloud submission. Download the <strong>submission file</strong> for an intentional Google Classroom upload, and keep a backup before changing device or clearing browser data.</span>
     </section>
 
     <section class="section folio-details" aria-labelledby="student-details-heading">
@@ -77,6 +78,19 @@
       <p class="completion-note">Ready status shows participation and progress. It is not a mark or formal assessment result.</p>
     </section>
 
+    <section class="section" aria-labelledby="activity-pathway-heading">
+      <p class="eyebrow">PROJECT ACTIVITY PATHWAY</p>
+      <div class="section-heading-row">
+        <div>
+          <h2 id="activity-pathway-heading">Return to each PowerPoint activity without hunting through the deck.</h2>
+          <p>The activity links open the exact matching web experience inside its module. Your responses return here in the same device-local folio record.</p>
+        </div>
+        <a class="button secondary no-print" href="assets/resources/Year-8-Footstool-Project.pptx">Download the master PowerPoint</a>
+      </div>
+      <div class="folio-activity-summary" id="folio-activity-summary" aria-live="polite"></div>
+      <p class="completion-note" id="activity-completion-note">Activity readiness is learning evidence, not a mark.</p>
+    </section>
+
     <section class="section folio-deck-section" id="evidence-deck" aria-labelledby="deck-heading">
       <p class="eyebrow">TWELVE-CARD EVIDENCE DECK</p>
       <h2 id="deck-heading">Write, check and keep each piece of evidence.</h2>
@@ -84,11 +98,24 @@
       <div class="folio-deck" id="folio-cards"></div>
     </section>
 
+    <section class="section backup-panel submission-panel no-print" aria-labelledby="submission-heading">
+      <div>
+        <p class="eyebrow">ONE SUBMISSION FILE</p>
+        <h2 id="submission-heading">Export the completed folio for Google Classroom.</h2>
+        <p>The download is one self-contained HTML file containing student details, the twelve folio responses, project-activity responses, optional evidence images and completed module written evidence found on this laptop. It does not upload or submit anything automatically.</p>
+      </div>
+      <div class="submission-actions">
+        <button class="button light" id="download-submission" type="button">Download submission file (.html)</button>
+        <button class="button secondary" id="print-folio" type="button">Print / Save PDF</button>
+        <p class="submission-status" id="submission-status" role="status" aria-live="polite">After downloading, attach the file to the Google Classroom task your teacher identifies.</p>
+      </div>
+    </section>
+
     <section class="section backup-panel no-print" aria-labelledby="backup-heading">
       <div>
         <p class="eyebrow">KEEP A COPY</p>
         <h2 id="backup-heading">Back up before you move devices.</h2>
-        <p>The backup contains your name, class, written responses and ready status. It does not upload anything or submit work to your teacher.</p>
+        <p>The JSON backup preserves your name, class, folio cards, project activities, ready status and saved evidence images so you can restore the working folio later. It is not the Classroom submission file.</p>
       </div>
       <div class="backup-actions">
         <button class="button" id="download-backup" type="button">Download backup</button>
@@ -101,6 +128,7 @@
   </main>
 
   <footer class="no-print"><a href="https://stevencowell.github.io/Main-Page/">← Main Menu</a><span>Year 8 Intro Timber Technology · Footstool</span><a href="teacher-resources.html">Teacher Resources</a></footer>
+  <script src="source-activities.js"></script>
   <script src="folio.js"></script>
 </body>
 </html>

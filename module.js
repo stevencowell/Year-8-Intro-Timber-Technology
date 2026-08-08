@@ -137,9 +137,26 @@ function updateStatus(){
 
 function setupStudent(){
   let student={};try{student=JSON.parse(localStorage.getItem(`${STORAGE}:student`)||'{}')}catch{}
+  if(!student.name&&!student.className){
+    try{
+      const folio=JSON.parse(localStorage.getItem('footstool-y8:v1:folio')||'{}');
+      if(folio.student)student={name:folio.student.name||'',className:folio.student.className||''};
+    }catch{}
+  }
   const name=document.querySelector('#student-name'),className=document.querySelector('#student-class');
   name.value=student.name||'';className.value=student.className||'';
-  const save=()=>localStorage.setItem(`${STORAGE}:student`,JSON.stringify({name:name.value,className:className.value,updatedAt:new Date().toISOString()}));
+  const save=()=>{
+    const updatedAt=new Date().toISOString();
+    localStorage.setItem(`${STORAGE}:student`,JSON.stringify({name:name.value,className:className.value,updatedAt}));
+    try{
+      const folio=JSON.parse(localStorage.getItem('footstool-y8:v1:folio')||'{}');
+      folio.schema=folio.schema||'footstool-y8-folio-backup-v1';
+      folio.version=Math.max(Number(folio.version)||1,2);
+      folio.student={name:name.value,className:className.value};
+      folio.cards=folio.cards||{};folio.activities=folio.activities||{};folio.updatedAt=updatedAt;
+      localStorage.setItem('footstool-y8:v1:folio',JSON.stringify(folio));
+    }catch{}
+  };
   name.addEventListener('input',save);className.addEventListener('input',save);
 }
 
@@ -162,6 +179,7 @@ async function init(){
   document.querySelector('#section-jumps').innerHTML=data.map((section,index)=>`<a href="#${section.sectionId}">${index+1}. ${escapeHtml(section.title)}</a>`).join('');
   document.querySelector('#module-sections').innerHTML=data.map(renderSection).join('');
   data.forEach(attachSection);setupStudent();updateStatus();
+  window.FootstoolSourceActivities?.renderModule(number);
   document.querySelector('#print-module').addEventListener('click',()=>window.print());
   const prev=document.querySelector('#previous-module'),next=document.querySelector('#next-module');
   if(number===1)prev.href='../index.html#modules';else prev.href=`module-${String(number-1).padStart(2,'0')}.html`;

@@ -4,7 +4,9 @@
   const STORAGE_KEY = 'footstool-y8:v1:folio';
   const LEGACY_KEY = 'year8-footstool-folio-v1';
   const SCHEMA = 'footstool-y8-folio-backup-v1';
+  const MODULE_STUDENT_KEY = 'footstool-y8:v2:student';
   const MIN_RESPONSE_LENGTH = 20;
+  const activityManifest = window.FootstoolSourceActivities?.manifest || [];
 
   const cards = [
     {
@@ -60,8 +62,8 @@
       id: '08', module: 7, weeks: '13–14', title: 'Emblem concepts',
       action: 'Describe three distinct emblem ideas you developed before choosing one.',
       starter: 'Idea 1 explores … Idea 2 explores … Idea 3 explores …',
-      visual: { type: 'image', src: 'assets/emblem-development-example.png', alt: 'Course worksheet excerpt showing explore, experiment and arrange stages for developing three emblem ideas.', href: 'assets/emblem-development-example.png', link: 'Open emblem worksheet larger' },
-      caption: 'Explore, experiment and arrange ideas before selecting a concept. Any later process remains teacher-controlled.'
+      visual: { type: 'emblem' },
+      caption: 'Begin with three personal themes, combine them into distinct concepts and keep later processes teacher controlled.'
     },
     {
       id: '09', module: 7, weeks: '13–14', title: 'Design choice',
@@ -109,9 +111,10 @@
 
   const blankState = () => ({
     schema: SCHEMA,
-    version: 1,
+    version: 2,
     student: { name: '', className: '' },
     cards: Object.fromEntries(cards.map(card => [card.id, { response: '', ready: false, date: '' }])),
+    activities: Object.fromEntries(activityManifest.map(activity => [activity.id, { values: {}, photoData: '', photoName: '', ready: false, updatedAt: '' }])),
     updatedAt: ''
   });
 
@@ -134,6 +137,25 @@
         date: /^\d{4}-\d{2}-\d{2}$/.test(String(incoming.date ?? '')) ? String(incoming.date) : ''
       };
     });
+    activityManifest.forEach(activity => {
+      const incoming = source.activities && source.activities[activity.id];
+      if (!incoming || typeof incoming !== 'object') return;
+      const labels = activity.labels || {};
+      const values = {};
+      Object.keys(labels).forEach(key => {
+        const value = incoming.values && incoming.values[key];
+        if (value === undefined || value === null) return;
+        values[key] = String(value).slice(0, 12000);
+      });
+      const photoData = typeof incoming.photoData === 'string' && /^data:image\/(?:jpeg|png|webp);base64,/i.test(incoming.photoData) && incoming.photoData.length <= 3500000 ? incoming.photoData : '';
+      next.activities[activity.id] = {
+        values,
+        photoData,
+        photoName: String(incoming.photoName || '').slice(0, 120),
+        ready: Boolean(incoming.ready) && activity.required.every(key => String(values[key] || '').trim()),
+        updatedAt: typeof incoming.updatedAt === 'string' ? incoming.updatedAt : ''
+      };
+    });
     next.updatedAt = typeof source.updatedAt === 'string' ? source.updatedAt : '';
     return next;
   };
@@ -141,6 +163,11 @@
   const stored = safeParse(localStorage.getItem(STORAGE_KEY));
   const legacy = safeParse(localStorage.getItem(LEGACY_KEY));
   let state = normaliseState(stored || legacy);
+  const moduleStudent = safeParse(localStorage.getItem(MODULE_STUDENT_KEY));
+  if (!state.student.name && !state.student.className && moduleStudent) {
+    state.student.name = String(moduleStudent.name || '').slice(0, 80);
+    state.student.className = String(moduleStudent.className || '').slice(0, 40);
+  }
   let saveTimer;
 
   const navToggle = document.querySelector('.nav-toggle');
@@ -170,6 +197,7 @@
     const diagrams = {
       kwl: '<div class="visual-diagram kwl-diagram" role="img" aria-label="A path from what I know, through what I want to learn, to what I learned"><span>Know</span><b aria-hidden="true">→</b><span>Want to learn</span><b aria-hidden="true">→</b><span>Learned</span></div>',
       'wood-forms': '<div class="visual-diagram wood-forms" role="img" aria-label="Four labelled forms used in manufactured wood products"><span>Veneers</span><span>Strands</span><span>Fibres</span><span>Particles</span></div>',
+      emblem: '<div class="visual-diagram emblem-diagram" role="img" aria-label="Three personal themes combining into three distinct emblem concepts"><div><span>Theme 1</span><span>Theme 2</span><span>Theme 3</span></div><b aria-hidden="true">combine and vary</b><strong>Three distinct concepts</strong></div>',
       choice: '<div class="visual-diagram choice-diagram" role="img" aria-label="Three concept boxes narrowing to one justified selection"><div><span>Idea 1</span><span>Idea 2</span><span>Idea 3</span></div><b aria-hidden="true">↓ compare ↓</b><strong>Selected idea + reason</strong></div>',
       quality: '<div class="visual-diagram quality-diagram" role="img" aria-label="A repeating evidence cycle: observe, act, next step"><span>Observe</span><b aria-hidden="true">→</b><span>Act</span><b aria-hidden="true">→</b><span>Next step</span></div>',
       function: '<div class="visual-diagram word-diagram function-diagram" role="img" aria-label="Functional evaluation vocabulary: durable, reliable, stable, ergonomic, efficient and economical"><span>Durable</span><span>Reliable</span><span>Stable</span><span>Ergonomic</span><span>Efficient</span><span>Economical</span></div>',
@@ -208,6 +236,7 @@
   const save = () => {
     state.updatedAt = new Date().toISOString();
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    localStorage.setItem(MODULE_STUDENT_KEY, JSON.stringify({ name: state.student.name, className: state.student.className, updatedAt: state.updatedAt }));
     const formatted = new Intl.DateTimeFormat('en-AU', { hour: 'numeric', minute: '2-digit', second: '2-digit' }).format(new Date(state.updatedAt));
     document.getElementById('save-state').textContent = `Saved on this device at ${formatted}.`;
   };
@@ -267,6 +296,20 @@
       const details = [state.student.name || 'Name not entered', state.student.className ? `Class ${state.student.className}` : 'Class not entered'];
       element.textContent = details.join(' · ');
     });
+    renderActivityProgress();
+  };
+
+  const renderActivityProgress = () => {
+    const host = document.getElementById('folio-activity-summary');
+    if (!host) return;
+    host.innerHTML = activityManifest.map(activity => {
+      const item = state.activities[activity.id] || { ready: false, values: {} };
+      const completed = Object.values(item.values || {}).filter(value => String(value).trim()).length;
+      const route = `modules/module-${String(activity.module).padStart(2, '0')}.html#source-activity-${activity.id}`;
+      return `<a class="folio-activity-card" data-state="${item.ready ? 'ready' : 'progress'}" href="${route}"><span>${String(activity.module).padStart(2, '0')}</span><div><h3>${escapeHtml(activity.title)}</h3><p>PowerPoint slide${String(activity.slides).includes('–') || String(activity.slides).includes('and') ? 's' : ''} ${escapeHtml(activity.slides)} · ${completed}/${activity.required.length} responses saved</p></div><strong>${item.ready ? 'Ready' : 'Continue'}</strong></a>`;
+    }).join('');
+    const ready = activityManifest.filter(activity => state.activities[activity.id]?.ready).length;
+    document.getElementById('activity-completion-note').textContent = `${ready}/${activityManifest.length} project activities marked ready. Activity readiness is learning evidence, not a mark.`;
   };
 
   const hydrateForm = () => {
@@ -318,12 +361,75 @@
   };
 
   const resetFolio = () => {
-    if (!window.confirm('Reset all twelve folio cards and student details on this device? Module work and other course activity will not be changed.')) return;
+    if (!window.confirm('Reset all twelve folio cards, project activities and student details on this device? Module theory work and Busy Work will not be changed.')) return;
     state = blankState();
     localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(MODULE_STUDENT_KEY);
     hydrateForm();
     document.getElementById('save-state').textContent = 'Folio reset on this device.';
-    document.getElementById('backup-status').textContent = 'Only this folio was reset.';
+    document.getElementById('backup-status').textContent = 'The folio cards and project activities were reset. Module theory work was retained.';
+  };
+
+  const collectModuleWrittenEvidence = async () => {
+    const jobs = [];
+    for (let module = 1; module <= 10; module += 1) {
+      for (let section = 1; section <= 3; section += 1) {
+        const id = `m${String(module).padStart(2, '0')}-s${String(section).padStart(2, '0')}`;
+        const local = safeParse(localStorage.getItem(`footstool-y8:v2:section:${id}`)) || {};
+        if (!String(local.written || '').trim()) continue;
+        jobs.push(fetch(`assets/data/${id}.json`).then(response => response.ok ? response.json() : null).catch(() => null).then(data => ({
+          id,
+          module,
+          title: data?.title || `Module ${module} · Section ${section}`,
+          prompt: data?.written?.prompt || 'Written evidence',
+          response: String(local.written)
+        })));
+      }
+    }
+    return Promise.all(jobs);
+  };
+
+  const exportSafeName = () => (state.student.name || 'student').trim().replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '').toLowerCase() || 'student';
+  const exportValue = (key, value) => key.startsWith('rating-') ? `${value}/10 self-rating (not a mark)` : value;
+
+  const downloadSubmission = async () => {
+    const status = document.getElementById('submission-status');
+    status.textContent = 'Preparing one self-contained submission file…';
+    save();
+    try {
+      const moduleEvidence = await collectModuleWrittenEvidence();
+      const exportedAt = new Intl.DateTimeFormat('en-AU', { dateStyle: 'long', timeStyle: 'short' }).format(new Date());
+      const cardHtml = cards.map(card => {
+        const item = state.cards[card.id];
+        return `<article class="evidence"><header><span>Card ${card.id} · Module ${card.module}</span><strong>${escapeHtml(card.title)}</strong></header><p class="prompt">${escapeHtml(card.action)}</p><div class="response">${escapeHtml(item.response || 'No response saved.')}</div><p class="status">${item.ready && isMeaningful(item) ? 'Marked ready' : 'Not marked ready'}${item.date ? ` · ${escapeHtml(item.date)}` : ''}</p></article>`;
+      }).join('');
+      const activityHtml = activityManifest.map(activity => {
+        const item = state.activities[activity.id] || { values: {}, photoData: '', ready: false };
+        const rows = window.FootstoolSourceActivities.getExportRows(activity.id, item);
+        const rowsHtml = rows.length ? rows.map(row => {
+          const key = Object.keys(activity.labels || {}).find(candidate => activity.labels[candidate] === row.label) || '';
+          return `<div class="answer-row"><dt>${escapeHtml(row.label)}</dt><dd>${escapeHtml(exportValue(key, row.value))}</dd></div>`;
+        }).join('') : '<p class="empty">No activity responses saved.</p>';
+        const photo = item.photoData ? `<figure><img src="${item.photoData}" alt="Student evidence image for ${escapeHtml(activity.title)}"><figcaption>${escapeHtml(item.photoName || 'Student evidence image')}</figcaption></figure>` : '';
+        return `<article class="activity"><header><span>Module ${activity.module} · PowerPoint slide${String(activity.slides).includes('–') || String(activity.slides).includes('and') ? 's' : ''} ${escapeHtml(activity.slides)}</span><strong>${escapeHtml(activity.title)}</strong></header><dl>${rowsHtml}</dl>${photo}<p class="status">${item.ready ? 'Marked ready' : 'Not marked ready'}</p></article>`;
+      }).join('');
+      const moduleHtml = moduleEvidence.length ? moduleEvidence.map(item => `<article class="module-response"><h3>Module ${item.module} · ${escapeHtml(item.title)}</h3><p class="prompt">${escapeHtml(item.prompt)}</p><div class="response">${escapeHtml(item.response)}</div></article>`).join('') : '<p class="empty">No module written-evidence responses were found on this laptop.</p>';
+      const html = `<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Footstool submission · ${escapeHtml(state.student.name || 'Student')}</title><style>
+        :root{color-scheme:light;--ink:#183236;--teal:#087565;--navy:#173a47;--line:#cbd8d3;--paper:#f6f3ec;--gold:#d9a23e}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Segoe UI,Arial,sans-serif}header.cover{padding:48px max(24px,calc((100% - 980px)/2));background:linear-gradient(135deg,var(--navy),var(--teal));color:#fff}header.cover h1{max-width:14ch;margin:8px 0;font-size:clamp(40px,7vw,76px);line-height:.96}header.cover p{max-width:70ch}.meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}.meta span{border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:7px 12px}.notice{max-width:980px;margin:24px auto 0;padding:16px 20px;border-left:6px solid var(--gold);background:#fff3d7}.section{max-width:980px;margin:40px auto;padding:0 20px}.section>h2{margin:0 0 8px;font-size:34px;line-height:1}.section>.intro{color:#52666a}.evidence,.activity,.module-response{break-inside:avoid;margin:16px 0;border:1px solid var(--line);border-radius:16px;background:#fff;overflow:hidden}.evidence header,.activity header{display:grid;gap:3px;padding:14px 18px;background:var(--navy);color:#fff}.evidence header span,.activity header span{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.evidence header strong,.activity header strong{font-size:21px}.prompt{margin:0;padding:14px 18px;background:#e5f2ed;font-weight:750}.response{min-height:54px;padding:16px 18px;white-space:pre-wrap}.status{margin:0;padding:9px 18px;border-top:1px solid var(--line);color:#52666a;font-size:13px;font-weight:800}.activity dl{margin:0}.answer-row{display:grid;grid-template-columns:minmax(190px,.42fr) minmax(0,1fr);border-bottom:1px solid var(--line)}.answer-row dt,.answer-row dd{margin:0;padding:11px 14px}.answer-row dt{background:#eef5f2;font-weight:750}.answer-row dd{white-space:pre-wrap}.activity figure{margin:18px}.activity figure img{display:block;max-width:100%;max-height:720px;margin:auto;border-radius:12px}.activity figcaption{text-align:center;color:#52666a}.module-response{padding:18px}.module-response h3{margin:0 0 10px}.module-response .prompt{margin:0 -18px}.empty{padding:16px 18px;color:#52666a}.footer{max-width:980px;margin:50px auto 0;padding:24px 20px 50px;border-top:1px solid var(--line);color:#52666a}@media(max-width:620px){.answer-row{grid-template-columns:1fr}.answer-row dt{padding-bottom:4px}.answer-row dd{padding-top:4px}}@media print{body{background:#fff}.cover{print-color-adjust:exact;-webkit-print-color-adjust:exact}.section{margin-top:24px}.evidence,.activity,.module-response{box-shadow:none}.activity{break-before:page}}
+      </style></head><body><header class="cover"><p>YEAR 8 INTRO TIMBER TECHNOLOGY · FOOTSTOOL</p><h1>Student evidence submission</h1><p>One self-contained export from the device-local Footstool folio.</p><div class="meta"><span>${escapeHtml(state.student.name || 'Name not entered')}</span><span>${escapeHtml(state.student.className ? `Class ${state.student.className}` : 'Class not entered')}</span><span>Exported ${escapeHtml(exportedAt)}</span></div></header><aside class="notice"><strong>Submission boundary:</strong> this file was intentionally downloaded from browser-local work. It is not proof of cloud submission, a mark or an assessment result. Upload it only to the Google Classroom task identified by the teacher.</aside><main><section class="section"><h2>Twelve-card evidence folio</h2><p class="intro">Progressive evidence retained from the existing Footstool folio.</p>${cardHtml}</section><section class="section"><h2>Project activities</h2><p class="intro">Web activities mapped from the master 25-slide Footstool PowerPoint.</p>${activityHtml}</section><section class="section"><h2>Module written evidence</h2><p class="intro">Completed written responses found in the ten learning modules on this laptop.</p>${moduleHtml}</section></main><footer class="footer">Year 8 Intro Timber Technology · Footstool · Exported ${escapeHtml(exportedAt)}</footer></body></html>`;
+      const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+      const link = document.createElement('a');
+      const date = new Date().toISOString().slice(0, 10);
+      link.href = URL.createObjectURL(blob);
+      link.download = `footstool-submission-${exportSafeName()}-${date}.html`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+      status.textContent = `Downloaded ${link.download}. Attach that single file to the Google Classroom task your teacher identifies.`;
+    } catch (error) {
+      status.textContent = `The submission file could not be created: ${error.message}. Your saved folio was not changed.`;
+    }
   };
 
   document.getElementById('folio-cards').innerHTML = cards.map(renderCard).join('');
@@ -357,11 +463,13 @@
   document.getElementById('download-backup').addEventListener('click', downloadBackup);
   document.getElementById('restore-backup').addEventListener('change', restoreBackup);
   document.getElementById('reset-folio').addEventListener('click', resetFolio);
-  document.getElementById('print-folio').addEventListener('click', () => {
+  document.getElementById('download-submission').addEventListener('click', downloadSubmission);
+  const printFolio = () => {
     save();
     const missing = cards.length - cards.filter(card => isReady(state.cards[card.id])).length;
     if (missing && !window.confirm(`${missing} evidence card${missing === 1 ? ' is' : 's are'} not ready. The printout will identify incomplete cards. Print anyway?`)) return;
     window.print();
-  });
+  };
+  document.querySelectorAll('[data-print-folio], #print-folio').forEach(button => button.addEventListener('click', printFolio));
   window.addEventListener('beforeprint', updateProgress);
 })();

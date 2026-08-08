@@ -7,9 +7,16 @@ const failures=[];
 const assert=(condition,message)=>{if(!condition)failures.push(message)};
 const read=file=>fs.readFileSync(path.join(root,file),'utf8');
 
-const required=['index.html','plans.html','folio.html','busy-work.html','youtube.html','teacher-resources.html','styles.css','site.js','module.js','assets/resources/Footstool.pdf'];
+const required=['index.html','plans.html','folio.html','busy-work.html','youtube.html','teacher-resources.html','styles.css','site.js','module.js','source-activities.js','source-activities.css','assets/resources/Footstool.pdf','assets/resources/Year-8-Footstool-Project.pptx'];
 for(const file of required)assert(fs.existsSync(path.join(root,file)),`Missing ${file}`);
-for(let module=1;module<=10;module++)assert(fs.existsSync(path.join(root,'modules',`module-${String(module).padStart(2,'0')}.html`)),`Missing module route ${module}`);
+for(let module=1;module<=10;module++){
+  const route=path.join(root,'modules',`module-${String(module).padStart(2,'0')}.html`);
+  assert(fs.existsSync(route),`Missing module route ${module}`);
+  if(fs.existsSync(route)){
+    const html=fs.readFileSync(route,'utf8');
+    assert(html.includes('../source-activities.css')&&html.includes('../source-activities.js'),`Module ${module}: project activity assets are not linked`);
+  }
+}
 
 let sections=0,questions=0;
 const questionTexts=new Map();
@@ -63,11 +70,21 @@ const index=read('index.html');
 for(const marker of ['Learn it. Check it. Show it.','TEN PAIRED-WEEK MODULES','Busy Work','YouTube','Evidence folio','Teacher Resources'])assert(index.includes(marker),`Landing marker missing: ${marker}`);
 const planHash=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'assets','resources','Footstool.pdf'))).digest('hex').toUpperCase();
 assert(planHash==='2E7D2F0C74415810CBC45DABAB767F01A664ED076195773E6BADBB4838EF6FA1',`Authoritative plan hash mismatch: ${planHash}`);
+const deckHash=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'assets','resources','Year-8-Footstool-Project.pptx'))).digest('hex').toUpperCase();
+assert(deckHash==='68DFE0ACA7550707545509CA303C7DAA7EE42BF2877998D0D8C18DC5A10B195F',`Master PowerPoint hash mismatch: ${deckHash}`);
+
+const sourceActivities=read('source-activities.js');
+const sourceActivityIds=[...sourceActivities.matchAll(/\{ id:'([^']+)', module:/g)].map(match=>match[1]);
+assert(sourceActivityIds.length===11&&new Set(sourceActivityIds).size===11,`Expected 11 distinct PowerPoint-derived web activities; found ${sourceActivityIds.length}`);
+assert(!/\b360\b/.test(sourceActivities.replace(/viewBox="[^"]+"/g,'')),'Slide 19 conflict leaked into source activities');
+assert(sourceActivities.includes('footstool-y8:v1:folio'),'Project activities do not use the existing folio storage record');
+assert(read('folio.js').includes('footstool-submission-${exportSafeName()}-${date}.html'),'Self-contained submission export is missing');
+assert(!read('folio.js').includes('assets/emblem-development-example.png'),'A slide crop remains in the rebuilt folio activity flow');
 
 const sourceVisualDir=path.join(root,'assets','source-library');
 const sourceVisualFiles=fs.existsSync(sourceVisualDir)?fs.readdirSync(sourceVisualDir).filter(file=>/\.(?:jpe?g|png|webp)$/i.test(file)):[];
 assert(sourceVisualFiles.length===20,`Expected exactly 20 approved source-library visuals; found ${sourceVisualFiles.length}`);
-const visualUsage=read('module.js')+read('folio.js');
+const visualUsage=read('module.js')+read('folio.js')+read('source-activities.js');
 for(const file of sourceVisualFiles)assert(visualUsage.includes(`assets/source-library/${file}`),`Approved source visual is not used: ${file}`);
 
 const moduleScript=read('module.js');
@@ -80,4 +97,4 @@ for(const [id,heading] of writtenAnchorEntries.map(match=>[match[1],match[2]])){
 assert(moduleScript.includes('class="theory-help-link"'), 'Written-response theory-help control is missing');
 
 if(failures.length){console.error(`FAIL (${failures.length})`);for(const failure of failures)console.error(`- ${failure}`);process.exit(1)}
-console.log(`PASS: 10 modules, ${sections} named sections, ${questions} questions, 20 approved source visuals, plan hash verified, routes and landing markers present.`);
+console.log(`PASS: 10 modules, ${sections} named sections, ${questions} questions, 11 PowerPoint-derived activities, 20 approved source visuals, plan and deck hashes verified.`);

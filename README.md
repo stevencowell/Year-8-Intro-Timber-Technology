@@ -1,23 +1,22 @@
 # Year 8 Intro Timber Technology — Footstool
 
-Controlled integration checkout for the Year 8 Footstool elective.
+Student-facing guided course for a teacher-developed Year 8 elective. It is not Technology Mandatory.
 
-## Course authority
+## Source authority
 
-- Primary teaching sequence: `Year 8 Footstool Project` (25-slide school workbook).
-- Authoritative plan: [Wagga High School Foot Stool — original two-page PDF](https://drive.google.com/file/d/1PXVpXbKNDc8b2SWLdUvcssmcCAJzrQLa/view).
-- Curriculum context: NSW Industrial Technology 7–10 (2025), Stage 4 Timber. The course remains a teacher-developed Year 8 elective, not Technology Mandatory.
+- The unchanged two-page `assets/resources/Footstool.pdf` is the sole dimensional and construction authority.
+- The unchanged 25-slide `assets/resources/Year-8-Footstool-Project.pptx` remains the master printable/reference activity deck.
+- Slide 19 is excluded from web activity and technical authority because its 360/375 values conflict.
+- Current school SOPs, teacher directions and local approvals control all practical activity.
 
-## Release ledger
+## Student package
 
-| Requirement | Status | Evidence |
-|---|---|---|
-| Source and 20-week program contract | Complete | Task 22A verified handoff and source contract |
-| Student theory and evidence | Active | Task 22B |
-| Visual and plan manifest | Active | Task 22C |
-| Busy Work, YouTube and assessment/evidence | Active | Task 22D |
-| Course-site integration | Active | This checkout |
-| Main Page card | Pending | Clean Main Page checkout prepared |
-| Local QA, GitHub publication and live verification | Pending | Not yet run |
+- Ten paired-week modules with 30 named theory sections and exactly 300 source-grounded learning checks.
+- Twelve existing folio evidence cards plus 11 module-linked project activities rebuilt from the PowerPoint.
+- Device-local autosave, revisit links, print-friendly evidence, JSON backup/restore and one self-contained HTML submission export.
+- The HTML export contains student details, folio responses, project-activity responses, optional embedded image evidence and completed module writing. Students download it deliberately and upload it to Google Classroom themselves; the site does not submit or cloud-save work.
+- Project-specific Busy Work, YouTube learning, the authoritative plan and teacher resources remain integrated.
 
-Exact practical method, local SOPs, tool permissions, assessment dates, marks and weightings are intentionally not published as student content unless a verified school authority is supplied.
+## Local validation
+
+Run `node validate.mjs`. The validator checks the fixed course structure, question counts, source boundaries, resource routes, activity integration and exact hashes for the plan and PowerPoint.
