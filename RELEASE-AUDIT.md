@@ -62,3 +62,11 @@ Release decision: released and verified live
 - Teacher Resources linked the local master PowerPoint; the downloaded live PPTX matched the source SHA-256 exactly.
 - The live Main Page contained one correctly labelled Intro Timber Technology card pointing to the canonical Footstool course and rendered without overflow at exactly 390 px.
 - The release checkout finished clean with local `HEAD == origin/main`.
+
+## Verified folio visual refinement
+
+- Commit `6bb8079` replaced the rejected double-column thumbnail layout with a calm dashboard: one progress/orientation area, four grouped evidence stages, one open card at a time, a separate 11-activity section and a restrained export/backup finish zone.
+- The twelve existing cards, storage key, activity mapping, student details, autosave/revisit, image evidence, JSON backup/restore/reset, self-contained HTML submission export and print controls were preserved.
+- All eight photographic and plan card visuals loaded at natural dimensions and rendered in complete, centred `contain` frames at laptop width; no narrow side imagery or accidental cropping remained.
+- Local and live browser QA passed direct card links, one-card disclosure, autosave/reload, export integrity, JSON backup/restore/reset, zero horizontal overflow and zero uncaught errors.
+- The live folio passed exact 390 px inspection with a complete full-width evidence visual, and the live Print / Save PDF output retained twelve readable A4 pages.
