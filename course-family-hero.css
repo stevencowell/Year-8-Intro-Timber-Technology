@@ -30,7 +30,8 @@
 /* Task 34: the shared intro and top navigation already carry these destinations. */
 .save-notice,
 .section.routine,
-.section.destinations {
+.section.destinations,
+.feature-band {
   display: none !important;
 }
 
