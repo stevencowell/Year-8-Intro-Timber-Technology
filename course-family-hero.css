@@ -27,13 +27,6 @@
   width: calc(100% - 32px) !important;
 }
 
-/* Task 34: the shared intro and top navigation already carry these destinations. */
-.save-notice,
-.section.routine,
-.section.destinations,
-.feature-band {
-  display: none !important;
-}
 
 .course-family-hero .hero-copy {
   max-width: 680px !important;
