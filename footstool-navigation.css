@@ -1,5 +1,7 @@
 :root { --nav-ink: #173f28; --nav-paper: #fffaf1; }
-.site-header { display: none !important; }
+.has-course-family-nav .hub-return-bar,
+.has-course-family-nav .site-header,
+.has-course-family-nav .course-bar { display: none !important; }
 .course-family-nav { background: var(--nav-paper); border-top: 2px solid #17231b; border-bottom: 1px solid #e6ddce; color: var(--nav-ink); position: relative; width: 100%; z-index: 1000; }
 .course-family-nav *, .course-family-nav *::before, .course-family-nav *::after { box-sizing: border-box; }
 .course-family-nav__inner { align-items: center; display: flex; gap: 1.15rem 2rem; margin: 0 auto; max-width: 1440px; min-height: 82px; padding: .8rem 1.25rem; }
