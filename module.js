@@ -62,6 +62,15 @@ const writtenTheoryAnchors={
 };
 const escapeHtml=value=>String(value??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
 const theoryHeadingId=(sectionId,heading)=>`${sectionId}-${heading.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`;
+
+function applyAlignedModuleShell(number){
+  if(number<3)return;
+  document.body.classList.add('module-aligned');
+  const layout=document.querySelector('.module-layout');
+  if(!layout)return;
+  layout.className='module-layout module-layout-single';
+  layout.innerHTML=`<div class="module-main"><button id="print-module" type="button" hidden>Print</button><section class="module-preview-card"><div><p class="section-kicker">MODULE LEARNING PACK</p><h2>Preview, learn and save evidence</h2><p>Work through the theory, knowledge checks and written responses in order. Your evidence autosaves on this browser and device.</p></div></section><section class="module-presentation-card"><div><p class="section-kicker">MODULE PRESENTATION</p><h2>Learn with the slides</h2><p>Work through the theory sections, guided checks and written responses in order.</p></div><a class="button" href="../presentations/footstool-module-${String(number).padStart(2,'0')}-presentation.pptx" download>Download presentation</a></section><section class="student-panel" aria-label="Student details and save status"><div><p class="section-kicker">STUDENT EVIDENCE</p><h2>Your details</h2></div><label class="field">Name<input id="student-name" autocomplete="name"></label><label class="field">Class<input id="student-class"></label><p id="save-status" class="save-status">Autosave is on</p></section><section class="module-progress-card" aria-labelledby="module-progress-heading"><div class="module-progress-heading"><div><p class="section-kicker">GUIDED PRACTICE</p><h2 id="module-progress-heading">Module ${number} knowledge checks</h2><p>Use the theory notes below, then complete the learning checks and written evidence as you work through the module.</p></div><div class="progress-ring" aria-label="Knowledge check progress"><strong>0/30</strong><span>mastered</span></div></div></section><section id="module-sections" aria-live="polite"><p>Loading three theory sections…</p></section><nav class="module-nav" aria-label="Module sequence"><a id="previous-module" class="button secondary" href="../index.html#modules">← Previous</a><a id="next-module" class="button" href="#">Next module →</a></nav></div>`;
+}
 const renderSectionVisuals=sectionId=>{
   const visuals=sectionVisuals[sectionId]||[];
   if(!visuals.length)return '';
@@ -87,7 +96,7 @@ function renderSection(data,index){
   const state=getState(data.sectionId);
   const writtenAnchor=writtenTheoryAnchors[data.sectionId];
   const writtenTheoryId=theoryHeadingId(data.sectionId,writtenAnchor);
-  return `<article class="theory-section" id="${escapeHtml(data.sectionId)}" data-section-id="${escapeHtml(data.sectionId)}"><p class="section-label">THEORY SECTION ${index+1} · 10 CHECKS</p><h2>${escapeHtml(data.title)}</h2><div class="theory-copy">${renderSectionVisuals(data.sectionId)}${data.theory.map(item=>`<article id="${escapeHtml(theoryHeadingId(data.sectionId,item.heading))}" tabindex="-1"><h3>${escapeHtml(item.heading)}</h3><p>${escapeHtml(item.body)}</p></article>`).join('')}</div><details class="checks" ${state.open?'open':''}><summary>Open the 10 learning checks and written evidence</summary>${data.questions.map((q,i)=>renderQuestion(q,i,state)).join('')}<section class="written-card"><h3>Written evidence</h3><p>${escapeHtml(data.written.prompt)}</p><p class="starter"><strong>Sentence starter:</strong> ${escapeHtml(data.written.sentenceStarter)}</p><div class="theory-help"><strong>Need help finding the evidence?</strong><a class="theory-help-link" href="#${escapeHtml(writtenTheoryId)}" data-theory-help="${escapeHtml(writtenTheoryId)}">I’m struggling — take me to “${escapeHtml(writtenAnchor)}”</a></div><label class="field">Your response<textarea data-written>${escapeHtml(state.written||'')}</textarea></label><details class="example"><summary>Appropriate response example</summary><p>${escapeHtml(data.written.example)}</p></details></section></details></article>`;
+  return `<article class="theory-section" id="${escapeHtml(data.sectionId)}" data-section-id="${escapeHtml(data.sectionId)}"><p class="section-label">THEORY SECTION ${index+1} · 10 CHECKS</p><h2>${escapeHtml(data.title)}</h2>${renderSectionVisuals(data.sectionId)}<div class="theory-copy">${data.theory.map(item=>`<article id="${escapeHtml(theoryHeadingId(data.sectionId,item.heading))}" tabindex="-1"><h3>${escapeHtml(item.heading)}</h3><p>${escapeHtml(item.body)}</p></article>`).join('')}</div><details class="checks" open><summary>Open the 10 learning checks and written evidence</summary>${data.questions.map((q,i)=>renderQuestion(q,i,state)).join('')}<section class="written-card"><h3>Written evidence</h3><p>${escapeHtml(data.written.prompt)}</p><p class="starter"><strong>Sentence starter:</strong> ${escapeHtml(data.written.sentenceStarter)}</p><div class="theory-help"><strong>Need help finding the evidence?</strong><a class="theory-help-link" href="#${escapeHtml(writtenTheoryId)}" data-theory-help="${escapeHtml(writtenTheoryId)}">I’m struggling — take me to “${escapeHtml(writtenAnchor)}”</a></div><label class="field">Your response<textarea data-written>${escapeHtml(state.written||'')}</textarea></label><details class="example"><summary>Appropriate response example</summary><p>${escapeHtml(data.written.example)}</p></details></section></details></article>`;
 }
 
 function attachSection(data){
@@ -172,15 +181,19 @@ window.addEventListener('afterprint',()=>{
 
 async function init(){
   const number=Number(document.body.dataset.module),moduleNo=String(number).padStart(2,'0');
+  applyAlignedModuleShell(number);
   document.title=`Module ${number}: ${titles[number]} | Footstool`;
   document.querySelector('#module-title').textContent=titles[number];
   document.querySelector('#module-kicker').textContent=`MODULE ${moduleNo} · WEEKS ${number*2-1}–${number*2}`;
   const data=await Promise.all([1,2,3].map(section=>fetch(`../assets/data/m${moduleNo}-s${String(section).padStart(2,'0')}.json`).then(response=>{if(!response.ok)throw new Error(`Section ${section} unavailable`);return response.json()})));
-  document.querySelector('#section-jumps').innerHTML=data.map((section,index)=>`<a href="#${section.sectionId}">${index+1}. ${escapeHtml(section.title)}</a>`).join('');
+  const sectionJumps=document.querySelector('#section-jumps');
+  if(sectionJumps)sectionJumps.innerHTML=data.map((section,index)=>`<a href="#${section.sectionId}">${index+1}. ${escapeHtml(section.title)}</a>`).join('');
   document.querySelector('#module-sections').innerHTML=data.map(renderSection).join('');
   data.forEach(attachSection);setupStudent();updateStatus();
+  // Guided checks are presented openly on entry, matching the Desk Tidy model.
+  document.querySelectorAll('details.checks').forEach(details=>{details.open=true});
   window.FootstoolSourceActivities?.renderModule(number);
-  document.querySelector('#print-module').addEventListener('click',()=>window.print());
+  document.querySelector('#print-module')?.addEventListener('click',()=>window.print());
   const prev=document.querySelector('#previous-module'),next=document.querySelector('#next-module');
   if(number===1)prev.href='../index.html#modules';else prev.href=`module-${String(number-1).padStart(2,'0')}.html`;
   if(number===10){next.href='../folio.html';next.textContent='Open evidence folio →'}else next.href=`module-${String(number+1).padStart(2,'0')}.html`;

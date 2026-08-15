@@ -279,6 +279,9 @@
   }
 
   function renderModule(moduleNumber){
+    // Module 1 is the guided-course opening: keep the theory, evidence and
+    // progress sequence clear rather than inserting separate project activities.
+    if(Number(moduleNumber)>=1)return;
     const moduleActivities=activities.filter(activity=>activity.module===moduleNumber);
     if(!moduleActivities.length)return;
     const prefix=document.body.dataset.module?'../':'';
@@ -290,7 +293,7 @@
     const links=document.createElement('div');
     links.className='module-activity-links';
     links.innerHTML=`<strong>Project activities</strong>${moduleActivities.map(activity=>`<a href="#source-activity-${activity.id}">${escapeHtml(activity.title)}</a>`).join('')}`;
-    document.getElementById('section-jumps').insertAdjacentElement('afterend',links);
+    document.getElementById('section-jumps')?.insertAdjacentElement('afterend',links);
     moduleActivities.forEach(activity=>attachActivity(host.querySelector(`[data-activity-id="${activity.id}"]`),activity));
   }
 

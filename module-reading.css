@@ -11,6 +11,7 @@
 }
 
 .theory-copy article {
+  /* Keep the divider as a cue, with enough space for the copy to breathe. */
   padding: .15rem 0 .15rem 1rem;
   border: 0;
   border-left: 4px solid var(--teal);

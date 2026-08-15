@@ -1,0 +1,168 @@
+/* Module 2 uses the accepted Desk Tidy / Footstool Module 1 learning shell. */
+body[data-module="02"] .page-hero {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: clamp(3.2rem, 7vw, 6.7rem) max(1rem, calc((100% - 1120px) / 2));
+  border: 0;
+  border-radius: 0;
+  background: linear-gradient(110deg, #edf3e4, #fff7d6);
+  box-shadow: none;
+}
+
+body[data-module="02"] .page-hero .breadcrumbs { margin-top: 0; }
+
+body[data-module="02"] .page-hero {
+  min-height: 295px;
+  padding: 0;
+  display: grid;
+  align-items: center;
+  background: linear-gradient(135deg, #e9f0e3, #fff4d6);
+}
+body[data-module="02"] .page-hero h1 { max-width: 760px; margin: 0 0 16px; font-size: 76.8px; line-height: 88.32px; }
+body[data-module="02"] .page-hero .lede { max-width: 60ch; margin-bottom: 0; }
+body[data-module="02"] .module-layout-single { width: min(1180px, calc(100% - 36px)); padding: 72px 0 0; }
+body[data-module="02"] .module-preview-card { min-height: 287px; border: 1px solid var(--line); border-left: 6px solid #0b5fad; background: #fff; box-shadow: 0 14px 38px rgba(32,54,34,.12); }
+body[data-module="02"] .module-presentation-card { min-height: 260px; border: 2px solid #b8cbaa; border-left: .55rem solid #315d3a; background: linear-gradient(135deg,#e7efe2,#fff7d8); box-shadow: 0 14px 38px rgba(32,54,34,.12); }
+@media (max-width:680px) { body[data-module="02"] .page-hero { min-height:250px; } body[data-module="02"] .page-hero h1 { font-size:40px; line-height:46px; } body[data-module="02"] .module-layout-single { width:min(1180px,calc(100% - 32px)); padding:72px 0 0; } }
+
+body[data-module="02"] .module-layout-single {
+  display: block;
+  width: min(1120px, calc(100% - 34px));
+  max-width: none;
+  padding: 0 0 5rem;
+}
+
+body[data-module="02"] .module-main,
+body[data-module="02"] .theory-section,
+body[data-module="02"] .theory-copy,
+body[data-module="02"] .theory-copy article,
+body[data-module="02"] .theory-copy p {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+body[data-module="02"] .theory-copy { display: block; }
+body[data-module="02"] .theory-copy p { max-width: none !important; }
+
+body[data-module="02"] .magazine-visuals {
+  float: right;
+  width: min(43%, 21rem);
+  margin: .2rem 0 1.2rem 1.5rem;
+}
+
+body[data-module="02"] .theory-copy::after { clear: both; }
+
+body[data-module="02"] .module-presentation-card,
+body[data-module="02"] .module-preview-card,
+body[data-module="02"] .module-progress-card {
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--teal);
+  border-radius: 16px;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  margin-bottom: 1.2rem;
+  box-shadow: 0 9px 26px rgba(18, 47, 54, .06);
+}
+
+body[data-module="02"] .module-presentation-card {
+  min-height: 260px;
+  border-left-color: #315d3a;
+  background: linear-gradient(135deg, #e7efe2, #fff7d8);
+}
+
+body[data-module="02"] .module-preview-card {
+  min-height: 260px;
+  background: #fff;
+}
+
+body[data-module="02"] .module-presentation-card,
+body[data-module="02"] .module-preview-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+}
+
+body[data-module="02"] .module-presentation-card h2,
+body[data-module="02"] .module-preview-card h2,
+body[data-module="02"] .module-progress-card h2 {
+  margin: .25rem 0 .65rem;
+  font-size: 31.2px;
+}
+
+body[data-module="02"] .module-presentation-card p,
+body[data-module="02"] .module-preview-card p,
+body[data-module="02"] .module-progress-card p { margin: .2rem 0; }
+
+body[data-module="02"] .module-card-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+body[data-module="02"] .section-kicker {
+  font-size: .75rem;
+  letter-spacing: .12em;
+  font-weight: 900;
+  color: var(--teal-dark);
+}
+
+body[data-module="02"] .student-panel {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+body[data-module="02"] .student-panel h2 { font-size: 21.6px; }
+
+body[data-module="02"] .module-progress-card {
+  min-height: 295px;
+  border: 1px solid #c8ddec;
+  border-top: 5px solid #0b5fad;
+  border-left: 1px solid #c8ddec;
+  background: linear-gradient(145deg, #eef7ff, #f8fbff);
+}
+
+body[data-module="02"] .module-progress-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  align-items: flex-start;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #c8ddec;
+}
+
+body[data-module="02"] .module-progress-card .section-kicker { color: #0b5fad; }
+
+body[data-module="02"] .progress-ring {
+  width: 88px;
+  height: 88px;
+  flex: 0 0 88px;
+  border: 7px solid #dfeaf4;
+  border-top-color: #0b5fad;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+body[data-module="02"] .progress-ring strong { font-size: 1.05rem; line-height: 1; color: #0b3c75; }
+body[data-module="02"] .progress-ring span { font-size: .7rem; color: #52666a; }
+
+@media (max-width: 700px) {
+  body[data-module="02"] .magazine-visuals { float: none; width: 100%; margin: 1rem 0; }
+  body[data-module="02"] .module-presentation-card,
+  body[data-module="02"] .module-preview-card { grid-template-columns: 1fr; }
+  body[data-module="02"] .module-presentation-card,
+  body[data-module="02"] .module-preview-card,
+  body[data-module="02"] .module-progress-card { min-height: 0; }
+}
+
+/* Final canonical shell overrides: keep the title as a page hero. */
+body[data-module="02"] .page-hero { min-height:295px; padding:0 max(48px,calc((100% - 1180px)/2)); display:grid; align-items:center; background:linear-gradient(135deg,#e9f0e3,#fff4d6); }
+body[data-module="02"] .page-hero h1 { max-width:760px; margin:0 0 16px; font-size:76.8px; line-height:88.32px; }
+body[data-module="02"] .page-hero .lede { max-width:60ch; margin-bottom:0; }
+body[data-module="02"] .module-layout-single { width:min(1180px,calc(100% - 36px)); padding:72px 0 0; }
+body[data-module="02"] .module-preview-card { min-height:287px; border:1px solid var(--line); border-left:6px solid #0b5fad; background:#fff; box-shadow:0 14px 38px rgba(32,54,34,.12); }
+body[data-module="02"] .module-presentation-card { min-height:260px; border:2px solid #b8cbaa; border-left:.55rem solid #315d3a; background:linear-gradient(135deg,#e7efe2,#fff7d8); box-shadow:0 14px 38px rgba(32,54,34,.12); }
+@media(max-width:680px){body[data-module="02"] .page-hero{min-height:250px;padding:0 18px}body[data-module="02"] .page-hero h1{font-size:40px;line-height:46px}body[data-module="02"] .module-layout-single{width:min(1180px,calc(100% - 32px));padding:72px 0 0}}
