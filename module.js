@@ -69,7 +69,7 @@ function applyAlignedModuleShell(number){
   const layout=document.querySelector('.module-layout');
   if(!layout)return;
   layout.className='module-layout module-layout-single';
-  layout.innerHTML=`<div class="module-main"><button id="print-module" type="button" hidden>Print</button><section class="module-preview-card"><div><p class="section-kicker">MODULE LEARNING PACK</p><h2>Preview, learn and save evidence</h2><p>Work through the theory, knowledge checks and written responses in order. Your evidence autosaves on this browser and device.</p></div></section><section class="module-presentation-card"><div><p class="section-kicker">MODULE PRESENTATION</p><h2>Learn with the slides</h2><p>Work through the theory sections, guided checks and written responses in order.</p></div><a class="button" href="../presentations/footstool-module-${String(number).padStart(2,'0')}-presentation.pptx" download>Download presentation</a></section><section class="student-panel" aria-label="Student details and save status"><div><p class="section-kicker">STUDENT EVIDENCE</p><h2>Your details</h2></div><label class="field">Name<input id="student-name" autocomplete="name"></label><label class="field">Class<input id="student-class"></label><p id="save-status" class="save-status">Autosave is on</p></section><section class="module-progress-card" aria-labelledby="module-progress-heading"><div class="module-progress-heading"><div><p class="section-kicker">GUIDED PRACTICE</p><h2 id="module-progress-heading">Module ${number} knowledge checks</h2><p>Use the theory notes below, then complete the learning checks and written evidence as you work through the module.</p></div><div class="progress-ring" aria-label="Knowledge check progress"><strong>0/30</strong><span>mastered</span></div></div></section><section id="module-sections" aria-live="polite"><p>Loading three theory sections…</p></section><nav class="module-nav" aria-label="Module sequence"><a id="previous-module" class="button secondary" href="../index.html#modules">← Previous</a><a id="next-module" class="button" href="#">Next module →</a></nav></div>`;
+  layout.innerHTML=`<div class="module-main"><button id="print-module" type="button" hidden>Print</button><section class="module-preview-card"><div><p class="section-kicker">MODULE LEARNING PACK</p><h2>Preview, learn and save evidence</h2><p>Work through the theory, knowledge checks and written responses in order. Your evidence autosaves on this browser and device.</p></div></section><section class="module-presentation-card"><div><p class="section-kicker">MODULE PRESENTATION</p><h2>Learn with the slides</h2><p>Work through the theory sections, guided checks and written responses in order.</p></div><a class="button" href="../presentations/footstool-module-${String(number).padStart(2,'0')}-presentation.pptx" download>Download presentation</a></section><section class="student-panel" aria-label="Student details and save status"><div><p class="section-kicker">STUDENT EVIDENCE</p><h2>Your details</h2></div><div class="student-fields"><label class="field">First name<input id="student-first-name" autocomplete="given-name"></label><label class="field">Last name<input id="student-last-name" autocomplete="family-name"></label><label class="field">Class<input id="student-class" autocomplete="organization"></label></div><p id="save-status" class="save-status">Autosave is on</p></section><section class="module-progress-card" aria-labelledby="module-progress-heading"><div class="module-progress-heading"><div><p class="section-kicker">GUIDED PRACTICE</p><h2 id="module-progress-heading">Module ${number} knowledge checks</h2><p>Use the theory notes below, then complete the learning checks and written evidence as you work through the module.</p></div><div class="progress-ring" aria-label="Knowledge check progress"><strong>0/30</strong><span>mastered</span></div></div></section><section id="module-sections" aria-live="polite"><p>Loading three theory sections…</p></section><nav class="module-nav" aria-label="Module sequence"><a id="previous-module" class="button secondary" href="../index.html#modules">← Previous</a><a id="next-module" class="button" href="#">Next module →</a></nav></div>`;
 }
 const renderSectionVisuals=sectionId=>{
   const visuals=sectionVisuals[sectionId]||[];
@@ -149,24 +149,40 @@ function setupStudent(){
   if(!student.name&&!student.className){
     try{
       const folio=JSON.parse(localStorage.getItem('footstool-y8:v1:folio')||'{}');
-      if(folio.student)student={name:folio.student.name||'',className:folio.student.className||''};
+      if(folio.student)student={name:folio.student.name||'',firstName:folio.student.firstName||'',lastName:folio.student.lastName||'',className:folio.student.className||''};
     }catch{}
   }
-  const name=document.querySelector('#student-name'),className=document.querySelector('#student-class');
-  name.value=student.name||'';className.value=student.className||'';
+  const oldName=document.querySelector('#student-name');
+  if(oldName){
+    const classField=document.querySelector('#student-class')?.closest('label');
+    const panel=oldName.closest('.student-panel');
+    const oldNameField=oldName.closest('label');
+    const fields=document.createElement('div');
+    fields.className='student-fields';
+    fields.innerHTML='<label class="field">First name<input id="student-first-name" autocomplete="given-name"></label><label class="field">Last name<input id="student-last-name" autocomplete="family-name"></label><label class="field">Class<input id="student-class" autocomplete="organization"></label>';
+    panel.insertBefore(fields,oldNameField);
+    oldNameField.remove();
+    classField?.remove();
+  }
+  const legacyName=String(student.name||'').trim();
+  const firstName=document.querySelector('#student-first-name'),lastName=document.querySelector('#student-last-name'),className=document.querySelector('#student-class');
+  firstName.value=student.firstName||legacyName.split(/\s+/)[0]||'';
+  lastName.value=student.lastName||legacyName.split(/\s+/).slice(1).join(' ')||'';
+  className.value=student.className||'';
   const save=()=>{
     const updatedAt=new Date().toISOString();
-    localStorage.setItem(`${STORAGE}:student`,JSON.stringify({name:name.value,className:className.value,updatedAt}));
+    const name=`${firstName.value} ${lastName.value}`.trim();
+    localStorage.setItem(`${STORAGE}:student`,JSON.stringify({name,firstName:firstName.value,lastName:lastName.value,className:className.value,updatedAt}));
     try{
       const folio=JSON.parse(localStorage.getItem('footstool-y8:v1:folio')||'{}');
       folio.schema=folio.schema||'footstool-y8-folio-backup-v1';
       folio.version=Math.max(Number(folio.version)||1,2);
-      folio.student={name:name.value,className:className.value};
+      folio.student={name,firstName:firstName.value,lastName:lastName.value,className:className.value};
       folio.cards=folio.cards||{};folio.activities=folio.activities||{};folio.updatedAt=updatedAt;
       localStorage.setItem('footstool-y8:v1:folio',JSON.stringify(folio));
     }catch{}
   };
-  name.addEventListener('input',save);className.addEventListener('input',save);
+  firstName.addEventListener('input',save);lastName.addEventListener('input',save);className.addEventListener('input',save);
 }
 
 let printOpenStates=[];
