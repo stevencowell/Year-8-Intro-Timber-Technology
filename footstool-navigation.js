@@ -40,7 +40,7 @@
     ["Course", "index.html", isCourseHome],
     ["Modules", "index.html#modules", path.includes("/modules/")],
     ["Video learning", "youtube.html", path.endsWith("/youtube.html")],
-    ["Busy Work", "busy-work.html", path.endsWith("/busy-work.html")],
+    ["Puzzles", "busy-work.html", path.endsWith("/busy-work.html")],
     ["My folio", "folio.html", path.endsWith("/folio.html")],
     ["Open Plans", "plans.html", path.endsWith("/plans.html")],
     ["Teacher resources", "teacher-resources.html", path.endsWith("/teacher-resources.html")],
@@ -57,6 +57,8 @@
 
   inner.append(brand, links);
   nav.append(inner);
+  const legacyHeader = document.querySelector(".site-header:has(.primary-nav)");
+  if (legacyHeader) legacyHeader.remove();
   document.body.prepend(nav);
   document.documentElement.classList.add("has-course-family-nav");
 })();

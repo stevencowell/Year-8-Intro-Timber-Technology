@@ -1,4 +1,12 @@
 const COURSE_KEY='footstool-y8:v2';
+
+if (!document.querySelector('.course-family-nav') && !document.querySelector('script[data-footstool-navigation]')) {
+  const navigation = document.createElement('script');
+  navigation.src = new URL('footstool-navigation.js?v=20260818', document.currentScript.src).href;
+  navigation.dataset.footstoolNavigation = '';
+  document.head.append(navigation);
+}
+
 const modules=[
   ['01','Weeks 1–2','Workshop readiness','Conduct · hazards and controls · asking for help'],
   ['02','Weeks 3–4','Tools and accurate references','Tool purpose · measuring and marking · safe decisions'],
