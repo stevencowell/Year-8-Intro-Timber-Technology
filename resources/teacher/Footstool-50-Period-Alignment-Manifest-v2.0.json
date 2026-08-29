@@ -4,10 +4,12 @@
   "version": "v2.0",
   "course": {
     "title": "Footstool",
-    "classification": "School-developed Stage 4 introductory elective aligned to Industrial Technology - Timber industry",
+    "classification": "Introductory unit contributing to a 100-hour Industrial Technology – Timber elective",
     "stage_or_year": "Stage 4",
     "delivery_year": 2027,
-    "project": "Produce the approved introductory timber Footstool project"
+    "project": "Produce the approved introductory timber Footstool project",
+    "course_requirement": "This 50-period unit must be paired with sufficient additional study to complete the school's named 100-hour Industrial Technology – Timber elective.",
+    "stage4_adjustment_advice": "For Stage 4 delivery, teachers may adjust the Stage 5 outcomes as appropriate to the needs of students. This advice is not an additional syllabus outcome."
   },
   "site": {
     "name": "Intro Timber Technology - Footstool",
@@ -32,12 +34,6 @@
     "total_periods": 50
   },
   "outcomes": [
-    {
-      "code": "INT4-ADJ-01",
-      "statement": "in Stage 4 teachers may adjust the Stage 5 outcomes as appropriate to the needs of students in Years 7 and 8",
-      "source_id": "S2",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
-    },
     {
       "code": "INT5-SAF-01",
       "statement": "applies risk management and safe work practices in industrial technology contexts",
@@ -108,7 +104,7 @@
       "authority": "official-syllabus",
       "location": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
       "revision": "verified 2026-08-28",
-      "use": "Exact Stage 4 adjustment and Stage 5 outcomes"
+      "use": "Exact Stage 5 outcomes and Stage 4 adjustment advice"
     },
     {
       "id": "S3",
@@ -2641,13 +2637,13 @@
       "path": "resources/teacher/Footstool-50-Period-Teaching-Program-v2.0-Network-Benchmark.docx",
       "purpose": "editable-program",
       "version": "v2.0",
-      "sha256": "35305F05807C01BCD5AB334773ED3E83DFC5B5F5A3EA6579AC5CC4BFF1B07735"
+      "sha256": "2926FF11964E6C44445CAEA469FFE8DA3B2F501781DEAEE6153FF1E705AED4A0"
     },
     {
       "path": "resources/teacher/Footstool-50-Period-Teaching-Program-v2.0-Network-Benchmark.pdf",
       "purpose": "rendered-program",
       "version": "v2.0",
-      "sha256": "F9FE21BF99544287FE29FBE3883284CF1AF55BAE9944909DA2218B1674994CAA"
+      "sha256": "D243B626C3C661DC3D65B0ECA523A5FDF79FA7DE8A22CAA7E719E45D17BAC5B9"
     },
     {
       "path": "resources/teacher/Footstool-50-Period-Alignment-Manifest-v2.0.json",
